@@ -9605,641 +9605,389 @@
             },
             {
               "type": "frame",
-              "id": "aS4wB",
+              "id": "FVyLQ",
               "name": "Frame 20",
               "width": "fill_container",
               "layout": "vertical",
-              "gap": 10,
+              "gap": 20,
               "children": [
                 {
-                  "type": "frame",
-                  "id": "g87fy",
-                  "name": "Frame 23",
-                  "height": 17,
-                  "gap": 10,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "OXj3Q",
-                      "name": "dateInputLabel",
-                      "fill": "$Primary",
-                      "content": "Paquetes agregados",
-                      "fontFamily": "Inter",
-                      "fontSize": 14,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "icon_font",
-                      "id": "UqfG0",
-                      "width": 18,
-                      "height": 18,
-                      "iconFontName": "chevron-up",
-                      "iconFontFamily": "feather",
-                      "fill": "$Primary"
-                    }
-                  ]
+                  "type": "text",
+                  "id": "qILN8",
+                  "name": "dateInputLabel",
+                  "fill": "$Primary",
+                  "content": "Paquetes agregados",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
                 },
                 {
                   "type": "frame",
-                  "id": "m9ulr",
-                  "name": "Frame 2037",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "1u5yQ",
-                      "name": "countLabel",
-                      "fill": "$Gray Dark",
-                      "textGrowth": "fixed-width",
-                      "width": 85,
-                      "content": "Alto",
-                      "fontFamily": "Inter",
-                      "fontSize": 10,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "VoYvg",
-                      "name": "countLabel",
-                      "fill": "$Gray Dark",
-                      "textGrowth": "fixed-width",
-                      "width": 85,
-                      "content": "Largo",
-                      "fontFamily": "Inter",
-                      "fontSize": 10,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "awwRR",
-                      "name": "countLabel",
-                      "fill": "$Gray Dark",
-                      "textGrowth": "fixed-width",
-                      "width": 85,
-                      "content": "Ancho",
-                      "fontFamily": "Inter",
-                      "fontSize": 10,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "Q1nU0",
-                      "name": "countLabel",
-                      "fill": "$Gray Dark",
-                      "textGrowth": "fixed-width",
-                      "width": 85,
-                      "content": "Peso",
-                      "fontFamily": "Inter",
-                      "fontSize": 10,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "s2V7G",
-                      "name": "countLabel",
-                      "fill": "$Gray Dark",
-                      "textGrowth": "fixed-width",
-                      "width": 110,
-                      "content": "Valor declarado",
-                      "fontFamily": "Inter",
-                      "fontSize": 10,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "MnIRN",
-                      "name": "countLabel",
-                      "fill": "$Gray Dark",
-                      "textGrowth": "fixed-width",
-                      "width": 85,
-                      "content": "Envío asegurado",
-                      "fontFamily": "Inter",
-                      "fontSize": 10,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "lpaEW",
-                  "name": "Frame 19",
+                  "id": "C5nnz",
+                  "name": "Frame 2072",
+                  "layout": "vertical",
+                  "gap": 5,
                   "children": [
                     {
                       "type": "frame",
-                      "id": "33hLW",
-                      "name": "fileFrame",
-                      "width": 85,
-                      "height": 40,
-                      "fill": "#f4f4f4",
-                      "cornerRadius": [
-                        6,
-                        0,
-                        0,
-                        6
-                      ],
-                      "stroke": {
-                        "thickness": 1,
-                        "fill": "$Gray Light"
-                      },
-                      "gap": 8,
-                      "padding": 12,
+                      "id": "D9EWBa",
+                      "name": "Frame 2037",
                       "alignItems": "center",
                       "children": [
                         {
                           "type": "text",
-                          "id": "Po2c3",
-                          "name": "fileName",
-                          "fill": "$Dark Text",
+                          "id": "qgg3p",
+                          "name": "countLabel",
+                          "fill": "$Gray Dark",
                           "textGrowth": "fixed-width",
-                          "width": 40,
-                          "content": "33 cm",
+                          "width": 85,
+                          "content": "Alto",
+                          "textAlign": "center",
                           "fontFamily": "Inter",
-                          "fontSize": 13,
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "P9Nux",
+                          "name": "countLabel",
+                          "fill": "$Gray Dark",
+                          "textGrowth": "fixed-width",
+                          "width": 85,
+                          "content": "Largo",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ygo3U",
+                          "name": "countLabel",
+                          "fill": "$Gray Dark",
+                          "textGrowth": "fixed-width",
+                          "width": 85,
+                          "content": "Ancho",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qtGBX",
+                          "name": "countLabel",
+                          "fill": "$Gray Dark",
+                          "textGrowth": "fixed-width",
+                          "width": 85,
+                          "content": "Peso",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xJTef",
+                          "name": "countLabel",
+                          "fill": "$Gray Dark",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "Valor declarado",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "aBtOS",
+                          "name": "countLabel",
+                          "fill": "$Gray Dark",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "Seguro",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
                           "fontWeight": "normal"
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "YVcVa",
-                      "name": "fileFrame",
-                      "width": 85,
-                      "height": 40,
-                      "fill": "#f4f4f4",
-                      "stroke": {
-                        "thickness": {
-                          "top": 1,
-                          "right": 1,
-                          "bottom": 1
-                        },
-                        "fill": "$Gray Light"
-                      },
-                      "gap": 8,
-                      "padding": 12,
-                      "alignItems": "center",
+                      "id": "X6I3S",
+                      "name": "Frame 19",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "Sb9jE",
-                          "name": "fileName",
+                          "type": "frame",
+                          "id": "fDcUc",
+                          "name": "fileFrame",
+                          "width": 85,
+                          "height": 40,
+                          "fill": "#f4f4f4",
+                          "cornerRadius": [
+                            6,
+                            0,
+                            0,
+                            6
+                          ],
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "$Gray Light"
+                          },
+                          "gap": 8,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Xck6f",
+                              "name": "fileName",
+                              "fill": "$Dark Text",
+                              "textGrowth": "fixed-width",
+                              "width": 40,
+                              "content": "33 cm",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fZp9E",
+                          "name": "fileFrame",
+                          "width": 85,
+                          "height": 40,
+                          "fill": "#f4f4f4",
+                          "stroke": {
+                            "thickness": {
+                              "top": 1,
+                              "right": 1,
+                              "bottom": 1
+                            },
+                            "fill": "$Gray Light"
+                          },
+                          "gap": 8,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "q6Ect",
+                              "name": "fileName",
+                              "fill": "$Dark Text",
+                              "textGrowth": "fixed-width",
+                              "width": 40,
+                              "content": "22 cm",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "eGoo2",
+                          "name": "fileFrame",
+                          "width": 85,
+                          "height": 40,
+                          "fill": "#f4f4f4",
+                          "stroke": {
+                            "thickness": {
+                              "top": 1,
+                              "right": 1,
+                              "bottom": 1
+                            },
+                            "fill": "$Gray Light"
+                          },
+                          "gap": 8,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "i4439n",
+                              "name": "fileName",
+                              "fill": "$Dark Text",
+                              "textGrowth": "fixed-width",
+                              "width": 40,
+                              "content": "10 cm",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "d6FA7t",
+                          "name": "fileFrame",
+                          "width": 85,
+                          "height": 40,
+                          "fill": "#f4f4f4",
+                          "stroke": {
+                            "thickness": {
+                              "top": 1,
+                              "right": 1,
+                              "bottom": 1
+                            },
+                            "fill": "$Gray Light"
+                          },
+                          "gap": 8,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "BCqhb",
+                              "name": "fileName",
+                              "fill": "$Dark Text",
+                              "textGrowth": "fixed-width",
+                              "width": 40,
+                              "content": "1 kg",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "RvlxP",
+                          "name": "fileFrame",
+                          "width": 110,
+                          "height": 40,
+                          "fill": "#f4f4f4",
+                          "stroke": {
+                            "thickness": {
+                              "top": 1,
+                              "right": 1,
+                              "bottom": 1
+                            },
+                            "fill": "$Gray Light"
+                          },
+                          "gap": 8,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "skoKz",
+                              "name": "fileName",
+                              "fill": "$Dark Text",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "$100.00",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Rap40",
+                          "name": "fileFrame",
+                          "height": 40,
                           "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": 40,
-                          "content": "22 cm",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
+                          "stroke": {
+                            "thickness": {
+                              "top": 1,
+                              "bottom": 1
+                            },
+                            "fill": "$Gray Light"
+                          },
+                          "gap": 8,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "g9YBh",
+                              "width": 18,
+                              "height": 18,
+                              "iconFontName": "shield",
+                              "iconFontFamily": "feather",
+                              "fill": "$White"
+                            },
+                            {
+                              "type": "text",
+                              "id": "kwGgQ",
+                              "name": "fileName",
+                              "fill": "$White",
+                              "textGrowth": "fixed-width",
+                              "width": 70,
+                              "content": "Asegurado",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "S8EsDH",
+                          "name": "fileFrame",
+                          "height": 40,
+                          "fill": {
+                            "type": "color",
+                            "color": "#f4f4f4",
+                            "enabled": false
+                          },
+                          "cornerRadius": [
+                            0,
+                            6,
+                            6,
+                            0
+                          ],
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "$Gray Light"
+                          },
+                          "gap": 8,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "k1c5h3",
+                              "width": 18,
+                              "height": 18,
+                              "iconFontName": "trash-2",
+                              "iconFontFamily": "feather",
+                              "fill": "$Gray Dark"
+                            }
+                          ]
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "6Cg9H",
-                      "name": "fileFrame",
-                      "width": 85,
-                      "height": 40,
-                      "fill": "#f4f4f4",
-                      "stroke": {
-                        "thickness": {
-                          "top": 1,
-                          "right": 1,
-                          "bottom": 1
-                        },
-                        "fill": "$Gray Light"
-                      },
-                      "gap": 8,
-                      "padding": 12,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "Orsrf",
-                          "name": "fileName",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": 40,
-                          "content": "10 cm",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "PMCS9",
-                      "name": "fileFrame",
-                      "width": 85,
-                      "height": 40,
-                      "fill": "#f4f4f4",
-                      "stroke": {
-                        "thickness": {
-                          "top": 1,
-                          "right": 1,
-                          "bottom": 1
-                        },
-                        "fill": "$Gray Light"
-                      },
-                      "gap": 8,
-                      "padding": 12,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "ePEpC",
-                          "name": "fileName",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": 40,
-                          "content": "1 kg",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "5dqf3",
-                      "name": "fileFrame",
-                      "width": 110,
-                      "height": 40,
-                      "fill": "#f4f4f4",
-                      "stroke": {
-                        "thickness": {
-                          "top": 1,
-                          "right": 1,
-                          "bottom": 1
-                        },
-                        "fill": "$Gray Light"
-                      },
-                      "gap": 8,
-                      "padding": 12,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "MjcMc",
-                          "name": "fileName",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "$100.00",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "nzSHN",
-                      "name": "fileFrame",
-                      "height": 40,
-                      "fill": "$Dark Text",
-                      "stroke": {
-                        "thickness": {
-                          "top": 1,
-                          "bottom": 1
-                        },
-                        "fill": "$Gray Light"
-                      },
-                      "gap": 8,
-                      "padding": 12,
+                      "id": "ZFAbj",
+                      "name": "Frame 2037",
+                      "gap": 10,
                       "alignItems": "center",
                       "children": [
                         {
                           "type": "icon_font",
-                          "id": "HT7dx",
+                          "id": "ivr1x",
                           "width": 18,
                           "height": 18,
-                          "iconFontName": "shield",
-                          "iconFontFamily": "feather",
-                          "fill": "$White"
-                        },
-                        {
-                          "type": "text",
-                          "id": "oA8MZ",
-                          "name": "fileName",
-                          "fill": "$White",
-                          "textGrowth": "fixed-width",
-                          "width": 70,
-                          "content": "Asegurado",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Fnjgz",
-                      "name": "fileFrame",
-                      "height": 40,
-                      "fill": {
-                        "type": "color",
-                        "color": "#f4f4f4",
-                        "enabled": false
-                      },
-                      "cornerRadius": [
-                        0,
-                        6,
-                        6,
-                        0
-                      ],
-                      "stroke": {
-                        "thickness": 1,
-                        "fill": "$Gray Light"
-                      },
-                      "gap": 8,
-                      "padding": 12,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon_font",
-                          "id": "GHcjU",
-                          "width": 18,
-                          "height": 18,
-                          "iconFontName": "trash-2",
-                          "iconFontFamily": "feather",
-                          "fill": "$Gray Dark"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "bma6t",
-                  "name": "Frame 2037",
-                  "gap": 10,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon_font",
-                      "id": "qJi8n",
-                      "width": 18,
-                      "height": 18,
-                      "iconFontName": "info",
-                      "iconFontFamily": "feather",
-                      "fill": "$Gray Dark"
-                    },
-                    {
-                      "type": "text",
-                      "id": "APQtX",
-                      "name": "countLabel",
-                      "fill": "$Gray Dark",
-                      "content": "Peso volumétrico 1 kg | Peso efectivo 5 kg | ",
-                      "fontFamily": "Inter",
-                      "fontSize": 10,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "6g92B",
-                  "name": "Frame 19",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "IxxHL",
-                      "name": "fileFrame",
-                      "width": 85,
-                      "height": 40,
-                      "fill": "#f4f4f4",
-                      "cornerRadius": [
-                        6,
-                        0,
-                        0,
-                        6
-                      ],
-                      "stroke": {
-                        "thickness": 1,
-                        "fill": "$Gray Light"
-                      },
-                      "gap": 8,
-                      "padding": 12,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "z21bZ",
-                          "name": "fileName",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": 40,
-                          "content": "33 cm",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Hj6mL",
-                      "name": "fileFrame",
-                      "width": 85,
-                      "height": 40,
-                      "fill": "#f4f4f4",
-                      "stroke": {
-                        "thickness": {
-                          "top": 1,
-                          "right": 1,
-                          "bottom": 1
-                        },
-                        "fill": "$Gray Light"
-                      },
-                      "gap": 8,
-                      "padding": 12,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "OgiLT",
-                          "name": "fileName",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": 40,
-                          "content": "22 cm",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "deUAM",
-                      "name": "fileFrame",
-                      "width": 85,
-                      "height": 40,
-                      "fill": "#f4f4f4",
-                      "stroke": {
-                        "thickness": {
-                          "top": 1,
-                          "right": 1,
-                          "bottom": 1
-                        },
-                        "fill": "$Gray Light"
-                      },
-                      "gap": 8,
-                      "padding": 12,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "w6ghT",
-                          "name": "fileName",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": 40,
-                          "content": "10 cm",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "tGHKp",
-                      "name": "fileFrame",
-                      "width": 85,
-                      "height": 40,
-                      "fill": "#f4f4f4",
-                      "stroke": {
-                        "thickness": {
-                          "top": 1,
-                          "right": 1,
-                          "bottom": 1
-                        },
-                        "fill": "$Gray Light"
-                      },
-                      "gap": 8,
-                      "padding": 12,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "bnrdm",
-                          "name": "fileName",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": 40,
-                          "content": "1 kg",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "WkSDY",
-                      "name": "fileFrame",
-                      "width": 110,
-                      "height": 40,
-                      "fill": "#f4f4f4",
-                      "stroke": {
-                        "thickness": {
-                          "top": 1,
-                          "right": 1,
-                          "bottom": 1
-                        },
-                        "fill": "$Gray Light"
-                      },
-                      "gap": 8,
-                      "padding": 12,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "JYD7W",
-                          "name": "fileName",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "$100.00",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "A1hNi",
-                      "name": "fileFrame",
-                      "height": 40,
-                      "fill": "$Dark Text",
-                      "stroke": {
-                        "thickness": {
-                          "top": 1,
-                          "bottom": 1
-                        },
-                        "fill": "$Gray Light"
-                      },
-                      "gap": 8,
-                      "padding": 12,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon_font",
-                          "id": "s2c4e",
-                          "width": 18,
-                          "height": 18,
-                          "iconFontName": "shield",
-                          "iconFontFamily": "feather",
-                          "fill": "$White"
-                        },
-                        {
-                          "type": "text",
-                          "id": "aNqQY",
-                          "name": "fileName",
-                          "fill": "$White",
-                          "textGrowth": "fixed-width",
-                          "width": 70,
-                          "content": "Asegurado",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "8H4H0",
-                      "name": "fileFrame",
-                      "height": 40,
-                      "fill": {
-                        "type": "color",
-                        "color": "#f4f4f4",
-                        "enabled": false
-                      },
-                      "cornerRadius": [
-                        0,
-                        6,
-                        6,
-                        0
-                      ],
-                      "stroke": {
-                        "thickness": 1,
-                        "fill": "$Gray Light"
-                      },
-                      "gap": 8,
-                      "padding": 12,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon_font",
-                          "id": "l8QR8",
-                          "width": 18,
-                          "height": 18,
-                          "iconFontName": "trash-2",
+                          "iconFontName": "info",
                           "iconFontFamily": "feather",
                           "fill": "$Gray Dark"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tVKww",
+                          "name": "countLabel",
+                          "fill": "$Gray Dark",
+                          "content": "Peso volumétrico 1 kg | Peso efectivo 5 kg | ",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -10247,29 +9995,373 @@
                 },
                 {
                   "type": "frame",
-                  "id": "mwSwj",
-                  "name": "Frame 2037",
-                  "gap": 10,
-                  "alignItems": "center",
+                  "id": "Y2I9K",
+                  "name": "Frame 2072",
+                  "layout": "vertical",
+                  "gap": 5,
                   "children": [
                     {
-                      "type": "icon_font",
-                      "id": "li0bO",
-                      "width": 18,
-                      "height": 18,
-                      "iconFontName": "info",
-                      "iconFontFamily": "feather",
-                      "fill": "$Gray Dark"
+                      "type": "frame",
+                      "id": "hugz0",
+                      "name": "Frame 2037",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Tiy2w",
+                          "name": "countLabel",
+                          "fill": "$Gray Dark",
+                          "textGrowth": "fixed-width",
+                          "width": 85,
+                          "content": "Alto",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "J956E3",
+                          "name": "countLabel",
+                          "fill": "$Gray Dark",
+                          "textGrowth": "fixed-width",
+                          "width": 85,
+                          "content": "Largo",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mPeqm",
+                          "name": "countLabel",
+                          "fill": "$Gray Dark",
+                          "textGrowth": "fixed-width",
+                          "width": 85,
+                          "content": "Ancho",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nhc0D",
+                          "name": "countLabel",
+                          "fill": "$Gray Dark",
+                          "textGrowth": "fixed-width",
+                          "width": 85,
+                          "content": "Peso",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "QYSJn",
+                          "name": "countLabel",
+                          "fill": "$Gray Dark",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "Valor declarado",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sFtw5",
+                          "name": "countLabel",
+                          "fill": "$Gray Dark",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "Seguro",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
                     },
                     {
-                      "type": "text",
-                      "id": "rrEC6",
-                      "name": "countLabel",
-                      "fill": "$Gray Dark",
-                      "content": "Peso volumétrico 1 kg | Peso efectivo 5 kg | ",
-                      "fontFamily": "Inter",
-                      "fontSize": 10,
-                      "fontWeight": "normal"
+                      "type": "frame",
+                      "id": "Fc8zE",
+                      "name": "Frame 19",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "eajHL",
+                          "name": "fileFrame",
+                          "width": 85,
+                          "height": 40,
+                          "fill": "#f4f4f4",
+                          "cornerRadius": [
+                            6,
+                            0,
+                            0,
+                            6
+                          ],
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "$Gray Light"
+                          },
+                          "gap": 8,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "wzFZq",
+                              "name": "fileName",
+                              "fill": "$Dark Text",
+                              "textGrowth": "fixed-width",
+                              "width": 40,
+                              "content": "33 cm",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZhC8i",
+                          "name": "fileFrame",
+                          "width": 85,
+                          "height": 40,
+                          "fill": "#f4f4f4",
+                          "stroke": {
+                            "thickness": {
+                              "top": 1,
+                              "right": 1,
+                              "bottom": 1
+                            },
+                            "fill": "$Gray Light"
+                          },
+                          "gap": 8,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "G11tWO",
+                              "name": "fileName",
+                              "fill": "$Dark Text",
+                              "textGrowth": "fixed-width",
+                              "width": 40,
+                              "content": "22 cm",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "E3aFZ9",
+                          "name": "fileFrame",
+                          "width": 85,
+                          "height": 40,
+                          "fill": "#f4f4f4",
+                          "stroke": {
+                            "thickness": {
+                              "top": 1,
+                              "right": 1,
+                              "bottom": 1
+                            },
+                            "fill": "$Gray Light"
+                          },
+                          "gap": 8,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "IWsuK",
+                              "name": "fileName",
+                              "fill": "$Dark Text",
+                              "textGrowth": "fixed-width",
+                              "width": 40,
+                              "content": "10 cm",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "uJKYd",
+                          "name": "fileFrame",
+                          "width": 85,
+                          "height": 40,
+                          "fill": "#f4f4f4",
+                          "stroke": {
+                            "thickness": {
+                              "top": 1,
+                              "right": 1,
+                              "bottom": 1
+                            },
+                            "fill": "$Gray Light"
+                          },
+                          "gap": 8,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "a2GBHP",
+                              "name": "fileName",
+                              "fill": "$Dark Text",
+                              "textGrowth": "fixed-width",
+                              "width": 40,
+                              "content": "1 kg",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Cu8v5",
+                          "name": "fileFrame",
+                          "width": 110,
+                          "height": 40,
+                          "fill": "#f4f4f4",
+                          "stroke": {
+                            "thickness": {
+                              "top": 1,
+                              "right": 1,
+                              "bottom": 1
+                            },
+                            "fill": "$Gray Light"
+                          },
+                          "gap": 8,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "xe3wQ",
+                              "name": "fileName",
+                              "fill": "$Dark Text",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "$100.00",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "EmDrK",
+                          "name": "fileFrame",
+                          "height": 40,
+                          "fill": "$Dark Text",
+                          "stroke": {
+                            "thickness": {
+                              "top": 1,
+                              "bottom": 1
+                            },
+                            "fill": "$Gray Light"
+                          },
+                          "gap": 8,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "sTPcr",
+                              "width": 18,
+                              "height": 18,
+                              "iconFontName": "shield",
+                              "iconFontFamily": "feather",
+                              "fill": "$White"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Z8mB2k",
+                              "name": "fileName",
+                              "fill": "$White",
+                              "textGrowth": "fixed-width",
+                              "width": 70,
+                              "content": "Asegurado",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "h8mjL",
+                          "name": "fileFrame",
+                          "height": 40,
+                          "fill": {
+                            "type": "color",
+                            "color": "#f4f4f4",
+                            "enabled": false
+                          },
+                          "cornerRadius": [
+                            0,
+                            6,
+                            6,
+                            0
+                          ],
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "$Gray Light"
+                          },
+                          "gap": 8,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "VfmPM",
+                              "width": 18,
+                              "height": 18,
+                              "iconFontName": "trash-2",
+                              "iconFontFamily": "feather",
+                              "fill": "$Gray Dark"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "X0bRum",
+                      "name": "Frame 2037",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Q8ifC",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "info",
+                          "iconFontFamily": "feather",
+                          "fill": "$Gray Dark"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tOzoB",
+                          "name": "countLabel",
+                          "fill": "$Gray Dark",
+                          "content": "Peso volumétrico 1 kg | Peso efectivo 5 kg | ",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -15795,7 +15887,7 @@
           "type": "frame",
           "id": "CpMTd",
           "x": 801,
-          "y": 1016,
+          "y": 1035,
           "name": "Popup informativo Otros cargos",
           "width": 210,
           "fill": "$White",
