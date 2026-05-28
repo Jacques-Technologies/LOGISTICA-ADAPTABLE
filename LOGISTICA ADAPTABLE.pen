@@ -13243,6 +13243,7 @@
                   "name": "Frame 27",
                   "fill": "#ffffff",
                   "layout": "vertical",
+                  "gap": 5,
                   "children": [
                     {
                       "type": "frame",
@@ -18706,7 +18707,7 @@
               "fill": "$Gray Dark",
               "textGrowth": "fixed-width",
               "width": "fill_container",
-              "content": "Como cobertura extendida, cargos irregulares y acceso remoto.",
+              "content": "Como cobertura extendida, cargos irregulares y cargo multipieza.",
               "fontFamily": "Inter",
               "fontSize": 10,
               "fontWeight": "normal"
@@ -21488,160 +21489,6 @@
                   "enabled": false
                 }
               }
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "tIWlf",
-          "x": 621,
-          "y": 942,
-          "name": "Popu informativo peso volumétrico",
-          "fill": "$White",
-          "cornerRadius": 5,
-          "effect": {
-            "type": "shadow",
-            "shadowType": "outer",
-            "color": "#00000040",
-            "offset": {
-              "x": 0,
-              "y": 4
-            },
-            "blur": 4
-          },
-          "layout": "vertical",
-          "gap": 10,
-          "padding": [
-            10,
-            20,
-            30,
-            20
-          ],
-          "alignItems": "end",
-          "children": [
-            {
-              "type": "frame",
-              "id": "InBOe",
-              "name": "Frame 2037",
-              "rotation": -0.029817849751779712,
-              "width": "fill_container",
-              "gap": 10,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon_font",
-                  "id": "1LNHV",
-                  "width": 15,
-                  "height": 15,
-                  "iconFontName": "info",
-                  "iconFontFamily": "feather",
-                  "fill": "$Dark Text"
-                },
-                {
-                  "type": "text",
-                  "id": "iPziU",
-                  "name": "countLabel",
-                  "fill": "$Dark Text",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Peso volumétrico vs Peso real",
-                  "fontFamily": "Inter",
-                  "fontSize": 10,
-                  "fontWeight": "600"
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "id": "8SFP8",
-              "name": "dateInputLabel",
-              "fill": "$Gray Dark",
-              "textGrowth": "fixed-width",
-              "width": 260,
-              "content": "El peso real es el peso en kilogramos que medimos en la báscula y el peso volumétrico es el espacio que ocupa tu paquete en nuestros vehículos de transporte.\n \nRecuerda que utilizaremos el mayor de los dos para calcular el costo de tu envío.",
-              "fontFamily": "Inter",
-              "fontSize": 10,
-              "fontWeight": "normal"
-            },
-            {
-              "type": "rectangle",
-              "id": "yVhsn",
-              "fill": {
-                "type": "image",
-                "enabled": true,
-                "url": "Frame%20927.png",
-                "mode": "fit"
-              },
-              "width": "fill_container",
-              "height": 68
-            },
-            {
-              "type": "text",
-              "id": "DxZIc",
-              "name": "dateInputLabel",
-              "fill": "$Gray Dark",
-              "textGrowth": "fixed-width",
-              "width": "fill_container",
-              "content": "Puedes calcular el peso volumétrico multiplicando las dimensiones de tu paquete:",
-              "fontFamily": "Inter",
-              "fontSize": 10,
-              "fontWeight": "normal"
-            },
-            {
-              "type": "frame",
-              "id": "7j5x7",
-              "name": "Frame 2044",
-              "width": "fill_container",
-              "gap": 10,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "2hqHd",
-                  "name": "dateInputLabel",
-                  "fill": "$Primary",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "( Largo x ancho x alto ) ÷ 5000 ",
-                  "fontFamily": "Inter",
-                  "fontSize": 10,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "text",
-                  "id": "yC7cz",
-                  "name": "dateInputLabel",
-                  "fill": "$Primary",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "( 20 x 30 x 20 ) ÷ 5000 = 2.4 kg ",
-                  "textAlign": "right",
-                  "fontFamily": "Inter",
-                  "fontSize": 10,
-                  "fontWeight": "600"
-                }
-              ]
-            },
-            {
-              "type": "icon_font",
-              "id": "9i6oc",
-              "width": 15,
-              "height": 15,
-              "iconFontName": "arrow-down",
-              "iconFontFamily": "feather",
-              "fill": "$Accent"
-            },
-            {
-              "type": "text",
-              "id": "M1uUk",
-              "name": "dateInputLabel",
-              "fill": "$Positivo",
-              "textGrowth": "fixed-width",
-              "width": "fill_container",
-              "content": "Y se redondea = 3 kg ",
-              "textAlign": "right",
-              "fontFamily": "Inter",
-              "fontSize": 10,
-              "fontWeight": "600"
             }
           ]
         },
@@ -35580,7 +35427,7 @@
                               "fill": "$Gray Dark",
                               "textGrowth": "fixed-width",
                               "width": 100,
-                              "content": "Cobertura Ext.",
+                              "content": "Otros cargos",
                               "fontFamily": "Inter",
                               "fontSize": 12,
                               "fontWeight": "normal"
@@ -64638,7 +64485,7 @@
                   "type": "text",
                   "id": "whZmn",
                   "fill": "$White",
-                  "content": "Saldo Total",
+                  "content": "Saldo Disponible",
                   "fontFamily": "Inter",
                   "fontSize": 14,
                   "fontWeight": "600"
@@ -67231,7 +67078,7 @@
                         "thickness": {
                           "right": 1
                         },
-                        "fill": "$Accent"
+                        "fill": "#eb4040ff"
                       },
                       "layout": "vertical",
                       "gap": 8,
@@ -67265,17 +67112,17 @@
                         "align": "inside",
                         "thickness": {
                           "right": 1
-                        },
-                        "fill": "$Accent"
+                        }
                       },
                       "layout": "vertical",
                       "gap": 8,
+                      "alignItems": "end",
                       "children": [
                         {
                           "type": "text",
                           "id": "X275H",
                           "fill": "$White",
-                          "content": "Saldo Total",
+                          "content": "Saldo Disponible",
                           "fontFamily": "Inter",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -72077,6 +71924,255 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "tIWlf",
+      "x": 7282,
+      "y": 7839,
+      "name": "Popu informativo peso volumétrico",
+      "fill": "$White",
+      "cornerRadius": 5,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#00000040",
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "blur": 4
+      },
+      "layout": "vertical",
+      "gap": 10,
+      "padding": [
+        10,
+        20,
+        30,
+        20
+      ],
+      "alignItems": "end",
+      "children": [
+        {
+          "type": "frame",
+          "id": "InBOe",
+          "name": "Frame 2037",
+          "rotation": -0.029817849751779712,
+          "width": "fill_container",
+          "gap": 10,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "1LNHV",
+              "width": 15,
+              "height": 15,
+              "iconFontName": "info",
+              "iconFontFamily": "feather",
+              "fill": "$Dark Text"
+            },
+            {
+              "type": "text",
+              "id": "iPziU",
+              "name": "countLabel",
+              "fill": "$Dark Text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Peso volumétrico vs Peso real",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "8SFP8",
+          "name": "dateInputLabel",
+          "fill": "$Gray Dark",
+          "textGrowth": "fixed-width",
+          "width": 260,
+          "content": "El peso real es el peso en kilogramos que medimos en la báscula y el peso volumétrico es el espacio que ocupa tu paquete en nuestros vehículos de transporte.\n \nRecuerda que utilizaremos el mayor de los dos para calcular el costo de tu envío.",
+          "fontFamily": "Inter",
+          "fontSize": 10,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "rectangle",
+          "id": "yVhsn",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "Frame%20927.png",
+            "mode": "fit"
+          },
+          "width": "fill_container",
+          "height": 68
+        },
+        {
+          "type": "text",
+          "id": "DxZIc",
+          "name": "dateInputLabel",
+          "fill": "$Gray Dark",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Puedes calcular el peso volumétrico multiplicando las dimensiones de tu paquete:",
+          "fontFamily": "Inter",
+          "fontSize": 10,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "7j5x7",
+          "name": "Frame 2044",
+          "width": "fill_container",
+          "gap": 10,
+          "children": [
+            {
+              "type": "text",
+              "id": "2hqHd",
+              "name": "dateInputLabel",
+              "fill": "$Primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "( Largo x ancho x alto ) ÷ 5000 ",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "yC7cz",
+              "name": "dateInputLabel",
+              "fill": "$Primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "( 20 x 30 x 20 ) ÷ 5000 = 2.4 kg ",
+              "textAlign": "right",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "icon_font",
+          "id": "9i6oc",
+          "width": 15,
+          "height": 15,
+          "iconFontName": "arrow-down",
+          "iconFontFamily": "feather",
+          "fill": "$Accent"
+        },
+        {
+          "type": "text",
+          "id": "M1uUk",
+          "name": "dateInputLabel",
+          "fill": "$Positivo",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Y se redondea = 3 kg ",
+          "textAlign": "right",
+          "fontFamily": "Inter",
+          "fontSize": 10,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "id": "Q3rtzX",
+      "x": 10964.046977023649,
+      "y": 3526.8705817135815,
+      "width": 250,
+      "height": 219,
+      "content": "link de verrificacion de identidad por correo"
+    },
+    {
+      "type": "note",
+      "id": "Z4rLP",
+      "x": 12045.799106413026,
+      "y": 3720.1150170838105,
+      "width": 250,
+      "height": 219,
+      "content": "revisar mercado pago"
+    },
+    {
+      "type": "note",
+      "id": "TZfcn",
+      "x": 13605,
+      "y": 3607,
+      "width": 250,
+      "height": 219,
+      "content": "cambiar montos a 1,000, 2,000, 3,000. Mínimo 1,000"
+    },
+    {
+      "type": "note",
+      "id": "D4Uuvs",
+      "x": 7577.221529858677,
+      "y": 7296.261870862759,
+      "width": 250,
+      "height": 219,
+      "content": "esperar a diana para ponderle un rango"
+    },
+    {
+      "type": "note",
+      "id": "RGdkA",
+      "x": 7577,
+      "y": 7535,
+      "width": 250,
+      "height": 219,
+      "content": "AGREGAR I de cargo irregular"
+    },
+    {
+      "type": "note",
+      "id": "Ku4px",
+      "x": 7577,
+      "y": 6789,
+      "width": 250,
+      "height": 219,
+      "content": "tipo de envío caja sobre u otro objeto"
+    },
+    {
+      "type": "note",
+      "id": "UZKuk",
+      "x": 6283,
+      "y": 12700,
+      "width": 545,
+      "height": 219,
+      "content": "METERLE MAS COLOR"
+    },
+    {
+      "type": "prompt",
+      "id": "TqJVW",
+      "x": 13325.719130833826,
+      "y": 15948.023169380545,
+      "width": 250,
+      "height": 219,
+      "content": "Línea del tiempo"
+    },
+    {
+      "type": "rectangle",
+      "id": "gokcD",
+      "x": 13280.81552142671,
+      "y": 16605.1591478295,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "image-8.png",
+        "mode": "fill"
+      },
+      "width": 588,
+      "height": 379
+    },
+    {
+      "type": "note",
+      "id": "c9B8p",
+      "x": 5338.418638632875,
+      "y": 15674.304149465954,
+      "width": 250,
+      "height": 219,
+      "content": "Inicio\nUltimas guías\nRastreador\nCotizador super rápido\nModulo chiquito admin\nSi hay tickets activos"
     }
   ],
   "variables": {
