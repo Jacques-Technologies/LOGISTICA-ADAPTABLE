@@ -83304,7 +83304,7 @@
                               "type": "text",
                               "id": "t4tNDs",
                               "fill": "$White",
-                              "content": "$1,000.00",
+                              "content": "$10,000.00",
                               "fontFamily": "Inter",
                               "fontSize": 30,
                               "fontWeight": "600"
