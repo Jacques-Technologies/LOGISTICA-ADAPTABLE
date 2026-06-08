@@ -6461,7 +6461,7 @@
                                       "type": "text",
                                       "id": "RGv5d",
                                       "name": "dateInputLabel",
-                                      "fill": "$Primary",
+                                      "fill": "$Gray Light",
                                       "content": "Empresa",
                                       "fontFamily": "Inter",
                                       "fontSize": 14,
@@ -7384,7 +7384,7 @@
     {
       "type": "frame",
       "id": "u6iw6b",
-      "x": 3958,
+      "x": 3945,
       "y": 0,
       "name": "Nuevo Cliente — Paso 2",
       "clip": true,
@@ -8032,7 +8032,7 @@
                           "fill": "$Gray Dark",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Revisa y ajusta la tabla de precio por servicio. Por defecto se asignan: Precio fijo, Subasta y una tabla dinámica.",
+                          "content": "Revisa y ajusta la tabla de precio por servicio. ",
                           "lineHeight": 1.5,
                           "fontFamily": "Inter",
                           "fontSize": 13,
@@ -8102,11 +8102,6 @@
                           "id": "eyam9",
                           "name": "FedEx Nacional",
                           "width": "fill_container",
-                          "stroke": "$Gray Light",
-                          "strokeWidth": {
-                            "bottom": 1
-                          },
-                          "strokeAlignment": "inner",
                           "gap": 14,
                           "padding": [
                             14,
@@ -8185,20 +8180,9 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "RlIDj",
-                              "name": "TL",
-                              "fill": "$Gray Dark",
-                              "content": "Tabla:",
-                              "fontFamily": "Inter",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
-                            },
-                            {
                               "type": "frame",
                               "id": "xBYtC",
                               "name": "Table Input",
-                              "width": 200,
                               "height": 34,
                               "fill": "$White",
                               "cornerRadius": 6,
@@ -8218,7 +8202,7 @@
                                   "name": "I",
                                   "width": 13,
                                   "height": 13,
-                                  "icon": "search",
+                                  "icon": "percent",
                                   "library": "lucide",
                                   "fill": "$Gray Medium"
                                 },
@@ -8226,8 +8210,8 @@
                                   "type": "text",
                                   "id": "eQ98v",
                                   "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "Precio fijo DHL",
+                                  "fill": "$Gray Medium",
+                                  "content": "De seguro",
                                   "fontFamily": "Inter",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -8236,9 +8220,8 @@
                             },
                             {
                               "type": "frame",
-                              "id": "n01ow",
+                              "id": "L40Gg1",
                               "name": "Table Input",
-                              "width": 200,
                               "height": 34,
                               "fill": "$White",
                               "cornerRadius": 6,
@@ -8253,21 +8236,156 @@
                               "alignItems": "center",
                               "children": [
                                 {
-                                  "type": "icon",
-                                  "id": "OtfJz",
-                                  "name": "I",
-                                  "width": 13,
-                                  "height": 13,
-                                  "icon": "search",
-                                  "library": "lucide",
-                                  "fill": "$Gray Medium"
-                                },
+                                  "type": "text",
+                                  "id": "rDbwl",
+                                  "name": "V",
+                                  "fill": "$Gray Medium",
+                                  "content": "kg límite a cotizar",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Reqws",
+                              "name": "Table Input",
+                              "height": 34,
+                              "fill": "$White",
+                              "cornerRadius": 6,
+                              "stroke": "$Gray Light",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "gap": 6,
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
                                 {
                                   "type": "text",
-                                  "id": "PYf8h",
+                                  "id": "I5OIvo",
                                   "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "Precio fijo DHL",
+                                  "fill": "$Gray Medium",
+                                  "content": "Cobertura extendida",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "C026g",
+                              "name": "Table Input",
+                              "height": 34,
+                              "fill": "$White",
+                              "cornerRadius": 6,
+                              "stroke": "$Gray Light",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "gap": 6,
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ZfpVb",
+                                  "name": "V",
+                                  "fill": "$Gray Medium",
+                                  "content": "Cargo irregular",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "a2oSZ",
+                              "name": "Table Input",
+                              "height": 34,
+                              "fill": "$White",
+                              "cornerRadius": 6,
+                              "stroke": "$Gray Light",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "gap": 6,
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Dpf20",
+                                  "name": "V",
+                                  "fill": "$Gray Medium",
+                                  "content": "Cargo multipieza",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "J8grb1",
+                              "name": "Table Input",
+                              "height": 34,
+                              "fill": "$White",
+                              "cornerRadius": 6,
+                              "stroke": "$Gray Light",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "gap": 6,
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "h9ghO",
+                                  "name": "V",
+                                  "fill": "$Gray Medium",
+                                  "content": "Costo planta SuKarne",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "I4xHT",
+                              "name": "Table Input",
+                              "height": 34,
+                              "fill": "$White",
+                              "cornerRadius": 6,
+                              "stroke": "$Gray Light",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "gap": 6,
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "A5XWAB",
+                                  "name": "V",
+                                  "fill": "$Gray Medium",
+                                  "content": "Adicional días promesa",
                                   "fontFamily": "Inter",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -21732,8 +21850,8 @@
     {
       "type": "frame",
       "id": "H3Rog",
-      "x": 2414,
-      "y": 1934,
+      "x": 880,
+      "y": 2154,
       "name": "TÍTULO",
       "width": "fill_container(1220)",
       "fill": "$Positivo",
@@ -21796,8 +21914,8 @@
     {
       "type": "frame",
       "id": "xyAMn",
-      "x": 2414,
-      "y": 2054,
+      "x": 880,
+      "y": 2274,
       "name": "TÍTULO",
       "width": "fill_container(1220)",
       "fill": "$Positivo",
@@ -21828,8 +21946,8 @@
     {
       "type": "frame",
       "id": "ngD5F",
-      "x": 2699,
-      "y": 1527,
+      "x": 972,
+      "y": 1431,
       "name": "Rep Legal",
       "width": "fill_container(1108)",
       "layout": "vertical",
@@ -21858,71 +21976,8 @@
           "id": "UQlqQ",
           "name": "Grid",
           "width": "fill_container",
-          "gap": 16,
-          "children": [
-            {
-              "id": "luLZ7",
-              "type": "ref",
-              "ref": "wuJtt",
-              "name": "Nombre representante *",
-              "width": "fill_container",
-              "descendants": {
-                "Dsnx9": {
-                  "content": "Nombre comercial *"
-                },
-                "tzItL": {
-                  "content": "Nombre comercial"
-                }
-              }
-            },
-            {
-              "id": "Zn862",
-              "type": "ref",
-              "ref": "QiQRT",
-              "name": "Tipo de volumen *",
-              "width": "fill_container",
-              "x": 281,
-              "y": 0,
-              "descendants": {
-                "QFk64": {
-                  "content": "Razón social *"
-                },
-                "NWNSO": {
-                  "content": "Seleccionar"
-                }
-              }
-            },
-            {
-              "id": "L0RNd",
-              "type": "ref",
-              "ref": "wuJtt",
-              "name": "Correo representante",
-              "width": "fill_container",
-              "descendants": {
-                "Dsnx9": {
-                  "content": "Giro"
-                },
-                "tzItL": {
-                  "content": "Giro de la empresa"
-                }
-              }
-            },
-            {
-              "id": "WaI9B",
-              "type": "ref",
-              "ref": "wuJtt",
-              "name": "Correo representante",
-              "width": "fill_container",
-              "descendants": {
-                "Dsnx9": {
-                  "content": "Página web"
-                },
-                "tzItL": {
-                  "content": "enlace http"
-                }
-              }
-            }
-          ]
+          "height": "fit_content(67)",
+          "gap": 16
         }
       ]
     },
@@ -35017,26 +35072,6 @@
       ]
     },
     {
-      "id": "cKqS8",
-      "type": "ref",
-      "ref": "wuJtt",
-      "name": "Nombre representante *",
-      "width": "fill_container(266.5)",
-      "height": "fit_content",
-      "flipX": false,
-      "flipY": false,
-      "x": 4603,
-      "y": -93,
-      "descendants": {
-        "Dsnx9": {
-          "content": "Nombre representante *"
-        },
-        "tzItL": {
-          "content": "Nombre completo"
-        }
-      }
-    },
-    {
       "type": "frame",
       "id": "YeXJx",
       "x": 19618,
@@ -38295,6 +38330,1706 @@
                   "fontFamily": "Inter",
                   "fontSize": 14,
                   "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Npx7r",
+      "x": 2414,
+      "y": 1722,
+      "name": "Nuevo Cliente — Paso 1",
+      "clip": true,
+      "width": 1440,
+      "height": 1729,
+      "children": [
+        {
+          "type": "frame",
+          "id": "RmNq6",
+          "name": "Sidebar",
+          "width": 220,
+          "height": "fill_container",
+          "fill": "$Primary",
+          "layout": "vertical",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "uotsw",
+              "name": "Top",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "x6cB5",
+                  "name": "Logo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    24,
+                    16,
+                    0,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qjM5u",
+                      "name": "Logo",
+                      "width": "fill_container",
+                      "height": 53,
+                      "fill": "$White",
+                      "cornerRadius": 5,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        24,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "fvoqO",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "Logistica Adaptable logo.png",
+                            "mode": "fit"
+                          },
+                          "width": 140,
+                          "height": 39
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qXCjD",
+                  "name": "Nav",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "S03r3u",
+                      "name": "Dashboard",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "BYU9E",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "layout-dashboard",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MWqO7",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Dashboard",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bvg0G",
+                      "name": "Clientes",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF18",
+                      "stroke": "$Accent",
+                      "strokeWidth": {
+                        "left": 3
+                      },
+                      "strokeAlignment": "inner",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "mEj8E",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "users",
+                          "library": "lucide",
+                          "fill": "$Accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cswrL",
+                          "name": "L",
+                          "fill": "$White",
+                          "content": "Clientes",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pkTdY",
+                      "name": "Guías",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "F9E6aB",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "package",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vXg8x",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Guías",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "n59qZ",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "QSLgx",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "file-text",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pmezB",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Facturas",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KwGzy",
+                      "name": "Reportes",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "T98ZPP",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "trending-up",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fgrdu",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Reportes",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "q50gu8",
+                      "name": "Configuración",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "RG0cC",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "settings",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "uatYZ",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Configuración",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jlKXO",
+              "name": "User",
+              "width": "fill_container",
+              "stroke": "#FFFFFF15",
+              "strokeWidth": {
+                "top": 1
+              },
+              "strokeAlignment": "inner",
+              "gap": 10,
+              "padding": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "i8tcAq",
+                  "name": "Av",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "$Accent",
+                  "cornerRadius": 16,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uXEoM",
+                      "name": "I",
+                      "fill": "$White",
+                      "content": "NJ",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bQCX2",
+                  "name": "Info",
+                  "width": 110,
+                  "layout": "vertical",
+                  "gap": 1,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZYr0I",
+                      "name": "N",
+                      "fill": "$White",
+                      "content": "Naomi Jardon",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "riCgc",
+                      "name": "R",
+                      "fill": "#FFFFFF80",
+                      "content": "Administrador",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "e4KH7",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "log-out",
+                  "library": "lucide",
+                  "fill": "$White"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "UHFzv",
+          "name": "Content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "#f4f4f4",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "b9NSb",
+              "name": "Topbar",
+              "width": "fill_container",
+              "height": 56,
+              "fill": "$White",
+              "stroke": "$Gray Light",
+              "strokeWidth": {
+                "bottom": 1
+              },
+              "strokeAlignment": "inner",
+              "gap": 8,
+              "padding": [
+                0,
+                24
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "M0AewE",
+                  "name": "Back",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "chevron-left",
+                  "library": "lucide",
+                  "fill": "$Gray Dark"
+                },
+                {
+                  "type": "text",
+                  "id": "guEHr",
+                  "name": "BC1",
+                  "fill": "$Gray Dark",
+                  "content": "Clientes",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "v1NFG",
+                  "name": "Sep",
+                  "fill": "$Gray Medium",
+                  "content": "/",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "y4n6MP",
+                  "name": "BC2",
+                  "fill": "$Dark Text",
+                  "content": "Nuevo Cliente",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "v5fOkv",
+              "name": "Stepper",
+              "width": "fill_container",
+              "fill": "$White",
+              "stroke": "$Gray Light",
+              "strokeWidth": {
+                "bottom": 1
+              },
+              "strokeAlignment": "inner",
+              "gap": 12,
+              "padding": [
+                16,
+                32
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "eOak9",
+                  "name": "Pill 1",
+                  "fill": "$Accent",
+                  "cornerRadius": 20,
+                  "gap": 6,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xtkrM",
+                      "name": "N",
+                      "fill": "$White",
+                      "content": "1",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qxSwr",
+                      "name": "L",
+                      "fill": "$White",
+                      "content": "Datos básicos",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 1,
+                  "id": "EAALK",
+                  "name": "L1",
+                  "fill": "$Gray Light",
+                  "width": 32,
+                  "height": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "vjy4N",
+                  "name": "Pill 2",
+                  "cornerRadius": 20,
+                  "stroke": "$Gray Light",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 6,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MCOrx",
+                      "name": "N",
+                      "fill": "$Gray Medium",
+                      "content": "2",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K9s6hU",
+                      "name": "L",
+                      "fill": "$Gray Dark",
+                      "content": "Tablas de precio",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 1,
+                  "id": "zJGhm",
+                  "name": "L2",
+                  "fill": "$Gray Light",
+                  "width": 32,
+                  "height": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "Cq1vD",
+                  "name": "Pill 3",
+                  "cornerRadius": 20,
+                  "stroke": "$Gray Light",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 6,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HLyQe",
+                      "name": "N",
+                      "fill": "$Gray Medium",
+                      "content": "3",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mTj9a",
+                      "name": "L",
+                      "fill": "$Gray Dark",
+                      "content": "Usuarios",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tzfaj",
+              "name": "Form Scroll",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "padding": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "B1Omk",
+                  "name": "Form Card",
+                  "width": "fill_container",
+                  "fill": "$White",
+                  "cornerRadius": 8,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000A",
+                    "offset": {
+                      "x": 0,
+                      "y": 2
+                    },
+                    "blur": 8,
+                    "spread": -2
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pyRlb",
+                      "name": "Section Header",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "HrlTG",
+                          "name": "Frame 2081",
+                          "width": "fill_container",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Wm9Gh",
+                              "name": "Title",
+                              "fill": "$Secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Información del cliente",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ZqKdp",
+                              "name": "Frame 2080",
+                              "gap": 20,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "NkVvX",
+                                  "name": "Checkbox unselected",
+                                  "gap": 10,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "xGIox",
+                                      "width": 18,
+                                      "height": 18,
+                                      "icon": "circle",
+                                      "library": "feather",
+                                      "fill": "$Gray Light"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "QJ1pb",
+                                      "name": "dateInputLabel",
+                                      "fill": "$Gray Light",
+                                      "content": "Persona Física",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 14,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "j0yOB",
+                                  "name": "Checkbox unselected",
+                                  "gap": 10,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "BtUvF",
+                                      "width": 18,
+                                      "height": 18,
+                                      "icon": "circle-dot",
+                                      "library": "lucide",
+                                      "fill": "$Accent"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "nln1q",
+                                      "name": "dateInputLabel",
+                                      "fill": "$Primary",
+                                      "content": "Empresa",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 14,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "eB4Y5",
+                          "name": "Div",
+                          "fill": "$Gray Light",
+                          "width": "fill_container",
+                          "height": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "T7VV9",
+                      "name": "Grid",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "U30jg",
+                          "name": "Col Left",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "id": "Jy7o9",
+                              "type": "ref",
+                              "ref": "wuJtt",
+                              "name": "Nombre del cliente *",
+                              "width": "fill_container",
+                              "descendants": {
+                                "Dsnx9": {
+                                  "content": "Nombre del cliente *"
+                                },
+                                "tzItL": {
+                                  "content": "Razón social"
+                                }
+                              }
+                            },
+                            {
+                              "id": "gTOgV",
+                              "type": "ref",
+                              "ref": "wuJtt",
+                              "name": "RFC *",
+                              "width": "fill_container",
+                              "descendants": {
+                                "Dsnx9": {
+                                  "content": "RFC *"
+                                },
+                                "tzItL": {
+                                  "content": "RFC del cliente"
+                                }
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Z2x1JX",
+                              "name": "Frame 2082",
+                              "width": "fill_container",
+                              "gap": 16,
+                              "children": [
+                                {
+                                  "id": "WEC21",
+                                  "type": "ref",
+                                  "ref": "wuJtt",
+                                  "name": "Correo de contacto *",
+                                  "width": 310,
+                                  "x": 0,
+                                  "y": 0,
+                                  "height": "fit_content",
+                                  "flipX": false,
+                                  "flipY": false,
+                                  "descendants": {
+                                    "Dsnx9": {
+                                      "content": "Calle *"
+                                    },
+                                    "tzItL": {
+                                      "content": "Nombre de la calle"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "ktzVJ",
+                                  "type": "ref",
+                                  "ref": "wuJtt",
+                                  "name": "Correo de contacto *",
+                                  "width": 100,
+                                  "x": 326,
+                                  "y": 0,
+                                  "height": "fit_content",
+                                  "flipX": false,
+                                  "flipY": false,
+                                  "descendants": {
+                                    "Dsnx9": {
+                                      "content": "No. Exterior *"
+                                    },
+                                    "tzItL": {
+                                      "content": "4"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "ZWGpB",
+                                  "type": "ref",
+                                  "ref": "wuJtt",
+                                  "name": "Correo de contacto *",
+                                  "width": 100,
+                                  "x": 442,
+                                  "y": 0,
+                                  "height": "fit_content",
+                                  "flipX": false,
+                                  "flipY": false,
+                                  "descendants": {
+                                    "Dsnx9": {
+                                      "content": "No. Interior *"
+                                    },
+                                    "tzItL": {
+                                      "content": "4"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "BdUrz",
+                              "name": "Frame 2082",
+                              "width": "fill_container",
+                              "gap": 16,
+                              "children": [
+                                {
+                                  "id": "eu5jx",
+                                  "type": "ref",
+                                  "ref": "wuJtt",
+                                  "name": "Correo de contacto *",
+                                  "width": 110,
+                                  "x": 0,
+                                  "y": 0,
+                                  "height": "fit_content",
+                                  "flipX": false,
+                                  "flipY": false,
+                                  "descendants": {
+                                    "Dsnx9": {
+                                      "content": "Código Postal *"
+                                    },
+                                    "tzItL": {
+                                      "content": "10010"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "WMaer",
+                                  "type": "ref",
+                                  "ref": "wuJtt",
+                                  "name": "Correo de contacto *",
+                                  "width": "fill_container",
+                                  "x": 126,
+                                  "y": 0,
+                                  "height": "fit_content",
+                                  "flipX": false,
+                                  "flipY": false,
+                                  "descendants": {
+                                    "Dsnx9": {
+                                      "content": "Colonia *"
+                                    },
+                                    "tzItL": {
+                                      "content": "Nombre de la colonia"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "wPivu",
+                              "name": "Frame 2082",
+                              "width": "fill_container",
+                              "gap": 16,
+                              "children": [
+                                {
+                                  "id": "V571b9",
+                                  "type": "ref",
+                                  "ref": "wuJtt",
+                                  "name": "Correo de contacto *",
+                                  "width": "fill_container",
+                                  "x": 0,
+                                  "y": 0,
+                                  "height": "fit_content",
+                                  "flipX": false,
+                                  "flipY": false,
+                                  "descendants": {
+                                    "Dsnx9": {
+                                      "content": "País *"
+                                    },
+                                    "tzItL": {
+                                      "content": "País aut."
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "PtJfT",
+                                  "type": "ref",
+                                  "ref": "wuJtt",
+                                  "name": "Correo de contacto *",
+                                  "width": "fill_container",
+                                  "x": 186,
+                                  "y": 0,
+                                  "height": "fit_content",
+                                  "flipX": false,
+                                  "flipY": false,
+                                  "descendants": {
+                                    "Dsnx9": {
+                                      "content": "Estado *"
+                                    },
+                                    "tzItL": {
+                                      "content": "Estado aut."
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "NlgIU",
+                                  "type": "ref",
+                                  "ref": "wuJtt",
+                                  "name": "Correo de contacto *",
+                                  "width": "fill_container",
+                                  "x": 372,
+                                  "y": 0,
+                                  "height": "fit_content",
+                                  "flipX": false,
+                                  "flipY": false,
+                                  "descendants": {
+                                    "Dsnx9": {
+                                      "content": "Ciudad *"
+                                    },
+                                    "tzItL": {
+                                      "content": "Ciudad aut."
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "G6uPN0",
+                              "type": "ref",
+                              "ref": "wuJtt",
+                              "name": "Correo de contacto *",
+                              "width": "fill_container",
+                              "descendants": {
+                                "Dsnx9": {
+                                  "content": "Correo de contacto *"
+                                },
+                                "tzItL": {
+                                  "content": "correo@empresa.com"
+                                }
+                              }
+                            },
+                            {
+                              "id": "V2lJ3",
+                              "type": "ref",
+                              "ref": "wuJtt",
+                              "name": "Teléfono",
+                              "width": "fill_container",
+                              "descendants": {
+                                "Dsnx9": {
+                                  "content": "Teléfono"
+                                },
+                                "tzItL": {
+                                  "content": "+52 55 0000 0000"
+                                }
+                              }
+                            },
+                            {
+                              "id": "luLZ7",
+                              "type": "ref",
+                              "ref": "wuJtt",
+                              "name": "Nombre representante *",
+                              "width": "fill_container",
+                              "x": 0,
+                              "y": 581,
+                              "descendants": {
+                                "Dsnx9": {
+                                  "content": "Nombre comercial *"
+                                },
+                                "tzItL": {
+                                  "content": "Nombre comercial"
+                                }
+                              }
+                            },
+                            {
+                              "id": "Zn862",
+                              "type": "ref",
+                              "ref": "QiQRT",
+                              "name": "Tipo de volumen *",
+                              "width": "fill_container",
+                              "x": 0,
+                              "y": 664,
+                              "descendants": {
+                                "QFk64": {
+                                  "content": "Razón social *"
+                                },
+                                "NWNSO": {
+                                  "content": "Seleccionar"
+                                }
+                              }
+                            },
+                            {
+                              "id": "L0RNd",
+                              "type": "ref",
+                              "ref": "wuJtt",
+                              "name": "Correo representante",
+                              "width": "fill_container",
+                              "x": 0,
+                              "y": 747,
+                              "height": "fit_content",
+                              "flipX": false,
+                              "flipY": false,
+                              "descendants": {
+                                "Dsnx9": {
+                                  "content": "Giro"
+                                },
+                                "tzItL": {
+                                  "content": "Giro de la empresa"
+                                }
+                              }
+                            },
+                            {
+                              "id": "WaI9B",
+                              "type": "ref",
+                              "ref": "wuJtt",
+                              "name": "Correo representante",
+                              "width": "fill_container",
+                              "height": "fit_content",
+                              "flipX": false,
+                              "flipY": false,
+                              "x": 0,
+                              "y": 830,
+                              "descendants": {
+                                "Dsnx9": {
+                                  "content": "Página web"
+                                },
+                                "tzItL": {
+                                  "content": "enlace http"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BX41R",
+                          "name": "Col Right",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "id": "HRRtq",
+                              "type": "ref",
+                              "ref": "QiQRT",
+                              "name": "Tipo de cliente *",
+                              "width": "fill_container",
+                              "x": 0,
+                              "y": 0,
+                              "descendants": {
+                                "QFk64": {
+                                  "content": "Tipo de cliente *"
+                                },
+                                "NWNSO": {
+                                  "content": "Seleccionar"
+                                }
+                              }
+                            },
+                            {
+                              "id": "c2Qcay",
+                              "type": "ref",
+                              "ref": "wuJtt",
+                              "name": "Nombre representante *",
+                              "width": "fill_container",
+                              "height": "fit_content",
+                              "flipX": false,
+                              "flipY": false,
+                              "x": 0,
+                              "y": 83,
+                              "descendants": {
+                                "Dsnx9": {
+                                  "content": "Nombre representante *"
+                                },
+                                "tzItL": {
+                                  "content": "Nombre completo"
+                                }
+                              }
+                            },
+                            {
+                              "id": "GDE81",
+                              "type": "ref",
+                              "ref": "QiQRT",
+                              "name": "Tipo de volumen *",
+                              "width": "fill_container",
+                              "x": 0,
+                              "y": 166,
+                              "descendants": {
+                                "QFk64": {
+                                  "content": "Cargo *"
+                                },
+                                "NWNSO": {
+                                  "content": "Seleccionar"
+                                }
+                              }
+                            },
+                            {
+                              "id": "Q5U0FF",
+                              "type": "ref",
+                              "ref": "wuJtt",
+                              "name": "Correo representante",
+                              "width": "fill_container",
+                              "x": 0,
+                              "y": 249,
+                              "descendants": {
+                                "Dsnx9": {
+                                  "content": "Correo representante"
+                                },
+                                "tzItL": {
+                                  "content": "correo@empresa.com"
+                                }
+                              }
+                            },
+                            {
+                              "id": "TIVAs",
+                              "type": "ref",
+                              "ref": "wuJtt",
+                              "name": "Correo representante",
+                              "width": "fill_container",
+                              "x": 0,
+                              "y": 332,
+                              "height": "fit_content",
+                              "flipX": false,
+                              "flipY": false,
+                              "descendants": {
+                                "Dsnx9": {
+                                  "content": "Teléfono de representante"
+                                },
+                                "tzItL": {
+                                  "content": "+52 55 0000 0000"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DkIIp",
+                      "name": "Rep Legal",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "CmSEw",
+                          "name": "Div",
+                          "fill": "$Gray Light",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "M7Qkh9",
+                          "name": "Title",
+                          "fill": "$Secondary",
+                          "content": "Documentos Legales",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Cj431",
+                          "name": "Frame 2083",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "r9uUb",
+                              "name": "Frame 2082",
+                              "width": 542,
+                              "gap": 16,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "XvBNA",
+                                  "type": "ref",
+                                  "ref": "wuJtt",
+                                  "name": "Correo de contacto *",
+                                  "width": "fill_container",
+                                  "x": 0,
+                                  "y": 0,
+                                  "height": "fit_content",
+                                  "flipX": false,
+                                  "flipY": false,
+                                  "descendants": {
+                                    "Dsnx9": {
+                                      "content": "Archivo de Constancia Fiscal *"
+                                    },
+                                    "tzItL": {
+                                      "content": "Sin archivo seleccionado",
+                                      "textAlign": "center"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Eb37r",
+                                  "name": "Upload Btn",
+                                  "height": 40,
+                                  "fill": "#f4f4f4",
+                                  "cornerRadius": 6,
+                                  "stroke": "$Accent",
+                                  "strokeWidth": 1,
+                                  "strokeAlignment": "inner",
+                                  "gap": 6,
+                                  "padding": [
+                                    8,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "cFytl",
+                                      "name": "I",
+                                      "width": 14,
+                                      "height": 14,
+                                      "icon": "upload",
+                                      "library": "lucide",
+                                      "fill": "$Accent"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "l48eN",
+                                      "name": "L",
+                                      "fill": "$Accent",
+                                      "content": "Subir",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "yibWx",
+                              "name": "Frame 2082",
+                              "width": 542,
+                              "gap": 16,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "an0OA",
+                                  "type": "ref",
+                                  "ref": "wuJtt",
+                                  "name": "Correo de contacto *",
+                                  "width": "fill_container",
+                                  "x": 0,
+                                  "y": 0,
+                                  "height": "fit_content",
+                                  "flipX": false,
+                                  "flipY": false,
+                                  "descendants": {
+                                    "Dsnx9": {
+                                      "content": "Documento de Identificación (INE, Licencia, Pasaporte) *"
+                                    },
+                                    "tzItL": {
+                                      "content": "Sin archivo seleccionado",
+                                      "textAlign": "center"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "HYmho",
+                                  "name": "Upload Btn",
+                                  "height": 40,
+                                  "fill": "#f4f4f4",
+                                  "cornerRadius": 6,
+                                  "stroke": "$Accent",
+                                  "strokeWidth": 1,
+                                  "strokeAlignment": "inner",
+                                  "gap": 6,
+                                  "padding": [
+                                    8,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "x95ya1",
+                                      "name": "I",
+                                      "width": 14,
+                                      "height": 14,
+                                      "icon": "upload",
+                                      "library": "lucide",
+                                      "fill": "$Accent"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "LQuDk",
+                                      "name": "L",
+                                      "fill": "$Accent",
+                                      "content": "Subir",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "H7uBid",
+                      "name": "Rep Legal",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "KlqkG",
+                          "name": "Div",
+                          "fill": "$Gray Light",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "Tqhe8",
+                          "name": "Title",
+                          "fill": "$Secondary",
+                          "content": "Configuración",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "b1EQNs",
+                          "name": "Grid",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "id": "fbDMp",
+                              "type": "ref",
+                              "ref": "QiQRT",
+                              "name": "Tipo de volumen *",
+                              "width": "fill_container",
+                              "x": 0,
+                              "y": 0,
+                              "descendants": {
+                                "QFk64": {
+                                  "content": "Responsable Asesor Logístico *"
+                                },
+                                "NWNSO": {
+                                  "content": "Seleccionar"
+                                }
+                              }
+                            },
+                            {
+                              "id": "AttDx",
+                              "type": "ref",
+                              "ref": "QiQRT",
+                              "name": "Tipo de volumen *",
+                              "width": "fill_container",
+                              "x": 281,
+                              "y": 0,
+                              "descendants": {
+                                "QFk64": {
+                                  "content": "Vendedor *"
+                                },
+                                "NWNSO": {
+                                  "content": "Seleccionar"
+                                }
+                              }
+                            },
+                            {
+                              "id": "vDrQ7",
+                              "type": "ref",
+                              "ref": "QiQRT",
+                              "name": "Tipo de volumen *",
+                              "width": "fill_container",
+                              "x": 562,
+                              "y": 0,
+                              "descendants": {
+                                "QFk64": {
+                                  "content": "Jefe de atención a clientes *"
+                                },
+                                "NWNSO": {
+                                  "content": "Seleccionar"
+                                }
+                              }
+                            },
+                            {
+                              "id": "VMkI0",
+                              "type": "ref",
+                              "ref": "QiQRT",
+                              "name": "Tipo de volumen *",
+                              "width": "fill_container",
+                              "x": 843,
+                              "y": 0,
+                              "descendants": {
+                                "QFk64": {
+                                  "content": "Cobranza principal *"
+                                },
+                                "NWNSO": {
+                                  "content": "Seleccionar"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Et9Oz",
+                          "name": "Grid",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "end",
+                          "children": [
+                            {
+                              "id": "vGVaH",
+                              "type": "ref",
+                              "ref": "QiQRT",
+                              "name": "Tipo de volumen *",
+                              "width": 265,
+                              "x": 0,
+                              "y": 0,
+                              "height": "fit_content",
+                              "flipX": false,
+                              "flipY": false,
+                              "descendants": {
+                                "QFk64": {
+                                  "content": "Tipo de volumen *"
+                                },
+                                "NWNSO": {
+                                  "content": "Seleccionar"
+                                }
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Mmd9c",
+                              "name": "Proveedor",
+                              "gap": 14,
+                              "padding": [
+                                14,
+                                0
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "yy2Cp",
+                                  "name": "Toggle",
+                                  "width": 36,
+                                  "height": 20,
+                                  "fill": "$Accent",
+                                  "cornerRadius": 10,
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "ellipse",
+                                      "id": "H4Ljc",
+                                      "x": 18,
+                                      "y": 2,
+                                      "name": "Dot",
+                                      "fill": "$White",
+                                      "width": 16,
+                                      "height": 16
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "pSH7H",
+                                  "name": "Name",
+                                  "fill": "$Dark Text",
+                                  "textGrowth": "fixed-width",
+                                  "width": 150,
+                                  "content": "Es proveedor Sukarne",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "OALnK",
+                          "name": "Grid",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "IuPt3",
+                              "name": "Frame 2082",
+                              "width": 340,
+                              "gap": 16,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "bUnEo",
+                                  "type": "ref",
+                                  "ref": "wuJtt",
+                                  "name": "Correo de contacto *",
+                                  "width": "fill_container",
+                                  "x": 0,
+                                  "y": 0,
+                                  "height": "fit_content",
+                                  "flipX": false,
+                                  "flipY": false,
+                                  "descendants": {
+                                    "Dsnx9": {
+                                      "content": "SuKarne direcciones de plantas"
+                                    },
+                                    "tzItL": {
+                                      "content": "Sin archivo seleccionado",
+                                      "textAlign": "center"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "j4qFW",
+                                  "name": "Upload Btn",
+                                  "height": 40,
+                                  "fill": "#f4f4f4",
+                                  "cornerRadius": 6,
+                                  "stroke": "$Accent",
+                                  "strokeWidth": 1,
+                                  "strokeAlignment": "inner",
+                                  "gap": 6,
+                                  "padding": [
+                                    8,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "ufGsG",
+                                      "name": "I",
+                                      "width": 14,
+                                      "height": 14,
+                                      "icon": "upload",
+                                      "library": "lucide",
+                                      "fill": "$Accent"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "pjND2",
+                                      "name": "L",
+                                      "fill": "$Accent",
+                                      "content": "Subir",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "A53jqI",
+                              "type": "ref",
+                              "ref": "wuJtt",
+                              "name": "Precio envío a planta",
+                              "width": "fill_container",
+                              "x": 356,
+                              "y": 0,
+                              "descendants": {
+                                "Dsnx9": {
+                                  "content": "Precio envío a planta"
+                                },
+                                "tzItL": {
+                                  "content": "$0.00"
+                                }
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "DpH1y",
+                              "name": "Límite Wrap",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "id": "Kc5qX",
+                                  "type": "ref",
+                                  "ref": "wuJtt",
+                                  "name": "Límite de crédito",
+                                  "width": "fill_container",
+                                  "descendants": {
+                                    "Dsnx9": {
+                                      "content": "Límite de crédito"
+                                    },
+                                    "tzItL": {
+                                      "content": "$0.00"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Q0LRW",
+                                  "name": "Note",
+                                  "fill": "$Gray Medium",
+                                  "content": "Solo aplica para clientes tipo Consumo",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bFQvM",
+                      "name": "Footer",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "justifyContent": "end",
+                      "children": [
+                        {
+                          "id": "Dg0yC",
+                          "type": "ref",
+                          "ref": "VeUCZ",
+                          "name": "Cancel",
+                          "descendants": {
+                            "iqKKy": {
+                              "content": "Cancelar"
+                            }
+                          }
+                        },
+                        {
+                          "id": "GlDEC",
+                          "type": "ref",
+                          "ref": "PnAxC",
+                          "name": "Continue",
+                          "width": "fit_content",
+                          "descendants": {
+                            "GnOdy": {
+                              "content": "Continuar: Tablas de precio →"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
