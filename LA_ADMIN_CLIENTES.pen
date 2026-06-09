@@ -3589,7 +3589,6 @@
                       "name": "Logo",
                       "width": "fill_container",
                       "height": 53,
-                      "fill": "$White",
                       "cornerRadius": 5,
                       "layout": "vertical",
                       "gap": 8,
@@ -3606,7 +3605,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "Logistica Adaptable logo.png",
+                            "url": "logo%20LA_blanco.png",
                             "mode": "fit"
                           },
                           "width": 140,
@@ -5800,11 +5799,10 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "sG30c",
+                      "id": "Q4LDmJ",
                       "name": "Logo",
                       "width": "fill_container",
                       "height": 53,
-                      "fill": "$White",
                       "cornerRadius": 5,
                       "layout": "vertical",
                       "gap": 8,
@@ -5817,11 +5815,11 @@
                       "children": [
                         {
                           "type": "rectangle",
-                          "id": "gbvmp",
+                          "id": "w3B4p",
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "Logistica Adaptable logo.png",
+                            "url": "logo%20LA_blanco.png",
                             "mode": "fit"
                           },
                           "width": 140,
@@ -7426,11 +7424,10 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "zfbkq",
+                      "id": "BVkbo",
                       "name": "Logo",
                       "width": "fill_container",
                       "height": 53,
-                      "fill": "$White",
                       "cornerRadius": 5,
                       "layout": "vertical",
                       "gap": 8,
@@ -7443,11 +7440,11 @@
                       "children": [
                         {
                           "type": "rectangle",
-                          "id": "qybac",
+                          "id": "TMgKX",
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "Logistica Adaptable logo.png",
+                            "url": "logo%20LA_blanco.png",
                             "mode": "fit"
                           },
                           "width": 140,
@@ -8524,11 +8521,10 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "yHRoN",
+                      "id": "WoRd4",
                       "name": "Logo",
                       "width": "fill_container",
                       "height": 53,
-                      "fill": "$White",
                       "cornerRadius": 5,
                       "layout": "vertical",
                       "gap": 8,
@@ -8541,11 +8537,11 @@
                       "children": [
                         {
                           "type": "rectangle",
-                          "id": "axeMT",
+                          "id": "mgPyY",
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "Logistica Adaptable logo.png",
+                            "url": "logo%20LA_blanco.png",
                             "mode": "fit"
                           },
                           "width": 140,
@@ -9539,11 +9535,10 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "GBR8T",
+                      "id": "rS5Id",
                       "name": "Logo",
                       "width": "fill_container",
                       "height": 53,
-                      "fill": "$White",
                       "cornerRadius": 5,
                       "layout": "vertical",
                       "gap": 8,
@@ -9556,11 +9551,11 @@
                       "children": [
                         {
                           "type": "rectangle",
-                          "id": "l8aYi",
+                          "id": "rPIKg",
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "Logistica Adaptable logo.png",
+                            "url": "logo%20LA_blanco.png",
                             "mode": "fit"
                           },
                           "width": 140,
@@ -10195,11 +10190,10 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "zqwb9",
+                      "id": "huvzP",
                       "name": "Logo",
                       "width": "fill_container",
                       "height": 53,
-                      "fill": "$White",
                       "cornerRadius": 5,
                       "layout": "vertical",
                       "gap": 8,
@@ -10212,11 +10206,11 @@
                       "children": [
                         {
                           "type": "rectangle",
-                          "id": "DEAVx",
+                          "id": "obKpR",
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "Logistica Adaptable logo.png",
+                            "url": "logo%20LA_blanco.png",
                             "mode": "fit"
                           },
                           "width": 140,
@@ -13455,11 +13449,10 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "Iua2R",
+                      "id": "glvHp",
                       "name": "Logo",
                       "width": "fill_container",
                       "height": 53,
-                      "fill": "$White",
                       "cornerRadius": 5,
                       "layout": "vertical",
                       "gap": 8,
@@ -13472,11 +13465,11 @@
                       "children": [
                         {
                           "type": "rectangle",
-                          "id": "KrJKJ",
+                          "id": "jeQho",
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "Logistica Adaptable logo.png",
+                            "url": "logo%20LA_blanco.png",
                             "mode": "fit"
                           },
                           "width": 140,
@@ -17773,11 +17766,10 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "u4TIl",
+                      "id": "dE9rz",
                       "name": "Logo",
                       "width": "fill_container",
                       "height": 53,
-                      "fill": "$White",
                       "cornerRadius": 5,
                       "layout": "vertical",
                       "gap": 8,
@@ -17790,11 +17782,11 @@
                       "children": [
                         {
                           "type": "rectangle",
-                          "id": "D5nzC9",
+                          "id": "AwVvL",
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "Logistica Adaptable logo.png",
+                            "url": "logo%20LA_blanco.png",
                             "mode": "fit"
                           },
                           "width": 140,
@@ -21850,8 +21842,8 @@
     {
       "type": "frame",
       "id": "H3Rog",
-      "x": 880,
-      "y": 2154,
+      "x": 2414,
+      "y": -324,
       "name": "TÍTULO",
       "width": "fill_container(1220)",
       "fill": "$Positivo",
@@ -21914,8 +21906,8 @@
     {
       "type": "frame",
       "id": "xyAMn",
-      "x": 880,
-      "y": 2274,
+      "x": 19618,
+      "y": 1035,
       "name": "TÍTULO",
       "width": "fill_container(1220)",
       "fill": "$Positivo",
@@ -21940,44 +21932,6 @@
           "fontFamily": "Inter",
           "fontSize": 50,
           "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "ngD5F",
-      "x": 972,
-      "y": 1431,
-      "name": "Rep Legal",
-      "width": "fill_container(1108)",
-      "layout": "vertical",
-      "gap": 16,
-      "children": [
-        {
-          "type": "rectangle",
-          "id": "ujMdv",
-          "name": "Div",
-          "fill": "$Gray Light",
-          "width": "fill_container",
-          "height": 1
-        },
-        {
-          "type": "text",
-          "id": "jxoQ1",
-          "name": "Title",
-          "fill": "$Secondary",
-          "content": "Datos extra",
-          "fontFamily": "Inter",
-          "fontSize": 14,
-          "fontWeight": "600"
-        },
-        {
-          "type": "frame",
-          "id": "UQlqQ",
-          "name": "Grid",
-          "width": "fill_container",
-          "height": "fit_content(67)",
-          "gap": 16
         }
       ]
     },
@@ -22026,11 +21980,10 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "TuNWn",
+                      "id": "BAKLT",
                       "name": "Logo",
                       "width": "fill_container",
                       "height": 53,
-                      "fill": "$White",
                       "cornerRadius": 5,
                       "layout": "vertical",
                       "gap": 8,
@@ -22043,11 +21996,11 @@
                       "children": [
                         {
                           "type": "rectangle",
-                          "id": "cBS3P",
+                          "id": "heJa1",
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "Logistica Adaptable logo.png",
+                            "url": "logo%20LA_blanco.png",
                             "mode": "fit"
                           },
                           "width": 140,
@@ -24017,11 +23970,10 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "OfXFI",
+                      "id": "nHQmT",
                       "name": "Logo",
                       "width": "fill_container",
                       "height": 53,
-                      "fill": "$White",
                       "cornerRadius": 5,
                       "layout": "vertical",
                       "gap": 8,
@@ -24034,11 +23986,11 @@
                       "children": [
                         {
                           "type": "rectangle",
-                          "id": "PWoOK",
+                          "id": "tvzfS",
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "Logistica Adaptable logo.png",
+                            "url": "logo%20LA_blanco.png",
                             "mode": "fit"
                           },
                           "width": 140,
@@ -25486,11 +25438,10 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "C91dgz",
+                      "id": "cG3qk",
                       "name": "Logo",
                       "width": "fill_container",
                       "height": 53,
-                      "fill": "$White",
                       "cornerRadius": 5,
                       "layout": "vertical",
                       "gap": 8,
@@ -25503,11 +25454,11 @@
                       "children": [
                         {
                           "type": "rectangle",
-                          "id": "Zr95L",
+                          "id": "Etl8j",
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "Logistica Adaptable logo.png",
+                            "url": "logo%20LA_blanco.png",
                             "mode": "fit"
                           },
                           "width": 140,
@@ -27783,11 +27734,10 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "mYZLt",
+                      "id": "JnuC7",
                       "name": "Logo",
                       "width": "fill_container",
                       "height": 53,
-                      "fill": "$White",
                       "cornerRadius": 5,
                       "layout": "vertical",
                       "gap": 8,
@@ -27800,11 +27750,11 @@
                       "children": [
                         {
                           "type": "rectangle",
-                          "id": "ewpb8",
+                          "id": "IeSgg",
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "Logistica Adaptable logo.png",
+                            "url": "logo%20LA_blanco.png",
                             "mode": "fit"
                           },
                           "width": 140,
@@ -31103,11 +31053,10 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "kJEzC",
+                      "id": "SxB0m",
                       "name": "Logo",
                       "width": "fill_container",
                       "height": 53,
-                      "fill": "$White",
                       "cornerRadius": 5,
                       "layout": "vertical",
                       "gap": 8,
@@ -31120,11 +31069,11 @@
                       "children": [
                         {
                           "type": "rectangle",
-                          "id": "TdKkP",
+                          "id": "VUXzc",
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "Logistica Adaptable logo.png",
+                            "url": "logo%20LA_blanco.png",
                             "mode": "fit"
                           },
                           "width": 140,
@@ -35116,11 +35065,10 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "Hb5qo",
+                      "id": "Bwzk4",
                       "name": "Logo",
                       "width": "fill_container",
                       "height": 53,
-                      "fill": "$White",
                       "cornerRadius": 5,
                       "layout": "vertical",
                       "gap": 8,
@@ -35133,11 +35081,11 @@
                       "children": [
                         {
                           "type": "rectangle",
-                          "id": "JACfB",
+                          "id": "AH4pr",
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "Logistica Adaptable logo.png",
+                            "url": "logo%20LA_blanco.png",
                             "mode": "fit"
                           },
                           "width": 140,
@@ -38342,7 +38290,7 @@
       "id": "Npx7r",
       "x": 2414,
       "y": 1722,
-      "name": "Nuevo Cliente — Paso 1",
+      "name": "Nuevo Cliente — Paso 1 (empresa)",
       "clip": true,
       "width": 1440,
       "height": 1729,
@@ -38382,11 +38330,10 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "qjM5u",
+                      "id": "BvXqz",
                       "name": "Logo",
                       "width": "fill_container",
                       "height": 53,
-                      "fill": "$White",
                       "cornerRadius": 5,
                       "layout": "vertical",
                       "gap": 8,
@@ -38399,11 +38346,11 @@
                       "children": [
                         {
                           "type": "rectangle",
-                          "id": "fvoqO",
+                          "id": "SB2CZ",
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "Logistica Adaptable logo.png",
+                            "url": "logo%20LA_blanco.png",
                             "mode": "fit"
                           },
                           "width": 140,
