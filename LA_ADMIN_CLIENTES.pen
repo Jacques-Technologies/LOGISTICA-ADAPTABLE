@@ -3733,6 +3733,74 @@
                     },
                     {
                       "type": "frame",
+                      "id": "UtYOm",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "KPOgb",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "truck",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "SEANJ",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Recolecciones",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lRb0c",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "EXpHg",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "message-circle",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "FfVFb",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Tickets",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "whEw5",
                       "name": "Facturas",
                       "width": "fill_container",
@@ -5947,6 +6015,74 @@
                     },
                     {
                       "type": "frame",
+                      "id": "m1PVS",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "AOGxJ",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "truck",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LlRBT",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Recolecciones",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "o3zLIt",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "QI5mM",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "message-circle",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vVLJq",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Tickets",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "cYu65",
                       "name": "Facturas",
                       "width": "fill_container",
@@ -7572,6 +7708,74 @@
                     },
                     {
                       "type": "frame",
+                      "id": "YdIMb",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "F6tKct",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "truck",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "t5JFQ",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Recolecciones",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YXpCm",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Huiby",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "message-circle",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "e1BcI9",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Tickets",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "h6wL4o",
                       "name": "Facturas",
                       "width": "fill_container",
@@ -8669,6 +8873,74 @@
                     },
                     {
                       "type": "frame",
+                      "id": "swDg3",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "j7HVN",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "truck",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "GDTRQ",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Recolecciones",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TxxIM",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "rEkOo",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "message-circle",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "O0YBnr",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Tickets",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "I422qS",
                       "name": "Facturas",
                       "width": "fill_container",
@@ -9683,6 +9955,74 @@
                     },
                     {
                       "type": "frame",
+                      "id": "vh73J",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "aKZUq",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "truck",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "I0gvq",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Recolecciones",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bcaGR",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "rYkCc",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "message-circle",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UvDXd",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Tickets",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "mrWIO",
                       "name": "Facturas",
                       "width": "fill_container",
@@ -10330,6 +10670,74 @@
                           "name": "L",
                           "fill": "#FFFFFF80",
                           "content": "Guías",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "b9zn3B",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "i4ABq",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "truck",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "y2ELH",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Recolecciones",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ELbyS",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "At3BT",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "message-circle",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "C7CMJ",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Tickets",
                           "fontFamily": "Inter",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -13589,6 +13997,74 @@
                           "name": "L",
                           "fill": "#FFFFFF80",
                           "content": "Guías",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IumjE",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "UtI9s",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "truck",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "yx88L",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Recolecciones",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fcs3y",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "J5RP4Q",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "message-circle",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cAhmH",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Tickets",
                           "fontFamily": "Inter",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -17914,6 +18390,74 @@
                     },
                     {
                       "type": "frame",
+                      "id": "P3dTG1",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "JacK5",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "truck",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wFY7m",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Recolecciones",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Vna02",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "CE2vH",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "message-circle",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vgijs",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Tickets",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "JFsCO",
                       "name": "Facturas",
                       "width": "fill_container",
@@ -22128,6 +22672,74 @@
                     },
                     {
                       "type": "frame",
+                      "id": "oKD2B",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "UTx2c",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "truck",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "QXGtJ",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Recolecciones",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MAvxk",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "NzF4e",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "message-circle",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Id8ob",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Tickets",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "jC38r",
                       "name": "Facturas",
                       "width": "fill_container",
@@ -24118,6 +24730,74 @@
                     },
                     {
                       "type": "frame",
+                      "id": "QXm7P",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "pXgfu",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "truck",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "m5tBY",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Recolecciones",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FkXWt",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "MAmD7",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "message-circle",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "uhMLf",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Tickets",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "IdihK",
                       "name": "Facturas",
                       "width": "fill_container",
@@ -25578,6 +26258,74 @@
                           "name": "L",
                           "fill": "#FFFFFF80",
                           "content": "Guías",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "y7qyGT",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "e1MAs6",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "truck",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "GSAoY",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Recolecciones",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kKVqN",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Nse4i",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "message-circle",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EcK3P",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Tickets",
                           "fontFamily": "Inter",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -27874,6 +28622,74 @@
                           "name": "L",
                           "fill": "#FFFFFF80",
                           "content": "Guías",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "z2W0V",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "d3cUQ",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "truck",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "yfyFb",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Recolecciones",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "crJXg",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "egUGR",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "message-circle",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "A1eNLS",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Tickets",
                           "fontFamily": "Inter",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -31193,6 +32009,74 @@
                           "name": "L",
                           "fill": "#FFFFFF80",
                           "content": "Guías",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UsfAz",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "tato0",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "truck",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "IPfbS",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Recolecciones",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "U6wLWr",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "xSAlj",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "message-circle",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "jDOHM",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Tickets",
                           "fontFamily": "Inter",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -35213,6 +36097,74 @@
                     },
                     {
                       "type": "frame",
+                      "id": "mWXGJ",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "shJ0C",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "truck",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "IOIcn",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Recolecciones",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cOrIb",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "KVkk0",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "message-circle",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "G8386z",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Tickets",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "UnPvq",
                       "name": "Facturas",
                       "width": "fill_container",
@@ -38470,6 +39422,74 @@
                           "name": "L",
                           "fill": "#FFFFFF80",
                           "content": "Guías",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RIkwR",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "gyLEa",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "truck",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wmWuo",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Recolecciones",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JlZwJ",
+                      "name": "Facturas",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "eizS6",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "message-circle",
+                          "library": "lucide",
+                          "fill": "#FFFFFF80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "JfD79",
+                          "name": "L",
+                          "fill": "#FFFFFF80",
+                          "content": "Tickets",
                           "fontFamily": "Inter",
                           "fontSize": 14,
                           "fontWeight": "normal"
