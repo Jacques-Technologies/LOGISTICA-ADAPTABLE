@@ -12341,6 +12341,27 @@
                   "alignItems": "center",
                   "children": [
                     {
+                      "id": "IiNMd",
+                      "type": "ref",
+                      "ref": "ZYA6U",
+                      "name": "Filtro Paquetería",
+                      "width": 225,
+                      "x": 0,
+                      "y": 0,
+                      "height": "fit_content",
+                      "flipX": false,
+                      "flipY": false,
+                      "descendants": {
+                        "gquBZ": {
+                          "content": "Paquetería",
+                          "enabled": false
+                        },
+                        "YjH3Z": {
+                          "content": "Asignado a"
+                        }
+                      }
+                    },
+                    {
                       "id": "NNbpc",
                       "type": "ref",
                       "ref": "ZYA6U",
@@ -12349,7 +12370,7 @@
                       "height": "fit_content",
                       "flipX": false,
                       "flipY": false,
-                      "x": 0,
+                      "x": 237,
                       "y": 0,
                       "descendants": {
                         "gquBZ": {
@@ -14031,7 +14052,7 @@
       "id": "lCDwT",
       "x": 3290,
       "y": 1368,
-      "name": "Tickets",
+      "name": "Detalle de ticket",
       "clip": true,
       "width": 1440,
       "height": 800,
@@ -15031,7 +15052,7 @@
                               "id": "uWQ0l",
                               "name": "T",
                               "fill": "$Gray Dark",
-                              "content": "Dom 07/06 · 10:45 am",
+                              "content": "Dom 07/Jun/2026 · 10:45 am",
                               "fontFamily": "Inter",
                               "fontSize": 10,
                               "fontWeight": "normal"
@@ -15042,7 +15063,7 @@
                           "type": "frame",
                           "id": "IouoC",
                           "name": "Bubble",
-                          "width": 360,
+                          "width": 500,
                           "fill": "#f0f4f8",
                           "cornerRadius": 8,
                           "padding": [
@@ -15057,7 +15078,7 @@
                               "fill": "$Dark Text",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Sigue sin funcionar, afecta a todos nuestros usuarios.",
+                              "content": "Hola, me pueden decir quién recibió el paquete? no me fue entregado a mi.",
                               "lineHeight": 1.4,
                               "fontFamily": "Inter",
                               "fontSize": 12,
@@ -15098,7 +15119,7 @@
                               "id": "PjqEB",
                               "name": "T",
                               "fill": "$Gray Dark",
-                              "content": "Dom 07/06 · 11:30 am",
+                              "content": "Dom 07/Jun/2026· 11:30 am",
                               "fontFamily": "Inter",
                               "fontSize": 10,
                               "fontWeight": "normal"
@@ -15109,7 +15130,7 @@
                           "type": "frame",
                           "id": "bDgVL",
                           "name": "Bubble",
-                          "width": 531,
+                          "width": 520,
                           "fill": "#f4f4f4ff",
                           "cornerRadius": 8,
                           "padding": [
@@ -15124,7 +15145,7 @@
                               "fill": "$Dark Text",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Revisando en ambiente de staging, parece ser un bug de permisos tras el último deploy.",
+                              "content": "Claro, quedó registrado que fue entregado a: LORENZA DÍAZ LEÓN el día 06/06/26",
                               "lineHeight": 1.4,
                               "fontFamily": "Inter",
                               "fontSize": 12,
@@ -15164,7 +15185,7 @@
                               "id": "mDhvw",
                               "name": "T",
                               "fill": "$Gray Dark",
-                              "content": "Dom 07/06 · 10:45 am",
+                              "content": "Dom 07/Jun/2026· 10:45 am",
                               "fontFamily": "Inter",
                               "fontSize": 10,
                               "fontWeight": "normal"
@@ -15175,7 +15196,7 @@
                           "type": "frame",
                           "id": "l6fZ7",
                           "name": "Bubble",
-                          "width": 290,
+                          "width": 170,
                           "fill": "#f0f4f8",
                           "cornerRadius": 8,
                           "padding": [
@@ -15190,7 +15211,7 @@
                               "fill": "$Dark Text",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Ok. Por favor me confirman cuando esté listo.",
+                              "content": "Ok. Muchas gracias.",
                               "lineHeight": 1.4,
                               "fontFamily": "Inter",
                               "fontSize": 12,
@@ -15280,6 +15301,15 @@
           ]
         }
       ]
+    },
+    {
+      "type": "note",
+      "id": "lNXzB",
+      "x": 2936,
+      "y": 2366,
+      "width": 250,
+      "height": 219,
+      "content": "Se removió el mensaje y botón de \"Nuevo mensaje + Contestar\". Solo aparece el icono de mensajes nuevos junto al estado del ticket. Si lo abren, se oculta ese icono."
     }
   ],
   "variables": {
