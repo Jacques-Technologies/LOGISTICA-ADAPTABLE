@@ -15131,11 +15131,14 @@
     {
       "type": "frame",
       "id": "KoCrG",
-      "x": -2171,
-      "y": -480,
+      "x": 1766,
+      "y": 2093,
       "name": "Prospect Card States",
       "fill": "#f4f4f4",
       "cornerRadius": 12,
+      "stroke": "$Primary",
+      "strokeWidth": 1,
+      "strokeAlignment": "inner",
       "layout": "vertical",
       "gap": 20,
       "padding": 24,
@@ -22711,32 +22714,6 @@
                           "name": "L",
                           "fill": "$Gray Dark",
                           "content": "Abonos",
-                          "fontFamily": "Inter",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "AvpWl",
-                      "name": "Tab Abonos",
-                      "stroke": "$Gray Light",
-                      "strokeWidth": {
-                        "bottom": 1
-                      },
-                      "strokeAlignment": "inner",
-                      "padding": [
-                        10,
-                        20
-                      ],
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "st0T5",
-                          "name": "L",
-                          "fill": "$Gray Dark",
-                          "content": "Abonos sin factura",
                           "fontFamily": "Inter",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -32858,45 +32835,344 @@
                   "id": "eJ5a0",
                   "name": "Title",
                   "fill": "$Dark Text",
-                  "content": "Facturas",
+                  "content": "Administración",
                   "fontFamily": "Inter",
                   "fontSize": 20,
                   "fontWeight": "700"
                 },
                 {
                   "type": "frame",
-                  "id": "xvnYd",
-                  "name": "Btn Download",
-                  "cornerRadius": 6,
-                  "stroke": "$Gray Light",
-                  "strokeWidth": 1,
+                  "id": "HtcJU",
+                  "name": "Actions",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "o9MCPR",
+                      "name": "Btn Download",
+                      "cornerRadius": 6,
+                      "stroke": "$Gray Light",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "c7nCP",
+                          "name": "I",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "download",
+                          "library": "lucide",
+                          "fill": "$Primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "skG2g",
+                          "name": "L",
+                          "fill": "$Primary",
+                          "content": "Descargar xlsx",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "t7xUf7",
+                      "name": "Btn Cancelar",
+                      "cornerRadius": 6,
+                      "stroke": "$Gray Light",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "KXyYt",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "list-filter",
+                          "library": "lucide",
+                          "fill": "$Gray Dark"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XJKT3",
+                          "name": "L",
+                          "fill": "$Gray Dark",
+                          "content": "Ocultar filtros",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "isW7k",
+              "name": "Tab Bar",
+              "width": "fill_container",
+              "fill": "$White",
+              "stroke": "$Gray Light",
+              "strokeWidth": {
+                "bottom": 1
+              },
+              "strokeAlignment": "inner",
+              "padding": [
+                0,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dRrDS",
+                  "name": "Tab Documentos",
+                  "stroke": {
+                    "type": "color",
+                    "color": "$Primary",
+                    "enabled": false
+                  },
+                  "strokeWidth": {
+                    "bottom": 2
+                  },
                   "strokeAlignment": "inner",
-                  "gap": 8,
+                  "gap": 6,
                   "padding": [
-                    10,
+                    14,
                     16
                   ],
                   "alignItems": "center",
                   "children": [
                     {
                       "type": "icon",
-                      "id": "r0sjHr",
+                      "id": "G1OyWv",
                       "name": "I",
                       "width": 16,
                       "height": 16,
-                      "icon": "download",
+                      "icon": "list",
+                      "library": "lucide",
+                      "fill": "$Gray Dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "x3r5Xg",
+                      "name": "L",
+                      "fill": "$Gray Dark",
+                      "content": "Tabla de precios",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CrqSY",
+                  "name": "Tab Documentos",
+                  "stroke": "$Primary",
+                  "strokeWidth": {
+                    "bottom": 2
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "FmVgR",
+                      "name": "I",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "dollar-sign",
                       "library": "lucide",
                       "fill": "$Primary"
                     },
                     {
                       "type": "text",
-                      "id": "UFhNr",
+                      "id": "I5S23",
                       "name": "L",
                       "fill": "$Primary",
-                      "content": "Descargar",
+                      "content": "Facturas",
                       "fontFamily": "Inter",
-                      "fontSize": 14,
+                      "fontSize": 13,
                       "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "T1YpFX",
+                  "name": "Tab Notas",
+                  "stroke": {
+                    "type": "color",
+                    "color": "$Primary",
+                    "enabled": false
+                  },
+                  "strokeWidth": {
+                    "bottom": 2
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "XfUBZ",
+                      "name": "I",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "user",
+                      "library": "lucide",
+                      "fill": "$Gray Dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "r93FN",
+                      "name": "L",
+                      "fill": "$Gray Dark",
+                      "content": "Usuarios",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mNLSk",
+                  "name": "Tab Formulario",
+                  "stroke": "#FFFFFF00",
+                  "strokeWidth": {
+                    "bottom": 2
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "FMKNq",
+                      "name": "I",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "shield-check",
+                      "library": "lucide",
+                      "fill": "$Gray Dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "S6jgs",
+                      "name": "L",
+                      "fill": "$Gray Dark",
+                      "content": "Seguros",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mJvK8",
+                  "name": "Tab Formulario",
+                  "stroke": "#FFFFFF00",
+                  "strokeWidth": {
+                    "bottom": 2
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "vFtuS",
+                      "name": "I",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "folder-search",
+                      "library": "lucide",
+                      "fill": "$Gray Dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BSR40",
+                      "name": "L",
+                      "fill": "$Gray Dark",
+                      "content": "Auditoría",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GZ9EZ",
+                  "name": "Tab Formulario",
+                  "stroke": "#FFFFFF00",
+                  "strokeWidth": {
+                    "bottom": 2
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "zhzgc",
+                      "name": "I",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "percent",
+                      "library": "lucide",
+                      "fill": "$Gray Dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Pr349",
+                      "name": "L",
+                      "fill": "$Gray Dark",
+                      "content": "Comisiones",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -32976,60 +33252,332 @@
                 },
                 {
                   "type": "frame",
-                  "id": "Dkkzd",
-                  "name": "Filters",
+                  "id": "P1K5y",
+                  "name": "Filtros",
                   "width": "fill_container",
-                  "fill": "$White",
-                  "cornerRadius": 10,
-                  "effect": {
-                    "type": "shadow",
-                    "shadowType": "outer",
-                    "color": "#0000000A",
-                    "offset": {
-                      "x": 0,
-                      "y": 2
-                    },
-                    "blur": 8,
-                    "spread": -2
+                  "stroke": "$Gray Light",
+                  "strokeWidth": {
+                    "bottom": 1
                   },
+                  "strokeAlignment": "inner",
                   "layout": "vertical",
-                  "gap": 14,
+                  "gap": 12,
                   "padding": [
                     16,
-                    20
+                    0
                   ],
                   "children": [
                     {
                       "type": "frame",
-                      "id": "NWvRR",
-                      "name": "Filter Header",
+                      "id": "pdPHj",
+                      "name": "Filtros Row 1",
                       "width": "fill_container",
-                      "justifyContent": "space_between",
+                      "gap": 12,
                       "alignItems": "center",
                       "children": [
                         {
                           "type": "frame",
-                          "id": "Woj2X",
-                          "name": "Left",
-                          "gap": 8,
+                          "id": "sdKq5",
+                          "name": "Filtro Fecha",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "J0L2Xb",
+                              "x": 0,
+                              "y": 0,
+                              "name": "textareaLabel",
+                              "enabled": false,
+                              "fill": "$Primary",
+                              "content": "Fecha de guía",
+                              "fontFamily": "$Font Family",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "X643d",
+                              "name": "textareaFrame",
+                              "width": 330,
+                              "height": 40,
+                              "fill": "$White",
+                              "cornerRadius": 6,
+                              "stroke": "$Gray Light",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "gap": 10,
+                              "padding": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "SLTqE",
+                                  "name": "textareaText",
+                                  "fill": "$Gray Medium",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Fecha de abono: DD/MMM/AA - DD/MMM/AA",
+                                  "fontFamily": "$Font Family",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "icon",
+                                  "id": "v3dIqN",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "chevron-down",
+                                  "library": "feather",
+                                  "fill": "$Gray Medium"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fO6Hl",
+                          "name": "Filtro Guía",
+                          "width": 220,
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "mo9Sr",
+                              "x": 0,
+                              "y": 0,
+                              "name": "textareaLabel",
+                              "enabled": false,
+                              "fill": "$Primary",
+                              "content": "No. de guía",
+                              "fontFamily": "$Font Family",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "XYsrd",
+                              "name": "textareaFrame",
+                              "width": "fill_container",
+                              "height": 40,
+                              "fill": "$White",
+                              "cornerRadius": 6,
+                              "stroke": "$Gray Light",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "gap": 10,
+                              "padding": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "s8KO8H",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "search",
+                                  "library": "feather",
+                                  "fill": "$Gray Medium"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "FE1FE",
+                                  "name": "textareaText",
+                                  "fill": "$Gray Medium",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Buscar por cliente...",
+                                  "fontFamily": "$Font Family",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "AEADH",
+                          "name": "Filtro Guía",
+                          "width": 220,
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "q0LZcN",
+                              "x": 0,
+                              "y": 0,
+                              "name": "textareaLabel",
+                              "enabled": false,
+                              "fill": "$Primary",
+                              "content": "No. de guía",
+                              "fontFamily": "$Font Family",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "y9iUuE",
+                              "name": "textareaFrame",
+                              "width": "fill_container",
+                              "height": 40,
+                              "fill": "$White",
+                              "cornerRadius": 6,
+                              "stroke": "$Gray Light",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "gap": 10,
+                              "padding": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "KAGus",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "search",
+                                  "library": "feather",
+                                  "fill": "$Gray Medium"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "gGKUe",
+                                  "name": "textareaText",
+                                  "fill": "$Gray Medium",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Buscar por # factura...",
+                                  "fontFamily": "$Font Family",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "AEIMX",
+                          "name": "Filtro Paquetería",
+                          "width": 150,
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "utf2e",
+                              "x": 0,
+                              "y": 0,
+                              "name": "textareaLabel",
+                              "enabled": false,
+                              "fill": "$Primary",
+                              "content": "Paquetería",
+                              "fontFamily": "$Font Family",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "d1nrUO",
+                              "name": "textareaFrame",
+                              "width": "fill_container",
+                              "height": 40,
+                              "fill": "$White",
+                              "cornerRadius": 6,
+                              "stroke": "$Gray Light",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "gap": 10,
+                              "padding": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "povaj",
+                                  "name": "textareaText",
+                                  "fill": "$Gray Medium",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Tipo",
+                                  "fontFamily": "$Font Family",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "icon",
+                                  "id": "MGLfm",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "chevron-down",
+                                  "library": "feather",
+                                  "fill": "$Gray Medium"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "h34Ca",
+                          "name": "Checkbox unselected",
+                          "gap": 10,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "icon",
-                              "id": "U8JI1",
-                              "name": "I",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "sliders-horizontal",
-                              "library": "lucide",
-                              "fill": "$Primary"
+                              "id": "o5G480",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "circle",
+                              "library": "feather",
+                              "fill": "$Gray Medium"
                             },
                             {
                               "type": "text",
-                              "id": "fQOKv",
-                              "name": "L",
+                              "id": "McZxD",
+                              "name": "dateInputLabel",
                               "fill": "$Primary",
-                              "content": "Filtros",
+                              "content": "Ver no ligadas a factura",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nqKDV",
+                      "name": "Filtros Row 2",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "justifyContent": "end",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Z3LyRs",
+                          "name": "Btn Cancelar",
+                          "cornerRadius": 6,
+                          "stroke": "$Gray Light",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 8,
+                          "padding": [
+                            10,
+                            20
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "yk9Wd",
+                              "name": "L",
+                              "fill": "$Gray Dark",
+                              "content": "Limpiar filtros",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "600"
@@ -33038,406 +33586,27 @@
                         },
                         {
                           "type": "frame",
-                          "id": "JZ3t7",
-                          "name": "Clear",
-                          "cornerRadius": 4,
-                          "gap": 4,
+                          "id": "ePCcM",
+                          "name": "Btn Cancelar",
+                          "fill": "$Dark Text",
+                          "cornerRadius": 6,
+                          "gap": 8,
                           "padding": [
-                            4,
-                            10
+                            10,
+                            20
                           ],
+                          "justifyContent": "center",
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "icon",
-                              "id": "Nt56H",
-                              "name": "I",
-                              "width": 12,
-                              "height": 12,
-                              "icon": "x",
-                              "library": "lucide",
-                              "fill": "$Gray Dark"
-                            },
-                            {
                               "type": "text",
-                              "id": "eUi9s",
+                              "id": "rJygd",
                               "name": "L",
-                              "fill": "$Gray Dark",
-                              "content": "Limpiar filtros",
-                              "fontFamily": "Inter",
-                              "fontSize": 12,
-                              "fontWeight": "500"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "AVg2a",
-                      "name": "Filter Row",
-                      "width": "fill_container",
-                      "gap": 12,
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "d9dr9",
-                          "name": "F Fecha de abono",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 5,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "ex4MB",
-                              "name": "Label",
-                              "fill": "$Gray Dark",
-                              "content": "FECHA DE ABONO",
-                              "fontFamily": "Inter",
-                              "fontSize": 11,
-                              "fontWeight": "600"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "usHL8",
-                              "name": "Input",
-                              "width": "fill_container",
-                              "height": 36,
                               "fill": "$White",
-                              "cornerRadius": 6,
-                              "stroke": "$Gray Light",
-                              "strokeWidth": 1,
-                              "strokeAlignment": "inner",
-                              "gap": 8,
-                              "padding": [
-                                0,
-                                10
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "QOXOq",
-                                  "name": "I",
-                                  "width": 14,
-                                  "height": 14,
-                                  "icon": "calendar",
-                                  "library": "lucide",
-                                  "fill": "$Gray Medium"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "GytNw",
-                                  "name": "P",
-                                  "fill": "$Gray Medium",
-                                  "content": "dd/mm/aaaa",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "j1ClS",
-                          "name": "F Monto",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 5,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "umV8J",
-                              "name": "Label",
-                              "fill": "$Gray Dark",
-                              "content": "MONTO",
+                              "content": "Aplicar filtros",
                               "fontFamily": "Inter",
-                              "fontSize": 11,
+                              "fontSize": 14,
                               "fontWeight": "600"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "Z4K0X2",
-                              "name": "Input",
-                              "width": "fill_container",
-                              "height": 36,
-                              "fill": "$White",
-                              "cornerRadius": 6,
-                              "stroke": "$Gray Light",
-                              "strokeWidth": 1,
-                              "strokeAlignment": "inner",
-                              "gap": 8,
-                              "padding": [
-                                0,
-                                10
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "Jkv0t",
-                                  "name": "I",
-                                  "width": 14,
-                                  "height": 14,
-                                  "icon": "search",
-                                  "library": "lucide",
-                                  "fill": "$Gray Medium"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "cb8EG",
-                                  "name": "P",
-                                  "fill": "$Gray Medium",
-                                  "content": "Buscar monto...",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "m1AUr5",
-                          "name": "F No. factura",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 5,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "yabMI",
-                              "name": "Label",
-                              "fill": "$Gray Dark",
-                              "content": "NO. FACTURA",
-                              "fontFamily": "Inter",
-                              "fontSize": 11,
-                              "fontWeight": "600"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "OSnTM",
-                              "name": "Input",
-                              "width": "fill_container",
-                              "height": 36,
-                              "fill": "$White",
-                              "cornerRadius": 6,
-                              "stroke": "$Gray Light",
-                              "strokeWidth": 1,
-                              "strokeAlignment": "inner",
-                              "gap": 8,
-                              "padding": [
-                                0,
-                                10
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "I28UH",
-                                  "name": "I",
-                                  "width": 14,
-                                  "height": 14,
-                                  "icon": "search",
-                                  "library": "lucide",
-                                  "fill": "$Gray Medium"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "NDWsL",
-                                  "name": "P",
-                                  "fill": "$Gray Medium",
-                                  "content": "Buscar factura...",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "BXjyY",
-                          "name": "F Cliente",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 5,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "y4eT30",
-                              "name": "Label",
-                              "fill": "$Gray Dark",
-                              "content": "CLIENTE",
-                              "fontFamily": "Inter",
-                              "fontSize": 11,
-                              "fontWeight": "600"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "Oa4eO",
-                              "name": "Input",
-                              "width": "fill_container",
-                              "height": 36,
-                              "fill": "$White",
-                              "cornerRadius": 6,
-                              "stroke": "$Gray Light",
-                              "strokeWidth": 1,
-                              "strokeAlignment": "inner",
-                              "gap": 8,
-                              "padding": [
-                                0,
-                                10
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "JAVvn",
-                                  "name": "I",
-                                  "width": 14,
-                                  "height": 14,
-                                  "icon": "search",
-                                  "library": "lucide",
-                                  "fill": "$Gray Medium"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "llwiE",
-                                  "name": "P",
-                                  "fill": "$Gray Medium",
-                                  "content": "Buscar cliente...",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "A7YoI6",
-                          "name": "F Ligado",
-                          "width": 180,
-                          "layout": "vertical",
-                          "gap": 5,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "I1FE4C",
-                              "name": "Label",
-                              "fill": "$Gray Dark",
-                              "content": "LIGADO A FACTURA",
-                              "fontFamily": "Inter",
-                              "fontSize": 11,
-                              "fontWeight": "600"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "O9ByP",
-                              "name": "Input",
-                              "width": "fill_container",
-                              "height": 36,
-                              "fill": "$White",
-                              "cornerRadius": 6,
-                              "stroke": "$Gray Light",
-                              "strokeWidth": 1,
-                              "strokeAlignment": "inner",
-                              "gap": 8,
-                              "padding": [
-                                0,
-                                10
-                              ],
-                              "justifyContent": "space_between",
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "o8kyx",
-                                  "name": "P",
-                                  "fill": "$Gray Medium",
-                                  "content": "Todos",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                },
-                                {
-                                  "type": "icon",
-                                  "id": "P73hU",
-                                  "name": "Chev",
-                                  "width": 14,
-                                  "height": 14,
-                                  "icon": "chevron-down",
-                                  "library": "lucide",
-                                  "fill": "$Gray Medium"
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "sKms2",
-                          "name": "F Estado",
-                          "width": 160,
-                          "layout": "vertical",
-                          "gap": 5,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "k27mT",
-                              "name": "Label",
-                              "fill": "$Gray Dark",
-                              "content": "ESTADO FACTURA",
-                              "fontFamily": "Inter",
-                              "fontSize": 11,
-                              "fontWeight": "600"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "Wm9wT",
-                              "name": "Input",
-                              "width": "fill_container",
-                              "height": 36,
-                              "fill": "$White",
-                              "cornerRadius": 6,
-                              "stroke": "$Gray Light",
-                              "strokeWidth": 1,
-                              "strokeAlignment": "inner",
-                              "gap": 8,
-                              "padding": [
-                                0,
-                                10
-                              ],
-                              "justifyContent": "space_between",
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "Y3zl8W",
-                                  "name": "P",
-                                  "fill": "$Gray Medium",
-                                  "content": "Todos",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                },
-                                {
-                                  "type": "icon",
-                                  "id": "etgAA",
-                                  "name": "Chev",
-                                  "width": 14,
-                                  "height": 14,
-                                  "icon": "chevron-down",
-                                  "library": "lucide",
-                                  "fill": "$Gray Medium"
-                                }
-                              ]
                             }
                           ]
                         }
@@ -36999,7 +37168,7 @@
                   "id": "FpJxv",
                   "name": "Subtitle",
                   "fill": "$Gray Dark",
-                  "content": "Abono de $8,500.00  ·  12/06/2026  ·  FA-2026-0450 / Serie A",
+                  "content": "Abono de $8,500.00  ·  12/Jun/2026  ·  FA-2026-0450 / Serie A",
                   "fontFamily": "Inter",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -38500,6 +38669,36 @@
                   "alignItems": "center",
                   "children": [
                     {
+                      "type": "icon",
+                      "id": "T8Iw7T",
+                      "name": "Back",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-left",
+                      "library": "lucide",
+                      "fill": "$Gray Dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zJyK6",
+                      "name": "BC1",
+                      "fill": "$Gray Dark",
+                      "content": "Administración",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "a78eKj",
+                      "name": "Sep",
+                      "fill": "$Gray Medium",
+                      "content": "/",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
                       "type": "text",
                       "id": "mm1ZD",
                       "name": "Title",
@@ -38626,6 +38825,262 @@
                           "fontWeight": "600"
                         }
                       ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "t225a",
+              "name": "Tab Bar",
+              "width": "fill_container",
+              "fill": "$White",
+              "stroke": "$Gray Light",
+              "strokeWidth": {
+                "bottom": 1
+              },
+              "strokeAlignment": "inner",
+              "padding": [
+                0,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LZdIP",
+                  "name": "Tab Documentos",
+                  "stroke": {
+                    "type": "color",
+                    "color": "$Primary",
+                    "enabled": false
+                  },
+                  "strokeWidth": {
+                    "bottom": 2
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "O4Ji8",
+                      "name": "I",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "list",
+                      "library": "lucide",
+                      "fill": "$Gray Dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Rqs8H",
+                      "name": "L",
+                      "fill": "$Gray Dark",
+                      "content": "Tabla de precios",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zxteP",
+                  "name": "Tab Documentos",
+                  "stroke": {
+                    "type": "color",
+                    "color": "$Primary",
+                    "enabled": false
+                  },
+                  "strokeWidth": {
+                    "bottom": 2
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "pXGs0",
+                      "name": "I",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "dollar-sign",
+                      "library": "lucide",
+                      "fill": "$Gray Dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "S7nwn",
+                      "name": "L",
+                      "fill": "$Gray Dark",
+                      "content": "Facturas",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KClbi",
+                  "name": "Tab Notas",
+                  "stroke": {
+                    "type": "color",
+                    "color": "$Primary",
+                    "enabled": false
+                  },
+                  "strokeWidth": {
+                    "bottom": 2
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Ixhft",
+                      "name": "I",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "user",
+                      "library": "lucide",
+                      "fill": "$Gray Dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "M6CZ3",
+                      "name": "L",
+                      "fill": "$Gray Dark",
+                      "content": "Usuarios",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Z9UHc3",
+                  "name": "Tab Formulario",
+                  "stroke": "#FFFFFF00",
+                  "strokeWidth": {
+                    "bottom": 2
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "AmJTF",
+                      "name": "I",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "shield-check",
+                      "library": "lucide",
+                      "fill": "$Gray Dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "u8A5uf",
+                      "name": "L",
+                      "fill": "$Gray Dark",
+                      "content": "Seguros",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ylubT",
+                  "name": "Tab Formulario",
+                  "stroke": "$Primary",
+                  "strokeWidth": {
+                    "bottom": 2
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "icpz9",
+                      "name": "I",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "folder-search",
+                      "library": "lucide",
+                      "fill": "$Primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HnJ0U",
+                      "name": "L",
+                      "fill": "$Primary",
+                      "content": "Auditoría",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ukycs",
+                  "name": "Tab Formulario",
+                  "stroke": "#FFFFFF00",
+                  "strokeWidth": {
+                    "bottom": 2
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "TNMX8",
+                      "name": "I",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "percent",
+                      "library": "lucide",
+                      "fill": "$Gray Dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PBvY3",
+                      "name": "L",
+                      "fill": "$Gray Dark",
+                      "content": "Comisiones",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -44354,6 +44809,26 @@
                     {
                       "type": "text",
                       "id": "S6eSZY",
+                      "name": "BC1",
+                      "fill": "$Gray Dark",
+                      "content": "Administración",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MlaiG",
+                      "name": "Sep",
+                      "fill": "$Gray Medium",
+                      "content": "/",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NuAHo",
                       "name": "BC1",
                       "fill": "$Gray Dark",
                       "content": "Auditoría",
