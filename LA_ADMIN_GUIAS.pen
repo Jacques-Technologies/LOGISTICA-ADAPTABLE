@@ -1,5 +1,5 @@
 {
-  "version": "2.13",
+  "version": "2.14",
   "children": [
     {
       "type": "frame",
@@ -66237,6 +66237,82 @@
         },
         {
           "type": "frame",
+          "id": "k0EIS0",
+          "name": "cardsRow",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 30,
+          "padding": [
+            20,
+            30
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "mF9PA",
+              "name": "F Etiqueta",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NwDe9",
+                  "name": "Etiqueta Label",
+                  "fill": "$Dark Text",
+                  "content": "¿Tipo de rastreo?",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "tiD19",
+                  "name": "Etiqueta Options",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "Ev2hK",
+                      "type": "ref",
+                      "ref": "yXWAO",
+                      "name": "Opt Generar",
+                      "descendants": {
+                        "MpzQk": {
+                          "library": "feather",
+                          "icon": "circle",
+                          "fill": "$Gray Medium"
+                        },
+                        "CMwUS": {
+                          "content": "Rastreo manual desde el portal"
+                        }
+                      }
+                    },
+                    {
+                      "id": "z1zgU8",
+                      "type": "ref",
+                      "ref": "SOaSw",
+                      "name": "Opt Subir",
+                      "descendants": {
+                        "YTrKY": {
+                          "library": "feather",
+                          "icon": "check-circle",
+                          "fill": "$Accent"
+                        },
+                        "x2UD3S": {
+                          "content": "Ligar a URL"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
           "id": "Micx9",
           "name": "actionBar",
           "width": "fill_container",
@@ -69395,6 +69471,283 @@
           ]
         }
       ]
+    },
+    {
+      "type": "text",
+      "id": "id6Xk",
+      "x": 754,
+      "y": 19456,
+      "fill": "#ffffff",
+      "content": "Nueva guía interna escenario 2",
+      "fontFamily": "Inter",
+      "fontSize": 200,
+      "fontWeight": "normal"
+    },
+    {
+      "type": "frame",
+      "id": "pJrIa",
+      "x": 5641,
+      "y": 18118,
+      "name": "Etiqueta",
+      "clip": true,
+      "width": 612,
+      "height": "fill_container(792)",
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "m8ejEY",
+          "x": 0,
+          "y": 0,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "Banner%20LA%20etiqueta.jpg",
+            "mode": "fill"
+          },
+          "width": 612,
+          "height": 77
+        },
+        {
+          "type": "frame",
+          "id": "PtRS1",
+          "x": 182,
+          "y": 15.19082944969341,
+          "name": "Title Row",
+          "rotation": 0.02634631917955515,
+          "width": 415,
+          "layout": "vertical",
+          "gap": 10,
+          "children": [
+            {
+              "type": "text",
+              "id": "oy4oM",
+              "name": "title",
+              "fill": "$White",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Blvd. Dr. Jesús Kumate Rodríguez #5420 Interior 34\nParque Industrial El Trébol, 80300 Culiacán Rosales, Sin.",
+              "textAlign": "right",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "vg9RE",
+              "name": "title",
+              "fill": "$White",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "+52 (667) 714 86 00  | http://logisticaadaptable.com/ | info@logisticaadaptable.com",
+              "textAlign": "right",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SQOv1",
+          "x": 0,
+          "y": 104,
+          "name": "rightSide",
+          "width": "fill_container(612)",
+          "cornerRadius": 10,
+          "layout": "vertical",
+          "gap": 5,
+          "padding": [
+            20,
+            30
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "GvKLs",
+              "name": "Title Row",
+              "rotation": 0.02634631917955515,
+              "width": "fill_container",
+              "stroke": "$Dark Text",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "gap": 20,
+              "padding": 10,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KJeyd",
+                  "name": "title",
+                  "fill": "$Dark Text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "No. GUÍA",
+                  "fontFamily": "Inter",
+                  "fontSize": 28
+                },
+                {
+                  "type": "text",
+                  "id": "C1oWm",
+                  "name": "title",
+                  "fill": "$Dark Text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "12345678",
+                  "textAlign": "right",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FlGAJ",
+          "x": 0,
+          "y": 198,
+          "name": "rightSide",
+          "width": "fill_container(612)",
+          "cornerRadius": 10,
+          "layout": "vertical",
+          "gap": 5,
+          "padding": [
+            20,
+            30
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "m1Kga",
+              "name": "Title Row",
+              "rotation": 0.02634631917955515,
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 5,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PpWwa",
+                  "name": "title",
+                  "fill": "$Dark Text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "ORIGEN",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "letterSpacing": 10
+                },
+                {
+                  "type": "text",
+                  "id": "NIBsG",
+                  "name": "title",
+                  "fill": "$Dark Text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "NOMBRE",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "m0za9u",
+                  "name": "title",
+                  "fill": "$Dark Text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "EMPRESA",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "E9GF36",
+                  "name": "title",
+                  "fill": "$Dark Text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "CALLE, # EXTERIOR, # INTERIOR, COLONIA",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "pBLja",
+                  "name": "title",
+                  "fill": "$Dark Text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "CIUDAD, ESTADO, PAÍS",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "KMws9",
+                  "name": "title",
+                  "fill": "$Dark Text",
+                  "textGrowth": "fixed-width-height",
+                  "width": "fill_container",
+                  "height": 14,
+                  "content": "CP 00000",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "P633Q",
+                  "name": "title",
+                  "fill": "$Dark Text",
+                  "textGrowth": "fixed-width-height",
+                  "width": "fill_container",
+                  "height": 14,
+                  "content": "REFERENCIAS",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "ezXTs",
+                  "name": "title",
+                  "fill": "$Dark Text",
+                  "textGrowth": "fixed-width-height",
+                  "width": "fill_container",
+                  "height": 14,
+                  "content": "TEL. 55 000 000 0000",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "b2FIDE",
+                  "name": "title",
+                  "fill": "$Dark Text",
+                  "textGrowth": "fixed-width-height",
+                  "width": "fill_container",
+                  "height": 14,
+                  "content": "ejemplo@correo.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "variables": {
@@ -69446,5 +69799,6 @@
       "type": "color",
       "value": "#c61818"
     }
-  }
+  },
+  "fileToken": "c8e6ed38-48cf-4a23-b8bf-965632727610"
 }
