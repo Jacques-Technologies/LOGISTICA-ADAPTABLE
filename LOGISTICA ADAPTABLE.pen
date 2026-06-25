@@ -81934,8 +81934,8 @@
       "type": "frame",
       "id": "O3UBMv",
       "x": 4885,
-      "y": 14444,
-      "name": "Detalle de guía (permiso Admin)",
+      "y": 15546,
+      "name": "Detalle de guía - Datos (permiso Admin)",
       "width": 870,
       "fill": "$White",
       "cornerRadius": 10,
@@ -83843,7 +83843,7 @@
       "type": "note",
       "id": "yXHWX",
       "x": 4885,
-      "y": 15482,
+      "y": 16584,
       "width": 250,
       "height": 219,
       "content": "Dato solo visible para admin:\n- Aliado\n- Días promesa de aliado"
@@ -83853,7 +83853,7 @@
       "id": "Rsp4u",
       "x": 4885,
       "y": 13003,
-      "name": "Detalle de guía",
+      "name": "Detalle de guía - Datos",
       "width": 870,
       "fill": "$White",
       "cornerRadius": 10,
@@ -85684,7 +85684,7 @@
       "id": "F7qmT",
       "x": 5892,
       "y": 13941,
-      "name": "Detalle de guía (Solicitado)",
+      "name": "Detalle de guía - Recolección (Solicitado)",
       "width": 870,
       "height": 849,
       "fill": "$White",
@@ -87273,7 +87273,7 @@
                             {
                               "type": "text",
                               "id": "frYsh",
-                              "fill": "$Primary",
+                              "fill": "$Positivo",
                               "content": "PROGRAMADO",
                               "fontFamily": "Inter",
                               "fontSize": 12,
@@ -87509,8 +87509,8 @@
     {
       "type": "frame",
       "id": "eAhfO",
-      "x": 12216,
-      "y": 13957,
+      "x": 7837,
+      "y": 15546,
       "name": "Cargo después de la emisión",
       "fill": "#ffffff",
       "cornerRadius": 10,
@@ -87677,7 +87677,7 @@
       "id": "FgLHT",
       "x": 5892,
       "y": 13003,
-      "name": "Detalle de guía",
+      "name": "Detalle de guía - Recolección",
       "width": 870,
       "height": 849,
       "fill": "$White",
@@ -89092,7 +89092,7 @@
                             {
                               "type": "text",
                               "id": "qXKhF",
-                              "fill": "$Primary",
+                              "fill": "$Positivo",
                               "content": "RECOLECTADO",
                               "fontFamily": "Inter",
                               "fontSize": 12,
@@ -91932,8 +91932,8 @@
     {
       "type": "frame",
       "id": "Zd0z6",
-      "x": 11239,
-      "y": 13957,
+      "x": 6860,
+      "y": 15546,
       "name": "Detalle de guía - Admin (permiso Admin - Cancelación en auditoría)",
       "width": 870,
       "fill": "$White",
@@ -94052,8 +94052,8 @@
     {
       "type": "note",
       "id": "tKqtq",
-      "x": 9978,
-      "y": 16384,
+      "x": 5892,
+      "y": 17067,
       "width": 250,
       "height": 219,
       "content": "Otros cargos:\n-Cobertura extendida\n-Cargo irregular\n-Cargo multipieza\n-Otros cargos manuales*"
@@ -94061,8 +94061,8 @@
     {
       "type": "frame",
       "id": "YpeeN",
-      "x": 10271,
-      "y": 13957,
+      "x": 5892,
+      "y": 15546,
       "name": "Detalle de guía - Admin (permiso Admin)",
       "width": 870,
       "fill": "$White",
@@ -96110,6 +96110,28 @@
           ]
         }
       ]
+    },
+    {
+      "type": "text",
+      "id": "EmPlC",
+      "x": 4885,
+      "y": 12639,
+      "fill": "#000000",
+      "content": "Ver detalle de guía - vista cliente",
+      "fontFamily": "Inter",
+      "fontSize": 100,
+      "fontWeight": "normal"
+    },
+    {
+      "type": "text",
+      "id": "gLXhl",
+      "x": 4885,
+      "y": 15240,
+      "fill": "#000000",
+      "content": "Ver detalle de guía - vista administrador",
+      "fontFamily": "Inter",
+      "fontSize": 100,
+      "fontWeight": "normal"
     }
   ],
   "variables": {
