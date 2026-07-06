@@ -4,8 +4,8 @@
     {
       "type": "frame",
       "id": "YOtH2",
-      "x": -2127,
-      "y": 0,
+      "x": -2167,
+      "y": 209,
       "name": "Additional Components",
       "fill": "$White",
       "layout": "vertical",
@@ -1670,8 +1670,8 @@
     {
       "type": "frame",
       "id": "EMGtR",
-      "x": -1498,
-      "y": 0,
+      "x": -1538,
+      "y": 209,
       "name": "Design System",
       "fill": "#FFFFFF",
       "layout": "vertical",

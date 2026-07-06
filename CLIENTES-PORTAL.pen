@@ -55565,7 +55565,8 @@
                   "fill": "$Primary",
                   "content": "Inicio",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -68440,7 +68441,8 @@
                   "fill": "$Primary",
                   "content": "Inicio",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -68464,7 +68466,8 @@
                   "fill": "$Primary",
                   "content": "Guías",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -73061,7 +73064,8 @@
                   "fill": "$Primary",
                   "content": "Inicio",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -73085,7 +73089,8 @@
                   "fill": "$Primary",
                   "content": "Guías",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -76381,7 +76386,8 @@
                   "fill": "$Primary",
                   "content": "Inicio",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -76405,7 +76411,8 @@
                   "fill": "$Primary",
                   "content": "Guías",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -79339,7 +79346,8 @@
                   "fill": "$Primary",
                   "content": "Inicio",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -79363,7 +79371,8 @@
                   "fill": "$Primary",
                   "content": "Guías",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -79411,7 +79420,8 @@
                   "fill": "$Primary",
                   "content": "Administración",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -81014,7 +81024,8 @@
                   "fill": "$Primary",
                   "content": "Inicio",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -81038,7 +81049,8 @@
                   "fill": "$Primary",
                   "content": "Guías",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -86333,7 +86345,8 @@
                   "fill": "$Primary",
                   "content": "Inicio",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -86357,7 +86370,8 @@
                   "fill": "$Primary",
                   "content": "Guías",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
