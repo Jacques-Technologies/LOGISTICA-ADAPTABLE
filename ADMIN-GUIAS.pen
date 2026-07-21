@@ -50882,519 +50882,6 @@
       ]
     },
     {
-      "type": "frame",
-      "id": "pJrIa",
-      "x": 7186,
-      "y": 17894,
-      "name": "Etiqueta",
-      "clip": true,
-      "width": 612,
-      "height": 792,
-      "fill": "#FFFFFF",
-      "layout": "none",
-      "children": [
-        {
-          "type": "rectangle",
-          "id": "m8ejEY",
-          "x": 0,
-          "y": 0,
-          "fill": {
-            "type": "image",
-            "enabled": true,
-            "url": "Banner%20LA%20etiqueta.jpg",
-            "mode": "fill"
-          },
-          "width": 612,
-          "height": 77
-        },
-        {
-          "type": "frame",
-          "id": "PtRS1",
-          "x": 182,
-          "y": 15.19082944969341,
-          "name": "Title Row",
-          "rotation": 0.02634631917955515,
-          "width": 415,
-          "layout": "vertical",
-          "gap": 10,
-          "children": [
-            {
-              "type": "text",
-              "id": "oy4oM",
-              "name": "title",
-              "fill": "$White",
-              "textGrowth": "fixed-width",
-              "width": "fill_container",
-              "content": "Blvd. Dr. Jesús Kumate Rodríguez #5420 Interior 34\nParque Industrial El Trébol, 80300 Culiacán Rosales, Sin.",
-              "textAlign": "right",
-              "fontFamily": "Inter",
-              "fontSize": 11,
-              "fontWeight": "500"
-            },
-            {
-              "type": "text",
-              "id": "vg9RE",
-              "name": "title",
-              "fill": "$White",
-              "textGrowth": "fixed-width",
-              "width": "fill_container",
-              "content": "+52 (667) 714 86 00  | http://logisticaadaptable.com/ | info@logisticaadaptable.com",
-              "textAlign": "right",
-              "fontFamily": "Inter",
-              "fontSize": 10,
-              "fontWeight": "500"
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "SQOv1",
-          "x": 0,
-          "y": 77,
-          "name": "rightSide",
-          "width": 612,
-          "cornerRadius": 10,
-          "layout": "vertical",
-          "gap": 5,
-          "padding": [
-            20,
-            30
-          ],
-          "children": [
-            {
-              "type": "frame",
-              "id": "GvKLs",
-              "name": "Title Row",
-              "rotation": 0.02634631917955515,
-              "width": "fill_container",
-              "stroke": "$Dark Text",
-              "strokeWidth": 1,
-              "strokeAlignment": "inner",
-              "gap": 20,
-              "padding": 10,
-              "justifyContent": "space_between",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "KJeyd",
-                  "name": "title",
-                  "fill": "$Dark Text",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "NO. GUÍA",
-                  "fontFamily": "Inter",
-                  "fontSize": 13,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "text",
-                  "id": "C1oWm",
-                  "name": "title",
-                  "fill": "$Dark Text",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "29042602",
-                  "textAlign": "right",
-                  "fontFamily": "Inter",
-                  "fontSize": 28,
-                  "fontWeight": "700"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "dnEtz",
-          "x": 0,
-          "y": 172,
-          "name": "ORIGEN Section",
-          "width": 612,
-          "children": [
-            {
-              "type": "frame",
-              "id": "suTzL",
-              "name": "ORIGEN Label",
-              "width": 26,
-              "height": "fill_container",
-              "justifyContent": "center",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "RYrY3",
-                  "name": "ORIGEN Txt",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": 16,
-                  "content": "O\nR\nI\nG\nE\nN",
-                  "lineHeight": 1.8,
-                  "textAlign": "center",
-                  "fontFamily": "Inter",
-                  "fontSize": 9,
-                  "fontWeight": "700"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "tWprk",
-              "name": "ORIGEN Content",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 3,
-              "padding": [
-                12,
-                18
-              ],
-              "children": [
-                {
-                  "type": "text",
-                  "id": "hpRbn",
-                  "name": "O_LOGÍSTICA ADAPTABLE",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "LOGÍSTICA ADAPTABLE",
-                  "fontFamily": "Inter",
-                  "fontSize": 13,
-                  "fontWeight": "700",
-                  "letterSpacing": 3
-                },
-                {
-                  "type": "text",
-                  "id": "q0rQSx",
-                  "name": "O_BLVD. JESÚS KUMATE R",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "BLVD. JESÚS KUMATE RODÍRGUEZ #5420 INT 34",
-                  "fontFamily": "Inter",
-                  "fontSize": 11,
-                  "fontWeight": "500",
-                  "letterSpacing": 3
-                },
-                {
-                  "type": "text",
-                  "id": "X8dZS4",
-                  "name": "O_PARQUE INDUSTRIAL EL",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "PARQUE INDUSTRIAL EL TRÉBOL",
-                  "fontFamily": "Inter",
-                  "fontSize": 11,
-                  "fontWeight": "500",
-                  "letterSpacing": 3
-                },
-                {
-                  "type": "text",
-                  "id": "rTNYu",
-                  "name": "O_CULIACÁN, SINALOA",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "CULIACÁN, SINALOA, MEX",
-                  "fontFamily": "Inter",
-                  "fontSize": 11,
-                  "fontWeight": "500",
-                  "letterSpacing": 3
-                },
-                {
-                  "type": "text",
-                  "id": "GWQQY",
-                  "name": "O_C.P. 80300",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "C.P. 80300",
-                  "fontFamily": "Inter",
-                  "fontSize": 11,
-                  "fontWeight": "500",
-                  "letterSpacing": 3
-                },
-                {
-                  "type": "text",
-                  "id": "l6e5Z",
-                  "name": "O_C.P. 80300",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ENTRE CALLES TAL Y TAL",
-                  "fontFamily": "Inter",
-                  "fontSize": 11,
-                  "fontWeight": "500",
-                  "letterSpacing": 3
-                },
-                {
-                  "type": "text",
-                  "id": "uWHqR",
-                  "name": "O_TEL. 667 714 14 88",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "TEL. 667 714 14 88",
-                  "fontFamily": "Inter",
-                  "fontSize": 11,
-                  "fontWeight": "500",
-                  "letterSpacing": 3
-                },
-                {
-                  "type": "text",
-                  "id": "P8ked",
-                  "name": "O_MEX",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "envios@logisticaadaptable.com",
-                  "fontFamily": "Inter",
-                  "fontSize": 11,
-                  "fontWeight": "500",
-                  "letterSpacing": 3
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "wr4Ta",
-          "x": 0,
-          "y": 324,
-          "name": "DESTINO Section",
-          "width": 612,
-          "children": [
-            {
-              "type": "frame",
-              "id": "lII1x",
-              "name": "DESTINO Content",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 3,
-              "padding": [
-                16,
-                18
-              ],
-              "children": [
-                {
-                  "type": "text",
-                  "id": "aDcXu",
-                  "name": "D_FarmaciaBen",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "FARMACIA BENAVIDES",
-                  "textAlign": "right",
-                  "fontFamily": "Inter",
-                  "fontSize": 26,
-                  "fontWeight": "800"
-                },
-                {
-                  "type": "text",
-                  "id": "AIqZb",
-                  "name": "D_BenavidesLC",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "BENAVIDES LOS CABOS",
-                  "textAlign": "right",
-                  "fontFamily": "Inter",
-                  "fontSize": 20,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "frame",
-                  "id": "PlbFO",
-                  "name": "D_Spacer",
-                  "width": "fill_container",
-                  "height": 6
-                },
-                {
-                  "type": "text",
-                  "id": "C0du6t",
-                  "name": "D_AV.LEONAVICARIO5",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "AV. LEONA VICARIO 5728",
-                  "textAlign": "right",
-                  "fontFamily": "Inter",
-                  "fontSize": 11,
-                  "fontWeight": "500",
-                  "letterSpacing": 3
-                },
-                {
-                  "type": "text",
-                  "id": "QI9bJ",
-                  "name": "D_COLONIACAMPECHE",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "COLONIA CAMPECHE",
-                  "textAlign": "right",
-                  "fontFamily": "Inter",
-                  "fontSize": 11,
-                  "fontWeight": "500",
-                  "letterSpacing": 3
-                },
-                {
-                  "type": "text",
-                  "id": "Rp8hN",
-                  "name": "D_LOSCABOS,BAJACAL",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "LOS CABOS, BAJA CALIFORNIA SUR, MEX",
-                  "textAlign": "right",
-                  "fontFamily": "Inter",
-                  "fontSize": 11,
-                  "fontWeight": "500",
-                  "letterSpacing": 3
-                },
-                {
-                  "type": "text",
-                  "id": "rC0lb",
-                  "name": "D_C.P.23477",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "C.P. 23477",
-                  "textAlign": "right",
-                  "fontFamily": "Inter",
-                  "fontSize": 11,
-                  "fontWeight": "500",
-                  "letterSpacing": 3
-                },
-                {
-                  "type": "text",
-                  "id": "oIhKB",
-                  "name": "D_C.P.23477",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ENTRE CALLES TAL Y TAL",
-                  "textAlign": "right",
-                  "fontFamily": "Inter",
-                  "fontSize": 11,
-                  "fontWeight": "500",
-                  "letterSpacing": 3
-                },
-                {
-                  "type": "text",
-                  "id": "h8FkhX",
-                  "name": "D_TEL8181269330",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "TEL. 81 81 269 330",
-                  "textAlign": "right",
-                  "fontFamily": "Inter",
-                  "fontSize": 11,
-                  "fontWeight": "500",
-                  "letterSpacing": 3
-                },
-                {
-                  "type": "text",
-                  "id": "c3baA",
-                  "name": "D_MEX",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "f.benavides@benavides.com",
-                  "textAlign": "right",
-                  "fontFamily": "Inter",
-                  "fontSize": 11,
-                  "fontWeight": "500",
-                  "letterSpacing": 3
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "pXOuS",
-              "name": "DESTINO Label",
-              "width": 26,
-              "height": 211,
-              "justifyContent": "center",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "Dp4Gv",
-                  "name": "DESTINO Txt",
-                  "fill": "#000000",
-                  "textGrowth": "fixed-width-height",
-                  "width": "fill_container",
-                  "height": 133,
-                  "content": "D\nE\nS\nT\nI\nN\nO",
-                  "lineHeight": 1.95,
-                  "textAlign": "center",
-                  "fontFamily": "Inter",
-                  "fontSize": 9,
-                  "fontWeight": "700"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "l1B2rg",
-          "x": 0,
-          "y": 552,
-          "name": "Bottom Section",
-          "width": 612,
-          "height": 240,
-          "stroke": "#000000ff",
-          "strokeWidth": {
-            "bottom": 15
-          },
-          "strokeAlignment": "inner",
-          "padding": [
-            20,
-            24
-          ],
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "rectangle",
-              "cornerRadius": 2,
-              "id": "RpGOc",
-              "name": "QR Code",
-              "fill": {
-                "type": "image",
-                "enabled": true,
-                "url": "images/generated-1782487324339.png",
-                "mode": "fill"
-              },
-              "width": 190,
-              "height": 190
-            },
-            {
-              "type": "frame",
-              "id": "wIUQ9",
-              "name": "Bttm Spacer",
-              "width": "fill_container",
-              "height": 1
-            },
-            {
-              "type": "text",
-              "id": "D6Z3v",
-              "name": "ZIP Big",
-              "fill": "#000000",
-              "content": "23477",
-              "textAlign": "right",
-              "fontFamily": "Inter",
-              "fontSize": 60,
-              "fontWeight": "900",
-              "letterSpacing": 10
-            }
-          ]
-        }
-      ]
-    },
-    {
       "type": "note",
       "id": "FqWR2",
       "x": 7186,
@@ -79731,6 +79218,1091 @@
       "id": "cv3xN",
       "x": 4335,
       "y": 19796,
+      "width": 250,
+      "height": 219,
+      "content": "Actualización 21/Jul"
+    },
+    {
+      "type": "frame",
+      "id": "cBHaX",
+      "x": 7186,
+      "y": 17894,
+      "name": "Etiqueta",
+      "clip": true,
+      "width": 612,
+      "height": 792,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "lpReU",
+          "x": 0,
+          "y": 0,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "Banner%20LA%20etiqueta.jpg",
+            "mode": "fill"
+          },
+          "width": 612,
+          "height": 77
+        },
+        {
+          "type": "frame",
+          "id": "mzvGn",
+          "x": 182,
+          "y": 15.19082944969341,
+          "name": "Title Row",
+          "rotation": 0.02634631917955515,
+          "width": 415,
+          "layout": "vertical",
+          "gap": 10,
+          "children": [
+            {
+              "type": "text",
+              "id": "VzFXW",
+              "name": "title",
+              "fill": "$White",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Blvd. Dr. Jesús Kumate Rodríguez #5420 Interior 34\nParque Industrial El Trébol, 80300 Culiacán Rosales, Sin.",
+              "textAlign": "right",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "B37e9",
+              "name": "title",
+              "fill": "$White",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "+52 (667) 714 86 00  | http://logisticaadaptable.com/ | info@logisticaadaptable.com",
+              "textAlign": "right",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "x1qeyf",
+          "x": 0,
+          "y": 77,
+          "name": "rightSide",
+          "width": 612,
+          "cornerRadius": 10,
+          "layout": "vertical",
+          "gap": 5,
+          "padding": [
+            20,
+            30
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "oIgjK",
+              "name": "Title Row",
+              "rotation": 0.02634631917955515,
+              "width": "fill_container",
+              "stroke": "$Dark Text",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "gap": 20,
+              "padding": 10,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OIhMM",
+                  "name": "title",
+                  "fill": "$Dark Text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "NO. GUÍA",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "fH7HJ",
+                  "name": "title",
+                  "fill": "$Dark Text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "29042602",
+                  "textAlign": "right",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zQA7J",
+          "x": 0,
+          "y": 172,
+          "name": "ORIGEN Section",
+          "width": 612,
+          "children": [
+            {
+              "type": "frame",
+              "id": "jMrQH",
+              "name": "ORIGEN Label",
+              "width": 26,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eDnBJ",
+                  "name": "ORIGEN Txt",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": 16,
+                  "content": "O\nR\nI\nG\nE\nN",
+                  "lineHeight": 1.8,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 9,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LsdAf",
+              "name": "ORIGEN Content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 3,
+              "padding": [
+                12,
+                18
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Sylc7",
+                  "name": "O_LOGÍSTICA ADAPTABLE",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "LOGÍSTICA ADAPTABLE",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "700",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "m1oaf",
+                  "name": "O_BLVD. JESÚS KUMATE R",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "BLVD. JESÚS KUMATE RODÍRGUEZ #5420 INT 34",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "n0Zp7M",
+                  "name": "O_PARQUE INDUSTRIAL EL",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "PARQUE INDUSTRIAL EL TRÉBOL",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "NwIRz",
+                  "name": "O_CULIACÁN, SINALOA",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "CULIACÁN, SINALOA, MEX",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "g4TmfA",
+                  "name": "O_C.P. 80300",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "C.P. 80300",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "D3cnQ",
+                  "name": "O_C.P. 80300",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "ENTRE CALLES TAL Y TAL",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "ObX0R",
+                  "name": "O_TEL. 667 714 14 88",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "TEL. 667 714 14 88",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "cxUvb",
+                  "name": "O_MEX",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "envios@logisticaadaptable.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "A31I8",
+          "x": 0,
+          "y": 324,
+          "name": "DESTINO Section",
+          "width": 612,
+          "children": [
+            {
+              "type": "frame",
+              "id": "ireh8",
+              "name": "DESTINO Content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 3,
+              "padding": [
+                16,
+                18
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OvwLf",
+                  "name": "D_FarmaciaBen",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "FARMACIA BENAVIDES",
+                  "textAlign": "right",
+                  "fontFamily": "Inter",
+                  "fontSize": 26,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "j53j70",
+                  "name": "D_BenavidesLC",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "BENAVIDES LOS CABOS",
+                  "textAlign": "right",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "N1dWU",
+                  "name": "D_Spacer",
+                  "width": "fill_container",
+                  "height": 6
+                },
+                {
+                  "type": "text",
+                  "id": "JR5sD",
+                  "name": "D_AV.LEONAVICARIO5",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "AV. LEONA VICARIO 5728",
+                  "textAlign": "right",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "WVWMi",
+                  "name": "D_COLONIACAMPECHE",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "COLONIA CAMPECHE",
+                  "textAlign": "right",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "HvZTp",
+                  "name": "D_LOSCABOS,BAJACAL",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "LOS CABOS, BAJA CALIFORNIA SUR, MEX",
+                  "textAlign": "right",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "XLXaV",
+                  "name": "D_C.P.23477",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "C.P. 23477",
+                  "textAlign": "right",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "VTNOy",
+                  "name": "D_C.P.23477",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "ENTRE CALLES TAL Y TAL",
+                  "textAlign": "right",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "OyEfL",
+                  "name": "D_TEL8181269330",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "TEL. 81 81 269 330",
+                  "textAlign": "right",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "rFS05",
+                  "name": "D_MEX",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "f.benavides@benavides.com",
+                  "textAlign": "right",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RxMa3",
+              "name": "DESTINO Label",
+              "width": 26,
+              "height": 211,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fc6zO",
+                  "name": "DESTINO Txt",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width-height",
+                  "width": "fill_container",
+                  "height": 133,
+                  "content": "D\nE\nS\nT\nI\nN\nO",
+                  "lineHeight": 1.95,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 9,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "F8cw8",
+          "x": 0,
+          "y": 552,
+          "name": "Bottom Section",
+          "width": 612,
+          "height": 240,
+          "stroke": "#000000ff",
+          "strokeWidth": {
+            "bottom": 15
+          },
+          "strokeAlignment": "inner",
+          "padding": [
+            20,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "MDayG",
+              "name": "QR Code",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/generated-1782487324339.png",
+                "mode": "fill"
+              },
+              "width": 190,
+              "height": 190
+            },
+            {
+              "type": "frame",
+              "id": "wVlDq",
+              "name": "Bttm Spacer",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "R47RW",
+              "name": "ZIP Big",
+              "fill": "#000000",
+              "content": "23477",
+              "textAlign": "right",
+              "fontFamily": "Inter",
+              "fontSize": 60,
+              "fontWeight": "900",
+              "letterSpacing": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Eqi03",
+      "x": 7907,
+      "y": 17894,
+      "name": "Etiqueta Térmica 4x6 (rediseño)",
+      "clip": true,
+      "width": 800,
+      "height": 1200,
+      "fill": "$White",
+      "layout": "vertical",
+      "gap": 22,
+      "padding": 40,
+      "children": [
+        {
+          "type": "frame",
+          "id": "Z69F9l",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "$Dark Text",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            10,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "dSW5R",
+              "name": "Logo",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "LA%20logo%20blanco%202.png",
+                "mode": "fit"
+              },
+              "width": 260,
+              "height": 85
+            },
+            {
+              "type": "text",
+              "id": "DFklg",
+              "name": "RemitenteNombre",
+              "fill": "$White",
+              "content": "LOGÍSTICA ADAPTABLE",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "H7zDX1",
+          "name": "DividerHeader",
+          "fill": "$Dark Text",
+          "width": "fill_container",
+          "height": 2
+        },
+        {
+          "type": "frame",
+          "id": "vErVx",
+          "name": "MetaRow",
+          "width": "fill_container",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "tIKE7",
+              "name": "FolioBox",
+              "width": "fill_container",
+              "cornerRadius": 6,
+              "stroke": "$Dark Text",
+              "strokeWidth": 2,
+              "strokeAlignment": "inner",
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                10,
+                8
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "e7IkT",
+                  "fill": "$Gray Dark",
+                  "content": "NO. DE GUÍA",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "a5puJw",
+                  "name": "FolioValue",
+                  "fill": "$Dark Text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "29042602",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "800"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PHbHe",
+              "name": "FechaBox",
+              "width": "fill_container",
+              "height": "fill_container",
+              "cornerRadius": 6,
+              "stroke": "$Dark Text",
+              "strokeWidth": 2,
+              "strokeAlignment": "inner",
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                10,
+                8
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "edqCb",
+                  "fill": "$Gray Dark",
+                  "content": "FECHA DE EMISIÓN",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "avaZX",
+                  "name": "FechaValue",
+                  "fill": "$Dark Text",
+                  "content": "21/Jul/2026",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "b46ad6",
+          "name": "DividerMeta",
+          "fill": "$Gray Light",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "nQgCG",
+          "name": "OrigenBlock",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 4,
+          "children": [
+            {
+              "type": "text",
+              "id": "GbPP6",
+              "fill": "$Dark Text",
+              "content": "REMITENTE",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "rMbt5",
+              "fill": "$Dark Text",
+              "content": "LOGÍSTICA ADAPTABLE",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700",
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "owaaQ",
+              "fill": "$Dark Text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Blvd. Jesús Kumate Rodríguez #5420 Int. 34, Parque Industrial El Trébol",
+              "lineHeight": 1.3,
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "uEF9J",
+              "fill": "$Dark Text",
+              "content": "Culiacán, Sinaloa, MEX · C.P. 80300",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "H6m2Vo",
+              "fill": "$Gray Dark",
+              "content": "Tel. 667 714 14 88 · envios@logisticaadaptable.com",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "hKfrD",
+          "name": "DividerOrigenDestino",
+          "fill": "$Dark Text",
+          "width": "fill_container",
+          "height": 2
+        },
+        {
+          "type": "frame",
+          "id": "eqaVg",
+          "name": "DestinoBlock",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 4,
+          "children": [
+            {
+              "type": "text",
+              "id": "bbwnW",
+              "fill": "$Dark Text",
+              "content": "DESTINATARIO",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "UhM0L",
+              "fill": "$Dark Text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "FARMACIA BENAVIDES",
+              "fontFamily": "Inter",
+              "fontSize": 34,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "GEq7t",
+              "fill": "$Dark Text",
+              "content": "BENAVIDES LOS CABOS",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "jMll6",
+              "fill": "$Dark Text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Av. Leona Vicario 5728, Colonia Campeche",
+              "lineHeight": 1.3,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "mKkhJ",
+              "fill": "$Dark Text",
+              "content": "Los Cabos, Baja California Sur, MEX · C.P. 23477",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "yDeY3",
+              "fill": "$Gray Dark",
+              "content": "Tel. 81 81 26 93 30 · f.benavides@benavides.com",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "ElHuB",
+          "name": "DividerDestinoServicio",
+          "fill": "$Dark Text",
+          "width": "fill_container",
+          "height": 2
+        },
+        {
+          "type": "frame",
+          "id": "Q1r9hD",
+          "name": "ServicioRow",
+          "width": "fill_container",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "ij4VG",
+              "name": "ServicioItem",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jWSAD",
+                  "name": "ServicioLabelRow",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "kjCmW",
+                      "width": 12,
+                      "height": 12,
+                      "icon": "truck",
+                      "library": "feather",
+                      "fill": "$Gray Dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GikfU",
+                      "fill": "$Gray Dark",
+                      "content": "PROVEEDOR",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ngm2d",
+                  "fill": "$Dark Text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Estafeta",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CYQcP",
+              "name": "ServicioItem",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gLY0s",
+                  "name": "ServicioLabelRow",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "AOnRS",
+                      "width": 12,
+                      "height": 12,
+                      "icon": "package",
+                      "library": "feather",
+                      "fill": "$Gray Dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tSHV7",
+                      "fill": "$Gray Dark",
+                      "content": "SERVICIO",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "HKwQK",
+                  "fill": "$Dark Text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Terrestre",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mU7Oy",
+              "name": "ServicioItem",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Q2cWDn",
+                  "name": "ServicioLabelRow",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "tHSBS",
+                      "width": 12,
+                      "height": 12,
+                      "icon": "calendar",
+                      "library": "feather",
+                      "fill": "$Gray Dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "g4ioc",
+                      "fill": "$Gray Dark",
+                      "content": "ENTREGA EST.",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "d4aZ3C",
+                  "fill": "$Dark Text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Jue 23/Abr/26",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "WBmJ8",
+          "name": "DividerFooter",
+          "fill": "$Gray Light",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "ZuxQ0",
+          "name": "Footer",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "vrPrK",
+              "name": "ZipStrip",
+              "width": "fill_container",
+              "stroke": "$Dark Text",
+              "strokeWidth": {
+                "top": 2,
+                "bottom": 2
+              },
+              "strokeAlignment": "inner",
+              "padding": [
+                8,
+                4
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "k0ZyNO",
+                  "fill": "$Gray Dark",
+                  "content": "C.P. DESTINO",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "MgruH",
+                  "fill": "$Dark Text",
+                  "content": "23477",
+                  "fontFamily": "Inter",
+                  "fontSize": 52,
+                  "fontWeight": "900",
+                  "letterSpacing": 4
+                }
+              ]
+            },
+            {
+              "type": "script",
+              "id": "Uv1i1",
+              "name": "Barcode",
+              "width": "fill_container",
+              "height": 120,
+              "scriptUri": "scripts/barcode128.js",
+              "inputs": {
+                "barsCount": 50,
+                "color": "#000000"
+              }
+            },
+            {
+              "type": "text",
+              "id": "hPAXX",
+              "fill": "$Dark Text",
+              "content": "29042602",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700",
+              "letterSpacing": 6
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "AMZCg",
+          "name": "FooterNote",
+          "fill": "$Gray Dark",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Guía interna generada por Logística Adaptable",
+          "textAlign": "center",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "id": "D3WG3G",
+      "x": 8618,
+      "y": 17802,
       "width": 250,
       "height": 219,
       "content": "Actualización 21/Jul"
