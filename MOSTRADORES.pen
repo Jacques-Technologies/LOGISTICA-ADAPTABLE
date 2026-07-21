@@ -12135,8 +12135,8 @@
     {
       "type": "frame",
       "id": "x73eyA",
-      "x": 2227,
-      "y": 12618,
+      "x": 1593,
+      "y": 12634,
       "name": "Notas",
       "fill": {
         "type": "color",
@@ -12275,7 +12275,7 @@
                   "fill": "#71727aff",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Pueden editar el texto de Dirección del ticket y las Condiciones del ticket.\n\nEl código de la impresora son campos numéricos con límite de 8 dígitos por impresora/sucursal.",
+                  "content": "{variables} : Pueden editar el texto de Dirección del ticket, Nombre de la sucursal y las Condiciones del ticket (de esa sucursal)\n\nEl código de la impresora son campos numéricos con límite de 8 dígitos por impresora/sucursal.\n\nDependiendo del usuario Mostradores - se detecta la sucursal y se muestra el código de esa impresora (Venadillo, Insurgentes, Trébol o Madero)",
                   "textAlignVertical": "middle",
                   "fontFamily": "Inter",
                   "fontSize": 10,
@@ -14194,8 +14194,8 @@
     {
       "type": "frame",
       "id": "G2oCfO",
-      "x": 2543,
-      "y": 12244,
+      "x": 1886,
+      "y": 12541,
       "name": "Success Card",
       "width": 400,
       "fill": "$White",
@@ -18342,19 +18342,6 @@
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "rectangle",
-                          "id": "CCnQw",
-                          "name": "image-removebg-preview (1) 1",
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "Logistica%20Adaptable%20logo.png",
-                            "mode": "stretch"
-                          },
-                          "width": 165,
-                          "height": 60
-                        },
-                        {
                           "type": "frame",
                           "id": "cr5k8",
                           "name": "Frame 2048",
@@ -18385,7 +18372,7 @@
                               "fill": "$Dark Text",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "DIRECCIÓN: CIUDAD, ESTADO C.P. 00000",
+                              "content": "DIRECCIÓN: {CIUDAD, ESTADO C.P. 00000}",
                               "lineHeight": 1.4166666666666667,
                               "textAlign": "center",
                               "fontFamily": "Inter",
@@ -18400,7 +18387,7 @@
                               "fill": "$Dark Text",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "FECHA: 00 DE MES DE AAAA 00:00",
+                              "content": "FECHA: {00 DE MES DE AAAA 00:00}",
                               "lineHeight": 1.4166666666666667,
                               "textAlign": "center",
                               "fontFamily": "Inter",
@@ -18430,7 +18417,7 @@
                               "fill": "$Dark Text",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "SUCURSAL: NOMBRE DE SUCURSAL",
+                              "content": "SUCURSAL: {NOMBRE DE SUCURSAL}",
                               "lineHeight": 1.4166666666666667,
                               "textAlign": "center",
                               "fontFamily": "Inter",
@@ -18777,7 +18764,7 @@
                               "fill": "$Dark Text",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Condiciones: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie tristique quam. Pellentesque laoreet laoreet.",
+                              "content": "Condiciones: {Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie tristique quam. Pellentesque laoreet laoreet.}",
                               "lineHeight": 1.5,
                               "textAlign": "center",
                               "fontFamily": "Inter",
@@ -19013,445 +19000,8 @@
     },
     {
       "type": "frame",
-      "id": "PUbT7",
-      "x": 1817,
-      "y": 12244,
-      "name": "Ajustes de ticket",
-      "width": 410,
-      "fill": "#ffffff",
-      "cornerRadius": 10,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "frame",
-          "id": "r0wkY",
-          "name": "stepperBar",
-          "width": "fill_container",
-          "stroke": "$Gray Light",
-          "strokeWidth": {
-            "bottom": 1
-          },
-          "strokeAlignment": "inner",
-          "padding": [
-            16,
-            30
-          ],
-          "justifyContent": "end",
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "icon",
-              "id": "k46VYo",
-              "width": 20,
-              "height": 20,
-              "icon": "x",
-              "library": "lucide",
-              "fill": "$Gray Dark"
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "AhjsO",
-          "name": "chkSection",
-          "width": "fill_container",
-          "cornerRadius": 10,
-          "layout": "vertical",
-          "gap": 20,
-          "padding": 20,
-          "justifyContent": "center",
-          "children": [
-            {
-              "type": "text",
-              "id": "K2LxVQ",
-              "fill": "$Primary",
-              "textGrowth": "fixed-width",
-              "width": "fill_container",
-              "content": "Ajustes de ticket",
-              "fontFamily": "Inter",
-              "fontSize": 20,
-              "fontWeight": "700"
-            },
-            {
-              "type": "frame",
-              "id": "VUcHa",
-              "name": "Dropdown",
-              "width": "fill_container",
-              "height": 140,
-              "layout": "vertical",
-              "gap": 10,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "RWFbP",
-                  "name": "textareaLabel",
-                  "fill": "$Primary",
-                  "content": "Dirección",
-                  "fontFamily": "$Font Family",
-                  "fontSize": 14,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "frame",
-                  "id": "h4jxFf",
-                  "name": "textareaFrame",
-                  "width": "fill_container",
-                  "height": "fill_container",
-                  "fill": "$White",
-                  "cornerRadius": 6,
-                  "stroke": "$Gray Light",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "gap": 10,
-                  "padding": 12,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "Mu57b",
-                      "name": "textareaText",
-                      "fill": "$Gray Medium",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Escribe aquí",
-                      "fontFamily": "$Font Family",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "lsrYU",
-              "name": "Dropdown",
-              "width": "fill_container",
-              "height": 140,
-              "layout": "vertical",
-              "gap": 10,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "myKk0",
-                  "name": "textareaLabel",
-                  "fill": "$Primary",
-                  "content": "Condiciones",
-                  "fontFamily": "$Font Family",
-                  "fontSize": 14,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "frame",
-                  "id": "SMs5b",
-                  "name": "textareaFrame",
-                  "width": "fill_container",
-                  "height": "fill_container",
-                  "fill": "$White",
-                  "cornerRadius": 6,
-                  "stroke": "$Gray Light",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "gap": 10,
-                  "padding": 12,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "o81jf",
-                      "name": "textareaText",
-                      "fill": "$Gray Medium",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Escribe aquí",
-                      "fontFamily": "$Font Family",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "id": "dOjdT",
-              "name": "textareaLabel",
-              "fill": "$Primary",
-              "content": "Ingresa el código de la impresora correspondiente:",
-              "fontFamily": "$Font Family",
-              "fontSize": 14,
-              "fontWeight": "600"
-            },
-            {
-              "type": "frame",
-              "id": "Se8zW",
-              "name": "Dropdown",
-              "width": "fill_container",
-              "gap": 10,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "anunf",
-                  "name": "textareaLabel",
-                  "fill": "$Primary",
-                  "textGrowth": "fixed-width",
-                  "width": 100,
-                  "content": "Venadillo",
-                  "fontFamily": "$Font Family",
-                  "fontSize": 14,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "frame",
-                  "id": "CMhkn",
-                  "name": "textareaFrame",
-                  "width": "fill_container",
-                  "height": 40,
-                  "fill": "$White",
-                  "cornerRadius": 6,
-                  "stroke": "$Gray Light",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "gap": 10,
-                  "padding": 12,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "tyXRA",
-                      "name": "textareaText",
-                      "fill": "$Gray Medium",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "01234567",
-                      "fontFamily": "$Font Family",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "pB0Xb",
-              "name": "Dropdown",
-              "width": "fill_container",
-              "gap": 10,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "wTzBD",
-                  "name": "textareaLabel",
-                  "fill": "$Primary",
-                  "textGrowth": "fixed-width",
-                  "width": 100,
-                  "content": "Insurgentes",
-                  "fontFamily": "$Font Family",
-                  "fontSize": 14,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "frame",
-                  "id": "epKwi",
-                  "name": "textareaFrame",
-                  "width": "fill_container",
-                  "height": 40,
-                  "fill": "$White",
-                  "cornerRadius": 6,
-                  "stroke": "$Gray Light",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "gap": 10,
-                  "padding": 12,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "uDLOb",
-                      "name": "textareaText",
-                      "fill": "$Gray Medium",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "01234567",
-                      "fontFamily": "$Font Family",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "l1rLRt",
-              "name": "Dropdown",
-              "width": "fill_container",
-              "gap": 10,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "b4Bzfp",
-                  "name": "textareaLabel",
-                  "fill": "$Primary",
-                  "textGrowth": "fixed-width",
-                  "width": 100,
-                  "content": "Trébol",
-                  "fontFamily": "$Font Family",
-                  "fontSize": 14,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "frame",
-                  "id": "bPkcL",
-                  "name": "textareaFrame",
-                  "width": "fill_container",
-                  "height": 40,
-                  "fill": "$White",
-                  "cornerRadius": 6,
-                  "stroke": "$Gray Light",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "gap": 10,
-                  "padding": 12,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "L7QBn",
-                      "name": "textareaText",
-                      "fill": "$Gray Medium",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "01234567",
-                      "fontFamily": "$Font Family",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "e1gNDY",
-              "name": "Dropdown",
-              "width": "fill_container",
-              "gap": 10,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "JFKqY",
-                  "name": "textareaLabel",
-                  "fill": "$Primary",
-                  "textGrowth": "fixed-width",
-                  "width": 100,
-                  "content": "Madero",
-                  "fontFamily": "$Font Family",
-                  "fontSize": 14,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "frame",
-                  "id": "b78sB",
-                  "name": "textareaFrame",
-                  "width": "fill_container",
-                  "height": 40,
-                  "fill": "$White",
-                  "cornerRadius": 6,
-                  "stroke": "$Gray Light",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "gap": 10,
-                  "padding": 12,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "bIGOs",
-                      "name": "textareaText",
-                      "fill": "$Gray Medium",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "01234567",
-                      "fontFamily": "$Font Family",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "Fg5ep",
-          "name": "stepperBar",
-          "width": "fill_container",
-          "stroke": "$Gray Light",
-          "strokeWidth": {
-            "top": 1
-          },
-          "strokeAlignment": "inner",
-          "padding": [
-            16,
-            30
-          ],
-          "justifyContent": "space_between",
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "frame",
-              "id": "Hq8xB",
-              "name": "BTN/CANCEL",
-              "width": 140,
-              "height": 44,
-              "cornerRadius": 6,
-              "layout": "vertical",
-              "padding": 12,
-              "justifyContent": "center",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "vcVD1",
-                  "name": "btnTertDefaultText",
-                  "fill": "#c61818",
-                  "content": "Cancelar",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "600"
-                }
-              ]
-            },
-            {
-              "id": "MVCz8",
-              "type": "ref",
-              "ref": "RZBv6",
-              "name": "Registrar Btn",
-              "width": 120,
-              "height": "fit_content",
-              "x": 260,
-              "y": 17.5,
-              "flipX": false,
-              "flipY": false,
-              "descendants": {
-                "bH4sG": {
-                  "content": "Guardar"
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "frame",
       "id": "c5aCFI",
-      "x": 2510,
+      "x": 2505,
       "y": 14395,
       "name": "Success Card",
       "width": 400,
@@ -20037,19 +19587,6 @@
               "gap": 9,
               "alignItems": "center",
               "children": [
-                {
-                  "type": "rectangle",
-                  "id": "ycjny",
-                  "name": "image-removebg-preview (1) 1",
-                  "fill": {
-                    "type": "image",
-                    "enabled": true,
-                    "url": "Logistica%20Adaptable%20logo.png",
-                    "mode": "stretch"
-                  },
-                  "width": 165,
-                  "height": 60
-                },
                 {
                   "type": "frame",
                   "id": "tEepI",
@@ -24659,7 +24196,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "IGSyo",
+                      "id": "drpo4",
                       "name": "dPreviewAddr",
                       "width": "fill_container",
                       "gap": 20,
@@ -24667,23 +24204,99 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "b1TChf",
+                          "id": "tW5eC",
+                          "name": "textareaFrame",
+                          "width": 145,
+                          "height": 40,
+                          "fill": "$White",
+                          "cornerRadius": 6,
+                          "stroke": "$Gray Light",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 10,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "j3I5FR",
+                              "name": "textareaText",
+                              "fill": "$Gray Medium",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Forma de pago",
+                              "fontFamily": "$Font Family",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "MqtMt",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "chevron-down",
+                              "library": "feather",
+                              "fill": "$Gray Medium"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Md8Xl",
+                          "name": "textareaFrame",
+                          "width": 145,
+                          "height": 40,
+                          "fill": "$White",
+                          "cornerRadius": 6,
+                          "stroke": "$Gray Light",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 10,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Wwr13",
+                              "name": "textareaText",
+                              "fill": "$Gray Medium",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Estado",
+                              "fontFamily": "$Font Family",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "uQl29",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "chevron-down",
+                              "library": "feather",
+                              "fill": "$Gray Medium"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "O64a8",
                           "name": "chkInst",
                           "gap": 10,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "icon",
-                              "id": "J8hAn",
+                              "id": "m5Cgp",
                               "width": 18,
                               "height": 18,
-                              "icon": "circle",
-                              "library": "feather",
+                              "icon": "square",
+                              "library": "lucide",
                               "fill": "$Gray Light"
                             },
                             {
                               "type": "text",
-                              "id": "DxTUo",
+                              "id": "WRss9",
                               "name": "dateInputLabel",
                               "fill": "$Dark Text",
                               "content": "Con factura",
@@ -24695,7 +24308,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "grAst",
+                          "id": "rnBwf",
                           "name": "Dropdown",
                           "width": 270,
                           "gap": 10,
@@ -24703,7 +24316,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "bD6H6",
+                              "id": "nERFO",
                               "name": "textareaLabel",
                               "fill": "$Primary",
                               "content": "No. Factura",
@@ -24713,7 +24326,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "Khrby",
+                              "id": "x4IWN7",
                               "name": "textareaFrame",
                               "width": "fill_container",
                               "height": 40,
@@ -24728,7 +24341,7 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "Fjx9o",
+                                  "id": "d9Q1K",
                                   "name": "textareaText",
                                   "fill": "$Gray Medium",
                                   "textGrowth": "fixed-width",
@@ -24739,82 +24352,6 @@
                                   "fontWeight": "normal"
                                 }
                               ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "KEtg6",
-                          "name": "textareaFrame",
-                          "width": 145,
-                          "height": 40,
-                          "fill": "$White",
-                          "cornerRadius": 6,
-                          "stroke": "$Gray Light",
-                          "strokeWidth": 1,
-                          "strokeAlignment": "inner",
-                          "gap": 10,
-                          "padding": 12,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "SwNvn",
-                              "name": "textareaText",
-                              "fill": "$Gray Medium",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Forma de pago",
-                              "fontFamily": "$Font Family",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "icon",
-                              "id": "KLg4g",
-                              "width": 18,
-                              "height": 18,
-                              "icon": "chevron-down",
-                              "library": "feather",
-                              "fill": "$Gray Medium"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "TN0pw",
-                          "name": "textareaFrame",
-                          "width": 145,
-                          "height": 40,
-                          "fill": "$White",
-                          "cornerRadius": 6,
-                          "stroke": "$Gray Light",
-                          "strokeWidth": 1,
-                          "strokeAlignment": "inner",
-                          "gap": 10,
-                          "padding": 12,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "k8x0F",
-                              "name": "textareaText",
-                              "fill": "$Gray Medium",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Estado",
-                              "fontFamily": "$Font Family",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "icon",
-                              "id": "VIXFA",
-                              "width": 18,
-                              "height": 18,
-                              "icon": "chevron-down",
-                              "library": "feather",
-                              "fill": "$Gray Medium"
                             }
                           ]
                         }
@@ -36564,7 +36101,7 @@
                               "id": "bQsQX",
                               "width": 18,
                               "height": 18,
-                              "icon": "circle",
+                              "icon": "square",
                               "library": "feather",
                               "fill": "$Gray Light"
                             },
@@ -36661,83 +36198,6 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "gWUpG",
-                          "name": "chkInst",
-                          "gap": 10,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "k1GWX",
-                              "width": 18,
-                              "height": 18,
-                              "icon": "circle",
-                              "library": "feather",
-                              "fill": "$Gray Light"
-                            },
-                            {
-                              "type": "text",
-                              "id": "xXhDx",
-                              "name": "dateInputLabel",
-                              "fill": "$Dark Text",
-                              "content": "Con factura",
-                              "fontFamily": "Inter",
-                              "fontSize": 14,
-                              "fontWeight": "500"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "Ny7Zh",
-                          "name": "Dropdown",
-                          "width": 270,
-                          "gap": 10,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "nOni3",
-                              "name": "textareaLabel",
-                              "fill": "$Primary",
-                              "content": "No. Factura",
-                              "fontFamily": "$Font Family",
-                              "fontSize": 14,
-                              "fontWeight": "600"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "hg6WX",
-                              "name": "textareaFrame",
-                              "width": "fill_container",
-                              "height": 40,
-                              "fill": "$White",
-                              "cornerRadius": 6,
-                              "stroke": "$Gray Light",
-                              "strokeWidth": 1,
-                              "strokeAlignment": "inner",
-                              "gap": 10,
-                              "padding": 12,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "mMwVW",
-                                  "name": "textareaText",
-                                  "fill": "$Gray Medium",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "Escribe aquí",
-                                  "fontFamily": "$Font Family",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
                           "id": "WT2MI",
                           "name": "textareaFrame",
                           "width": 145,
@@ -36809,6 +36269,83 @@
                               "icon": "chevron-down",
                               "library": "feather",
                               "fill": "$Gray Medium"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gWUpG",
+                          "name": "chkInst",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "k1GWX",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "square",
+                              "library": "lucide",
+                              "fill": "$Gray Light"
+                            },
+                            {
+                              "type": "text",
+                              "id": "xXhDx",
+                              "name": "dateInputLabel",
+                              "fill": "$Dark Text",
+                              "content": "Con factura",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Ny7Zh",
+                          "name": "Dropdown",
+                          "width": 270,
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "nOni3",
+                              "name": "textareaLabel",
+                              "fill": "$Primary",
+                              "content": "No. Factura",
+                              "fontFamily": "$Font Family",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hg6WX",
+                              "name": "textareaFrame",
+                              "width": "fill_container",
+                              "height": 40,
+                              "fill": "$White",
+                              "cornerRadius": 6,
+                              "stroke": "$Gray Light",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "gap": 10,
+                              "padding": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "mMwVW",
+                                  "name": "textareaText",
+                                  "fill": "$Gray Medium",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Escribe aquí",
+                                  "fontFamily": "$Font Family",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
                             }
                           ]
                         }
@@ -47781,7 +47318,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "EWUFN",
+                      "id": "F1q9kg",
                       "name": "dPreviewAddr",
                       "width": "fill_container",
                       "gap": 20,
@@ -47789,23 +47326,99 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "B52IR",
+                          "id": "fzqjc",
+                          "name": "textareaFrame",
+                          "width": 145,
+                          "height": 40,
+                          "fill": "$White",
+                          "cornerRadius": 6,
+                          "stroke": "$Gray Light",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 10,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "s5EJn",
+                              "name": "textareaText",
+                              "fill": "$Gray Medium",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Forma de pago",
+                              "fontFamily": "$Font Family",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "EnJZW",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "chevron-down",
+                              "library": "feather",
+                              "fill": "$Gray Medium"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bIbyf",
+                          "name": "textareaFrame",
+                          "width": 145,
+                          "height": 40,
+                          "fill": "$White",
+                          "cornerRadius": 6,
+                          "stroke": "$Gray Light",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 10,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Mg7zj",
+                              "name": "textareaText",
+                              "fill": "$Gray Medium",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Estado",
+                              "fontFamily": "$Font Family",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "UAGNX",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "chevron-down",
+                              "library": "feather",
+                              "fill": "$Gray Medium"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lJvll",
                           "name": "chkInst",
                           "gap": 10,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "icon",
-                              "id": "vJZmD",
+                              "id": "flKR3",
                               "width": 18,
                               "height": 18,
-                              "icon": "circle",
-                              "library": "feather",
+                              "icon": "square",
+                              "library": "lucide",
                               "fill": "$Gray Light"
                             },
                             {
                               "type": "text",
-                              "id": "XEM8h",
+                              "id": "LEcQU",
                               "name": "dateInputLabel",
                               "fill": "$Dark Text",
                               "content": "Con factura",
@@ -47817,7 +47430,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "CRXTf",
+                          "id": "zJgLv",
                           "name": "Dropdown",
                           "width": 270,
                           "gap": 10,
@@ -47825,7 +47438,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "RwcN4",
+                              "id": "IuvwL",
                               "name": "textareaLabel",
                               "fill": "$Primary",
                               "content": "No. Factura",
@@ -47835,7 +47448,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "v8houA",
+                              "id": "u1IvlX",
                               "name": "textareaFrame",
                               "width": "fill_container",
                               "height": 40,
@@ -47850,7 +47463,7 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "PfL7c",
+                                  "id": "Adrc2",
                                   "name": "textareaText",
                                   "fill": "$Gray Medium",
                                   "textGrowth": "fixed-width",
@@ -47861,82 +47474,6 @@
                                   "fontWeight": "normal"
                                 }
                               ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "n4Hfif",
-                          "name": "textareaFrame",
-                          "width": 145,
-                          "height": 40,
-                          "fill": "$White",
-                          "cornerRadius": 6,
-                          "stroke": "$Gray Light",
-                          "strokeWidth": 1,
-                          "strokeAlignment": "inner",
-                          "gap": 10,
-                          "padding": 12,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "iLXvm",
-                              "name": "textareaText",
-                              "fill": "$Gray Medium",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Forma de pago",
-                              "fontFamily": "$Font Family",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "icon",
-                              "id": "k2P7Db",
-                              "width": 18,
-                              "height": 18,
-                              "icon": "chevron-down",
-                              "library": "feather",
-                              "fill": "$Gray Medium"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "B7JF7z",
-                          "name": "textareaFrame",
-                          "width": 145,
-                          "height": 40,
-                          "fill": "$White",
-                          "cornerRadius": 6,
-                          "stroke": "$Gray Light",
-                          "strokeWidth": 1,
-                          "strokeAlignment": "inner",
-                          "gap": 10,
-                          "padding": 12,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "uE2We",
-                              "name": "textareaText",
-                              "fill": "$Gray Medium",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Estado",
-                              "fontFamily": "$Font Family",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "icon",
-                              "id": "T0Vawa",
-                              "width": 18,
-                              "height": 18,
-                              "icon": "chevron-down",
-                              "library": "feather",
-                              "fill": "$Gray Medium"
                             }
                           ]
                         }
@@ -49192,11 +48729,6 @@
               "type": "frame",
               "id": "kvdle",
               "name": "Tab Documentos",
-              "stroke": "$Primary",
-              "strokeWidth": {
-                "bottom": 2
-              },
-              "strokeAlignment": "inner",
               "gap": 6,
               "padding": [
                 14,
@@ -49212,25 +48744,24 @@
                   "height": 16,
                   "icon": "handbag",
                   "library": "lucide",
-                  "fill": "$Primary"
+                  "fill": "$Gray Dark"
                 },
                 {
                   "type": "text",
                   "id": "oBxIw",
                   "name": "L",
-                  "fill": "$Primary",
+                  "fill": "$Gray Dark",
                   "content": "Artículos en venta",
                   "fontFamily": "Inter",
-                  "fontSize": 13,
-                  "fontWeight": "600"
+                  "fontSize": 13
                 }
               ]
             },
             {
               "type": "frame",
-              "id": "P4TZtM",
-              "name": "Tab Formulario",
-              "stroke": "#FFFFFF00",
+              "id": "CD5fz",
+              "name": "Tab Documentos",
+              "stroke": "$Primary",
               "strokeWidth": {
                 "bottom": 2
               },
@@ -49244,48 +48775,25 @@
               "children": [
                 {
                   "type": "icon",
-                  "id": "UautH",
+                  "id": "BohK4",
                   "name": "I",
                   "width": 16,
                   "height": 16,
-                  "icon": "eye",
+                  "icon": "settings",
                   "library": "lucide",
-                  "fill": "$Gray Dark"
+                  "fill": "$Primary"
                 },
                 {
                   "type": "text",
-                  "id": "vRzTd",
+                  "id": "sj1Uh",
                   "name": "L",
-                  "fill": "$Gray Dark",
-                  "content": "Configuración de contraseñas",
+                  "fill": "$Primary",
+                  "content": "Ajustes de ticket",
                   "fontFamily": "Inter",
                   "fontSize": 13,
-                  "fontWeight": "normal"
+                  "fontWeight": "600"
                 }
               ]
-            },
-            {
-              "id": "E3YwD",
-              "type": "ref",
-              "ref": "VIq1x",
-              "x": 762,
-              "y": 7.5,
-              "fill": [],
-              "height": 41,
-              "width": "fit_content",
-              "descendants": {
-                "DIWCG": {
-                  "content": "Ajustes de ticket",
-                  "fill": "$Positivo"
-                },
-                "d4y6B": {
-                  "library": "lucide",
-                  "icon": "settings",
-                  "fill": "$Positivo",
-                  "width": 20,
-                  "height": 20
-                }
-              }
             }
           ]
         },
@@ -49305,1524 +48813,360 @@
           "children": [
             {
               "type": "frame",
-              "id": "j0W2M8",
-              "name": "Frame 1231",
+              "id": "omNkH",
+              "name": "redesign2Content",
               "width": "fill_container",
               "layout": "vertical",
-              "gap": 16,
-              "alignItems": "end",
+              "gap": 15,
+              "padding": [
+                0,
+                20
+              ],
               "children": [
                 {
                   "type": "frame",
-                  "id": "WOHcd",
-                  "name": "Frame 1284",
-                  "width": "fill_container",
-                  "gap": 15,
-                  "justifyContent": "end",
-                  "alignItems": "end",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "CTwMG",
-                      "x": 0,
-                      "y": 20,
-                      "name": "Descargar en PDF",
-                      "enabled": false,
-                      "fill": "#1cbed2ff",
-                      "content": "Descargar en PDF",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "700"
-                    },
-                    {
-                      "id": "XGk6g",
-                      "type": "ref",
-                      "ref": "RZBv6",
-                      "name": "Nueva Venta Btn",
-                      "width": "fit_content",
-                      "height": "fit_content",
-                      "x": 1207,
-                      "y": 0,
-                      "descendants": {
-                        "bH4sG": {
-                          "content": "Nuevo artículo en venta"
-                        }
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "a2tH7T",
-                  "name": "Table Area",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 16,
+                  "id": "T7OgQS",
+                  "name": "cardsRow",
+                  "width": 640,
+                  "gap": 30,
+                  "alignItems": "center",
                   "children": [
                     {
                       "type": "frame",
-                      "id": "KvIVJ",
-                      "name": "Table",
-                      "clip": true,
+                      "id": "m6vCe",
+                      "name": "infoBannerInner",
                       "width": "fill_container",
-                      "height": 450,
-                      "fill": "$White",
-                      "cornerRadius": [
-                        0,
-                        0,
-                        8,
-                        8
-                      ],
-                      "stroke": "$Gray Light",
+                      "fill": "#f0f4f8ff",
+                      "cornerRadius": 6,
+                      "stroke": "$Primary",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
-                      "layout": "vertical",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "ZUbSG",
-                          "name": "TH",
-                          "width": "fill_container",
-                          "height": 40,
-                          "fill": "#f0f4f8",
-                          "padding": [
-                            0,
-                            16
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "p2EylQ",
-                              "name": "TH ID",
-                              "width": "fill_container",
-                              "padding": [
-                                0,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "L8TgbS",
-                                  "name": "L",
-                                  "fill": "$Gray Dark",
-                                  "content": "NOMBRE",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 10,
-                                  "fontWeight": "600",
-                                  "letterSpacing": 0.4
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "GM0Ga",
-                              "name": "TH3",
-                              "width": "fill_container",
-                              "padding": [
-                                0,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "qn1lw",
-                                  "name": "L",
-                                  "fill": "$Gray Dark",
-                                  "content": "PRECIO UNITARIO",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 10,
-                                  "fontWeight": "600",
-                                  "letterSpacing": 0.4
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "asDcS",
-                              "name": "TH3",
-                              "width": "fill_container",
-                              "padding": [
-                                0,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "bqDjH",
-                                  "name": "L",
-                                  "fill": "$Gray Dark",
-                                  "content": "ACCIONES",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 10,
-                                  "fontWeight": "600",
-                                  "letterSpacing": 0.4
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "uxY1K",
-                          "name": "R1",
-                          "width": "fill_container",
-                          "fill": "$White",
-                          "stroke": "$Gray Light",
-                          "strokeWidth": {
-                            "bottom": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "padding": [
-                            0,
-                            16
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "r0Sivj",
-                              "name": "C Nombre",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "jfR69",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "Caja cartón chica 15×15×10 cm",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "m2CW7",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "RWbvY",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "$89.00",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "LWsgY",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "gap": 10,
-                              "padding": [
-                                4,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "rC0Rz",
-                                  "name": "Btn Edit",
-                                  "fill": "#E8F4FD",
-                                  "cornerRadius": 4,
-                                  "gap": 4,
-                                  "padding": [
-                                    6,
-                                    10
-                                  ],
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "eMzPJ",
-                                      "name": "Edit Icon",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "edit-2",
-                                      "library": "feather",
-                                      "fill": "$Primary"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "KIfT3",
-                                  "name": "Btn Rm",
-                                  "width": 34,
-                                  "height": 28,
-                                  "fill": "#ffebebff",
-                                  "cornerRadius": 4,
-                                  "justifyContent": "center",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "VXl6q",
-                                      "name": "I",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "trash-2",
-                                      "library": "lucide",
-                                      "fill": "$Secondary"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "ud3hw",
-                          "name": "R2",
-                          "width": "fill_container",
-                          "fill": "$White",
-                          "stroke": "$Gray Light",
-                          "strokeWidth": {
-                            "bottom": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "padding": [
-                            0,
-                            16
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "E7Hqnn",
-                              "name": "C Nombre",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "zHwnw",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "Caja cartón mediana 30×20×15 cm",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "A7xmW",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "xHOAO",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "$125.00",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "mDDmi",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "gap": 10,
-                              "padding": [
-                                4,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "A54BwQ",
-                                  "name": "Btn Edit",
-                                  "fill": "#E8F4FD",
-                                  "cornerRadius": 4,
-                                  "gap": 4,
-                                  "padding": [
-                                    6,
-                                    10
-                                  ],
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "EYif3",
-                                      "name": "Edit Icon",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "edit-2",
-                                      "library": "feather",
-                                      "fill": "$Primary"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "C9XRbz",
-                                  "name": "Btn Rm",
-                                  "width": 34,
-                                  "height": 28,
-                                  "fill": "#ffebebff",
-                                  "cornerRadius": 4,
-                                  "justifyContent": "center",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "kgzFp",
-                                      "name": "I",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "trash-2",
-                                      "library": "lucide",
-                                      "fill": "$Secondary"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "ZLV5p",
-                          "name": "R3",
-                          "width": "fill_container",
-                          "fill": "$White",
-                          "stroke": "$Gray Light",
-                          "strokeWidth": {
-                            "bottom": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "padding": [
-                            0,
-                            16
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "OaKdz",
-                              "name": "C Nombre",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "EZLCw",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "Caja cartón grande 40×30×20 cm",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "kjaHE",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "PCDUn",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "$12.50",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "TzJbv",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "gap": 10,
-                              "padding": [
-                                4,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "Q9vuV",
-                                  "name": "Btn Edit",
-                                  "fill": "#E8F4FD",
-                                  "cornerRadius": 4,
-                                  "gap": 4,
-                                  "padding": [
-                                    6,
-                                    10
-                                  ],
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "pXc0I",
-                                      "name": "Edit Icon",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "edit-2",
-                                      "library": "feather",
-                                      "fill": "$Primary"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "ucTAN",
-                                  "name": "Btn Rm",
-                                  "width": 34,
-                                  "height": 28,
-                                  "fill": "#ffebebff",
-                                  "cornerRadius": 4,
-                                  "justifyContent": "center",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "VsPWM",
-                                      "name": "I",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "trash-2",
-                                      "library": "lucide",
-                                      "fill": "$Secondary"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "Zt1oP",
-                          "name": "R4",
-                          "width": "fill_container",
-                          "fill": "$White",
-                          "stroke": "$Gray Light",
-                          "strokeWidth": {
-                            "bottom": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "padding": [
-                            0,
-                            16
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "b85Wv",
-                              "name": "C Nombre",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "EqtPx",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "Sobre acolchado burbuja",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "K6y7V",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "a6qR8",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "$8.00",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "Z1Susu",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "gap": 10,
-                              "padding": [
-                                4,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "g9AkeE",
-                                  "name": "Btn Edit",
-                                  "fill": "#E8F4FD",
-                                  "cornerRadius": 4,
-                                  "gap": 4,
-                                  "padding": [
-                                    6,
-                                    10
-                                  ],
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "FJLGl",
-                                      "name": "Edit Icon",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "edit-2",
-                                      "library": "feather",
-                                      "fill": "$Primary"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "dbBuA",
-                                  "name": "Btn Rm",
-                                  "width": 34,
-                                  "height": 28,
-                                  "fill": "#ffebebff",
-                                  "cornerRadius": 4,
-                                  "justifyContent": "center",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "fc9CE",
-                                      "name": "I",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "trash-2",
-                                      "library": "lucide",
-                                      "fill": "$Secondary"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "J7tUT",
-                          "name": "R5",
-                          "width": "fill_container",
-                          "fill": "$White",
-                          "stroke": "$Gray Light",
-                          "strokeWidth": {
-                            "bottom": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "padding": [
-                            0,
-                            16
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "UHcDr",
-                              "name": "C Nombre",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "LtBs1",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "Tubo postal resistente",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "zyHp0",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "vZUYo",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "$95.00",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "lR7E3",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "gap": 10,
-                              "padding": [
-                                4,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "Iz3Vf",
-                                  "name": "Btn Edit",
-                                  "fill": "#E8F4FD",
-                                  "cornerRadius": 4,
-                                  "gap": 4,
-                                  "padding": [
-                                    6,
-                                    10
-                                  ],
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "V3345M",
-                                      "name": "Edit Icon",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "edit-2",
-                                      "library": "feather",
-                                      "fill": "$Primary"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "ZG35b",
-                                  "name": "Btn Rm",
-                                  "width": 34,
-                                  "height": 28,
-                                  "fill": "#ffebebff",
-                                  "cornerRadius": 4,
-                                  "justifyContent": "center",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "sllFy",
-                                      "name": "I",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "trash-2",
-                                      "library": "lucide",
-                                      "fill": "$Secondary"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "CusJ2",
-                          "name": "R6",
-                          "width": "fill_container",
-                          "fill": "$White",
-                          "stroke": "$Gray Light",
-                          "strokeWidth": {
-                            "bottom": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "padding": [
-                            0,
-                            16
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "mxPAk",
-                              "name": "C Nombre",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "ThnRJ",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "Relleno papel kraft 500g",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "UoLxC",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "Q9RMf",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "$18.50",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "hIlvo",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "gap": 10,
-                              "padding": [
-                                4,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "CWQAa",
-                                  "name": "Btn Edit",
-                                  "fill": "#E8F4FD",
-                                  "cornerRadius": 4,
-                                  "gap": 4,
-                                  "padding": [
-                                    6,
-                                    10
-                                  ],
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "Sgzkr",
-                                      "name": "Edit Icon",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "edit-2",
-                                      "library": "feather",
-                                      "fill": "$Primary"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "hYcH2",
-                                  "name": "Btn Rm",
-                                  "width": 34,
-                                  "height": 28,
-                                  "fill": "#ffebebff",
-                                  "cornerRadius": 4,
-                                  "justifyContent": "center",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "wLdYO",
-                                      "name": "I",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "trash-2",
-                                      "library": "lucide",
-                                      "fill": "$Secondary"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "SfYSI",
-                          "name": "R7",
-                          "width": "fill_container",
-                          "fill": "$White",
-                          "stroke": "$Gray Light",
-                          "strokeWidth": {
-                            "bottom": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "padding": [
-                            0,
-                            16
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "yHFbW",
-                              "name": "C Nombre",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "SxWIo",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "Film stretch transparente",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "TprFn",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "uposH",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "$110.00",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "eDq2M",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "gap": 10,
-                              "padding": [
-                                4,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "VZp58",
-                                  "name": "Btn Edit",
-                                  "fill": "#E8F4FD",
-                                  "cornerRadius": 4,
-                                  "gap": 4,
-                                  "padding": [
-                                    6,
-                                    10
-                                  ],
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "p3k5U3",
-                                      "name": "Edit Icon",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "edit-2",
-                                      "library": "feather",
-                                      "fill": "$Primary"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "KpEuV",
-                                  "name": "Btn Rm",
-                                  "width": 34,
-                                  "height": 28,
-                                  "fill": "#ffebebff",
-                                  "cornerRadius": 4,
-                                  "justifyContent": "center",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "G4EUNa",
-                                      "name": "I",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "trash-2",
-                                      "library": "lucide",
-                                      "fill": "$Secondary"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "ZSY7A",
-                          "name": "R8",
-                          "width": "fill_container",
-                          "fill": "$White",
-                          "stroke": "$Gray Light",
-                          "strokeWidth": {
-                            "bottom": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "padding": [
-                            0,
-                            16
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "aRQ3p",
-                              "name": "C Nombre",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "b0B3s",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "Cinta de embalaje café 48mm",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "ldLCl",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "xsa4M",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "$25.00",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "TDO0j",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "gap": 10,
-                              "padding": [
-                                4,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "KGrv0",
-                                  "name": "Btn Edit",
-                                  "fill": "#E8F4FD",
-                                  "cornerRadius": 4,
-                                  "gap": 4,
-                                  "padding": [
-                                    6,
-                                    10
-                                  ],
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "Vezr4",
-                                      "name": "Edit Icon",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "edit-2",
-                                      "library": "feather",
-                                      "fill": "$Primary"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "sz4KJ",
-                                  "name": "Btn Rm",
-                                  "width": 34,
-                                  "height": 28,
-                                  "fill": "#ffebebff",
-                                  "cornerRadius": 4,
-                                  "justifyContent": "center",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "XD0VX",
-                                      "name": "I",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "trash-2",
-                                      "library": "lucide",
-                                      "fill": "$Secondary"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "K70VS",
-                          "name": "R9",
-                          "width": "fill_container",
-                          "fill": "$White",
-                          "stroke": "$Gray Light",
-                          "strokeWidth": {
-                            "bottom": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "padding": [
-                            0,
-                            16
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "jUQf4",
-                              "name": "C Nombre",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "CvK2b",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "Esquinero cartón protector",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "zcsvX",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "wshbx",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "$75.00",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "M0Gpo",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "gap": 10,
-                              "padding": [
-                                4,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "drAUv",
-                                  "name": "Btn Edit",
-                                  "fill": "#E8F4FD",
-                                  "cornerRadius": 4,
-                                  "gap": 4,
-                                  "padding": [
-                                    6,
-                                    10
-                                  ],
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "dfeFI",
-                                      "name": "Edit Icon",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "edit-2",
-                                      "library": "feather",
-                                      "fill": "$Primary"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "bVMHB",
-                                  "name": "Btn Rm",
-                                  "width": 34,
-                                  "height": 28,
-                                  "fill": "#ffebebff",
-                                  "cornerRadius": 4,
-                                  "justifyContent": "center",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "R7DBt",
-                                      "name": "I",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "trash-2",
-                                      "library": "lucide",
-                                      "fill": "$Secondary"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "tMHIe",
-                          "name": "R10",
-                          "width": "fill_container",
-                          "fill": "$White",
-                          "stroke": "$Gray Light",
-                          "strokeWidth": {
-                            "bottom": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "padding": [
-                            0,
-                            16
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "J87cc",
-                              "name": "C Nombre",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "ONH61",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "Bolsa de burbujas protectora",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "IwKQt",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "padding": [
-                                10,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "qtZXq",
-                                  "name": "V",
-                                  "fill": "$Dark Text",
-                                  "content": "$15.00",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "ihEib",
-                              "name": "C Precio",
-                              "width": "fill_container",
-                              "gap": 10,
-                              "padding": [
-                                4,
-                                6
-                              ],
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "UnCHg",
-                                  "name": "Btn Edit",
-                                  "fill": "#E8F4FD",
-                                  "cornerRadius": 4,
-                                  "gap": 4,
-                                  "padding": [
-                                    6,
-                                    10
-                                  ],
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "t37EV",
-                                      "name": "Edit Icon",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "edit-2",
-                                      "library": "feather",
-                                      "fill": "$Primary"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "IaO7C",
-                                  "name": "Btn Rm",
-                                  "width": 34,
-                                  "height": 28,
-                                  "fill": "#ffebebff",
-                                  "cornerRadius": 4,
-                                  "justifyContent": "center",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "fRPBd",
-                                      "name": "I",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "trash-2",
-                                      "library": "lucide",
-                                      "fill": "$Secondary"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "x11e2f",
-                      "name": "Pagination",
-                      "width": "fill_container",
-                      "gap": 8,
+                      "gap": 12,
                       "padding": [
-                        4,
-                        0
+                        14,
+                        20
                       ],
-                      "justifyContent": "end",
                       "alignItems": "center",
                       "children": [
                         {
+                          "type": "icon",
+                          "id": "cLozM",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "info",
+                          "library": "lucide",
+                          "fill": "$Primary"
+                        },
+                        {
                           "type": "text",
-                          "id": "bikXV",
-                          "name": "Info",
-                          "fill": "$Gray Dark",
-                          "content": "1–10 de 10 artículos",
+                          "id": "k79dl",
+                          "fill": "$Primary",
+                          "textGrowth": "fixed-width",
+                          "width": 550,
+                          "content": "Aquí podrás editar el contenido que se ve reflejado en la impresión del ticket de tu sucursal.",
                           "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "hC6Xi",
-                          "name": "Prev",
-                          "opacity": 0.3,
-                          "width": 32,
-                          "height": 32,
-                          "cornerRadius": 6,
-                          "stroke": "$Gray Light",
-                          "strokeWidth": 1,
-                          "strokeAlignment": "inner",
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "hyqNR",
-                              "name": "I",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "chevron-left",
-                              "library": "lucide",
-                              "fill": "$Gray Dark"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "WTYvA",
-                          "name": "P1",
-                          "width": 32,
-                          "height": 32,
-                          "fill": "$Accent",
-                          "cornerRadius": 6,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "bGnPW",
-                              "name": "N",
-                              "fill": "$White",
-                              "content": "1",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "Q38U4c",
-                          "name": "Next",
-                          "opacity": 0.3,
-                          "width": 32,
-                          "height": 32,
-                          "cornerRadius": 6,
-                          "stroke": "$Gray Light",
-                          "strokeWidth": 1,
-                          "strokeAlignment": "inner",
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "he4kn",
-                              "name": "I",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "chevron-right",
-                              "library": "lucide",
-                              "fill": "$Gray Dark"
-                            }
-                          ]
+                          "fontSize": 12,
+                          "fontWeight": "500"
                         }
                       ]
                     }
                   ]
                 }
               ]
+            },
+            {
+              "type": "frame",
+              "id": "T1uY1g",
+              "name": "Contenedor Ajustes ticket",
+              "width": "fill_container",
+              "cornerRadius": 10,
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                0,
+                20
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "y82rl",
+                  "name": "Dropdown",
+                  "width": "fill_container",
+                  "height": 80,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iWl88",
+                      "name": "textareaLabel",
+                      "fill": "$Primary",
+                      "content": "Dirección",
+                      "fontFamily": "$Font Family",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Dbdib",
+                      "name": "textareaFrame",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "$White",
+                      "cornerRadius": 6,
+                      "stroke": "$Gray Light",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 10,
+                      "padding": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "G8rjzR",
+                          "name": "textareaText",
+                          "fill": "$Gray Medium",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Escribe aquí",
+                          "fontFamily": "$Font Family",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "v4lF84",
+                  "name": "Dropdown",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vrF44",
+                      "name": "textareaLabel",
+                      "fill": "$Primary",
+                      "content": "Nombre de Sucursal",
+                      "fontFamily": "$Font Family",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qGqj3",
+                      "name": "textareaFrame",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$White",
+                      "cornerRadius": 6,
+                      "stroke": "$Gray Light",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 10,
+                      "padding": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "K2SgQM",
+                          "name": "textareaText",
+                          "fill": "$Gray Medium",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Escribe aquí",
+                          "fontFamily": "$Font Family",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kFjmo",
+                  "name": "Dropdown",
+                  "width": "fill_container",
+                  "height": 140,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BLqQq",
+                      "name": "textareaLabel",
+                      "fill": "$Primary",
+                      "content": "Condiciones",
+                      "fontFamily": "$Font Family",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TNBl2",
+                      "name": "textareaFrame",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "$White",
+                      "cornerRadius": 6,
+                      "stroke": "$Gray Light",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 10,
+                      "padding": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TnXQ8",
+                          "name": "textareaText",
+                          "fill": "$Gray Medium",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Escribe aquí",
+                          "fontFamily": "$Font Family",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Y5A80k",
+                  "name": "textareaLabel",
+                  "fill": "$Primary",
+                  "content": "Ingresa el código de la impresora correspondiente:",
+                  "fontFamily": "$Font Family",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "m7E46n",
+                  "name": "Dropdown",
+                  "width": 340,
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "B74AiQ",
+                      "name": "textareaLabel",
+                      "fill": "$Primary",
+                      "textGrowth": "fixed-width",
+                      "width": 100,
+                      "content": "Venadillo",
+                      "fontFamily": "$Font Family",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WeYxB",
+                      "name": "textareaFrame",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$White",
+                      "cornerRadius": 6,
+                      "stroke": "$Gray Light",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 10,
+                      "padding": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Xc2OC",
+                          "name": "textareaText",
+                          "fill": "$Gray Medium",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "01234567",
+                          "fontFamily": "$Font Family",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WOHcd",
+              "name": "Frame 1284",
+              "width": "fill_container",
+              "gap": 15,
+              "justifyContent": "end",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "CTwMG",
+                  "x": 0,
+                  "y": 20,
+                  "name": "Descargar en PDF",
+                  "enabled": false,
+                  "fill": "#1cbed2ff",
+                  "content": "Descargar en PDF",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "XezLJ",
+                  "name": "BTN/CANCEL",
+                  "width": 140,
+                  "height": 44,
+                  "cornerRadius": 6,
+                  "layout": "vertical",
+                  "padding": 12,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "V6osZ",
+                      "name": "btnTertDefaultText",
+                      "fill": "#c61818",
+                      "content": "Cancelar",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "id": "MVCz8",
+                  "type": "ref",
+                  "ref": "RZBv6",
+                  "name": "Registrar Btn",
+                  "width": "fit_content",
+                  "height": "fit_content",
+                  "x": 1252,
+                  "y": 3,
+                  "flipX": false,
+                  "flipY": false,
+                  "descendants": {
+                    "bH4sG": {
+                      "content": "Guardar cambios"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
       ]
-    },
-    {
-      "type": "text",
-      "id": "e8GTS8",
-      "x": 153,
-      "y": 15871,
-      "fill": "#ffffff",
-      "content": "M10 - Editar una contraseña de sucursal",
-      "fontFamily": "Inter",
-      "fontSize": 200,
-      "fontWeight": "normal"
     },
     {
       "type": "frame",
@@ -51209,13 +49553,8 @@
             },
             {
               "type": "frame",
-              "id": "UIiru",
-              "name": "Tab Formulario",
-              "stroke": "#FFFFFF00",
-              "strokeWidth": {
-                "bottom": 2
-              },
-              "strokeAlignment": "inner",
+              "id": "XMeLe",
+              "name": "Tab Documentos",
               "gap": 6,
               "padding": [
                 14,
@@ -51225,48 +49564,24 @@
               "children": [
                 {
                   "type": "icon",
-                  "id": "pr3bX",
+                  "id": "ENzBn",
                   "name": "I",
                   "width": 16,
                   "height": 16,
-                  "icon": "eye",
+                  "icon": "settings",
                   "library": "lucide",
                   "fill": "$Gray Dark"
                 },
                 {
                   "type": "text",
-                  "id": "mgRT9",
+                  "id": "g6T8U6",
                   "name": "L",
                   "fill": "$Gray Dark",
-                  "content": "Configuración de contraseñas",
+                  "content": "Ajustes de ticket",
                   "fontFamily": "Inter",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
+                  "fontSize": 13
                 }
               ]
-            },
-            {
-              "id": "lTk5X",
-              "type": "ref",
-              "ref": "VIq1x",
-              "x": 762,
-              "y": 7.5,
-              "fill": [],
-              "height": 41,
-              "width": "fit_content",
-              "descendants": {
-                "DIWCG": {
-                  "content": "Ajustes de ticket",
-                  "fill": "$Positivo"
-                },
-                "d4y6B": {
-                  "library": "lucide",
-                  "icon": "settings",
-                  "fill": "$Positivo",
-                  "width": 20,
-                  "height": 20
-                }
-              }
             }
           ]
         },
@@ -61421,1496 +59736,6 @@
     },
     {
       "type": "frame",
-      "id": "yHSiX",
-      "x": 153,
-      "y": 16527,
-      "name": "Ajustes de Mostradores - Configuración de Contraseñas",
-      "clip": true,
-      "width": 1440,
-      "height": 900,
-      "fill": "#EEF2F7",
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "frame",
-          "id": "DkyQI",
-          "name": "Topbar Menu",
-          "width": 1440,
-          "height": 60,
-          "fill": "#FFFFFF",
-          "stroke": "#E5E5E5",
-          "strokeWidth": {
-            "bottom": 1
-          },
-          "strokeAlignment": "inner",
-          "effect": {
-            "type": "shadow",
-            "shadowType": "outer",
-            "color": "#00000040",
-            "offset": {
-              "x": 0,
-              "y": 4
-            },
-            "blur": 4
-          },
-          "padding": [
-            0,
-            0,
-            0,
-            16
-          ],
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "rectangle",
-              "id": "ttdnj",
-              "name": "Logo",
-              "fill": {
-                "type": "image",
-                "enabled": true,
-                "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
-              },
-              "width": 92,
-              "height": 40
-            },
-            {
-              "type": "frame",
-              "id": "pQxPp",
-              "name": "Flex Spacer",
-              "width": "fill_container",
-              "height": 1
-            },
-            {
-              "type": "frame",
-              "id": "K4FhlT",
-              "name": "Nav Inicio",
-              "height": "fill_container",
-              "padding": [
-                0,
-                16
-              ],
-              "justifyContent": "center",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "ZFJQh",
-                  "name": "Guías Lbl",
-                  "fill": "$Primary",
-                  "content": "Inicio",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "Q0RQA",
-              "name": "Nav Guías",
-              "height": "fill_container",
-              "padding": [
-                0,
-                16
-              ],
-              "justifyContent": "center",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "G4JKrc",
-                  "name": "Guías Lbl",
-                  "fill": "$Primary",
-                  "content": "Guías",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "fV5yB",
-              "name": "Nav Soporte",
-              "height": "fill_container",
-              "padding": [
-                0,
-                16
-              ],
-              "justifyContent": "center",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "DZlzR",
-                  "name": "Soporte Lbl",
-                  "fill": "$Primary",
-                  "content": "Soporte",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "u0Yf0j",
-              "name": "Nav Consumo",
-              "height": "fill_container",
-              "padding": [
-                0,
-                16
-              ],
-              "justifyContent": "center",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "GEMZi",
-                  "name": "Consumo Lbl",
-                  "fill": "$Primary",
-                  "content": "Administración",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "u6R3vU",
-              "name": "Nav Dashboard 2026",
-              "height": "fill_container",
-              "padding": [
-                0,
-                16
-              ],
-              "justifyContent": "center",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "bkDcF",
-                  "name": "Dashboard 2026 Lbl",
-                  "fill": "$Primary",
-                  "content": "Dashboard",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "xJ3E0",
-              "name": "Nav Direcciones",
-              "height": "fill_container",
-              "padding": [
-                0,
-                16
-              ],
-              "justifyContent": "center",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "l0iHQ",
-                  "name": "Direcciones Lbl",
-                  "fill": "$Primary",
-                  "content": "Direcciones",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "t1VsNC",
-              "name": "Nav Mostradores",
-              "height": "fill_container",
-              "fill": "$Primary",
-              "padding": [
-                0,
-                16
-              ],
-              "justifyContent": "center",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "fop38",
-                  "name": "Inicio Lbl",
-                  "fill": "$White",
-                  "content": "Mostradores",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "600"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "viqQw",
-              "name": "Flex Spacer",
-              "width": "fill_container",
-              "height": 1
-            },
-            {
-              "type": "frame",
-              "id": "VVjQH",
-              "name": "Cotizador Rápido",
-              "height": "fill_container",
-              "padding": [
-                0,
-                16
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "QujYR",
-                  "name": "Cotizador Lbl",
-                  "fill": "$Secondary",
-                  "content": "Cotizador rápido",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "500"
-                }
-              ]
-            },
-            {
-              "type": "rectangle",
-              "id": "BtBrN",
-              "name": "Separator",
-              "fill": "#D1D5DB",
-              "width": 1,
-              "height": 22
-            },
-            {
-              "type": "frame",
-              "id": "fBISg",
-              "name": "Greeting",
-              "width": 209,
-              "height": "fill_container",
-              "gap": 6,
-              "padding": [
-                0,
-                16
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "LPcZZ",
-                  "name": "Greeting Text",
-                  "fill": "$Primary",
-                  "textGrowth": "fixed-width",
-                  "width": 164,
-                  "content": "¡Hola, usuario!",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "icon",
-                  "id": "aBDoa",
-                  "name": "Chevron Down",
-                  "width": 14,
-                  "height": 14,
-                  "icon": "chevron-down",
-                  "library": "lucide",
-                  "fill": "$Primary"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "J4MEd",
-          "name": "Topbar",
-          "width": "fill_container",
-          "height": 56,
-          "stroke": "$Gray Light",
-          "strokeWidth": {
-            "bottom": 1
-          },
-          "strokeAlignment": "inner",
-          "gap": 20,
-          "padding": [
-            0,
-            24
-          ],
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "text",
-              "id": "JuKjT",
-              "name": "Title",
-              "fill": "$Dark Text",
-              "content": "Ajustes de Mostradores",
-              "fontFamily": "Inter",
-              "fontSize": 20,
-              "fontWeight": "700"
-            },
-            {
-              "type": "icon",
-              "id": "Ueuaa",
-              "width": 16,
-              "height": 16,
-              "icon": "chevron-down",
-              "library": "lucide",
-              "fill": "$Dark Text"
-            },
-            {
-              "type": "frame",
-              "id": "DRLw6",
-              "name": "Tab Documentos",
-              "gap": 6,
-              "padding": [
-                14,
-                16
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon",
-                  "id": "pE5Kw",
-                  "name": "I",
-                  "width": 16,
-                  "height": 16,
-                  "icon": "handbag",
-                  "library": "lucide",
-                  "fill": "$Gray Dark"
-                },
-                {
-                  "type": "text",
-                  "id": "zj2Ny",
-                  "name": "L",
-                  "fill": "$Gray Dark",
-                  "content": "Artículos en venta",
-                  "fontFamily": "Inter",
-                  "fontSize": 13
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "D0r8t",
-              "name": "Tab Formulario",
-              "stroke": "$Primary",
-              "strokeWidth": {
-                "bottom": 2
-              },
-              "strokeAlignment": "inner",
-              "gap": 6,
-              "padding": [
-                14,
-                16
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon",
-                  "id": "dq2UG",
-                  "name": "I",
-                  "width": 16,
-                  "height": 16,
-                  "icon": "eye",
-                  "library": "lucide",
-                  "fill": "$Primary"
-                },
-                {
-                  "type": "text",
-                  "id": "VYITT",
-                  "name": "L",
-                  "fill": "$Primary",
-                  "content": "Configuración de contraseñas",
-                  "fontFamily": "Inter",
-                  "fontSize": 13,
-                  "fontWeight": "600"
-                }
-              ]
-            },
-            {
-              "id": "lo1z8",
-              "type": "ref",
-              "ref": "VIq1x",
-              "x": 762,
-              "y": 7.5,
-              "fill": [],
-              "height": 41,
-              "width": "fit_content",
-              "descendants": {
-                "DIWCG": {
-                  "content": "Ajustes de ticket",
-                  "fill": "$Positivo"
-                },
-                "d4y6B": {
-                  "library": "lucide",
-                  "icon": "settings",
-                  "fill": "$Positivo",
-                  "width": 20,
-                  "height": 20
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "GhHvi",
-          "name": "leftSide",
-          "width": "fill_container",
-          "height": "fill_container",
-          "layout": "vertical",
-          "gap": 32,
-          "padding": [
-            16,
-            24
-          ],
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "frame",
-              "id": "E1Qmid",
-              "name": "Frame 1231",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 16,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "tyffk",
-                  "name": "Header Row",
-                  "width": "fill_container",
-                  "justifyContent": "space_between",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "G7RvI",
-                      "name": "Desc",
-                      "fill": "$Gray Dark",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Gestiona las contraseñas asignadas a cada mostrador para autorizar descuentos en guías.",
-                      "fontFamily": "Inter",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "id": "l81YS",
-                      "type": "ref",
-                      "ref": "RZBv6",
-                      "name": "Nueva Contraseña Btn",
-                      "width": "fit_content",
-                      "height": 44,
-                      "enabled": false,
-                      "descendants": {
-                        "bH4sG": {
-                          "content": "Nueva contraseña"
-                        }
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "DTr0W",
-                  "name": "Password Table Area",
-                  "clip": true,
-                  "width": "fill_container",
-                  "fill": "$White",
-                  "cornerRadius": [
-                    0,
-                    0,
-                    8,
-                    8
-                  ],
-                  "stroke": "$Gray Light",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "layout": "vertical",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "a4hymF",
-                      "name": "TH",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "#f0f4f8",
-                      "stroke": "$Gray Light",
-                      "strokeWidth": {
-                        "bottom": 1
-                      },
-                      "strokeAlignment": "inner",
-                      "gap": 150,
-                      "padding": [
-                        0,
-                        16
-                      ],
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "b1amcN",
-                          "name": "TH MOSTRADOR",
-                          "fill": "$Gray Dark",
-                          "textGrowth": "fixed-width",
-                          "width": 250,
-                          "content": "SUCURSAL",
-                          "fontFamily": "Inter",
-                          "fontSize": 10,
-                          "fontWeight": "600",
-                          "letterSpacing": 0.4
-                        },
-                        {
-                          "type": "text",
-                          "id": "kvPzb",
-                          "name": "TH CONTRASEÑA",
-                          "fill": "$Gray Dark",
-                          "textGrowth": "fixed-width",
-                          "width": 250,
-                          "content": "CONTRASEÑA",
-                          "fontFamily": "Inter",
-                          "fontSize": 10,
-                          "fontWeight": "600",
-                          "letterSpacing": 0.4
-                        },
-                        {
-                          "type": "text",
-                          "id": "I8xDe",
-                          "name": "TH ACCIONES",
-                          "fill": "$Gray Dark",
-                          "textGrowth": "fixed-width",
-                          "width": 170,
-                          "content": "ACCIONES",
-                          "fontFamily": "Inter",
-                          "fontSize": 10,
-                          "fontWeight": "600",
-                          "letterSpacing": 0.4
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "GZkqa",
-                      "name": "Row 1",
-                      "width": "fill_container",
-                      "height": 52,
-                      "fill": "$White",
-                      "stroke": "$Gray Light",
-                      "strokeWidth": {
-                        "bottom": 1
-                      },
-                      "strokeAlignment": "inner",
-                      "gap": 150,
-                      "padding": [
-                        0,
-                        16
-                      ],
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "UsltL",
-                          "name": "C",
-                          "width": 250,
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "hG7Um",
-                              "name": "V",
-                              "fill": "$Dark Text",
-                              "content": "Venadillo",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "LzOOO",
-                          "name": "C",
-                          "width": 250,
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "R7T0R",
-                              "name": "V",
-                              "fill": "$Dark Text",
-                              "content": "••••••••",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "icon",
-                              "id": "UyNfm",
-                              "name": "Eye",
-                              "width": 14,
-                              "height": 14,
-                              "icon": "eye",
-                              "library": "lucide",
-                              "fill": "$Accent"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "n7tpDC",
-                          "name": "C",
-                          "width": 170,
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "KitvJ",
-                              "name": "Btn Edit",
-                              "fill": "#E8F4FD",
-                              "cornerRadius": 4,
-                              "gap": 4,
-                              "padding": [
-                                7,
-                                10
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "TENKr",
-                                  "name": "Edit Icon",
-                                  "width": 14,
-                                  "height": 14,
-                                  "icon": "edit-2",
-                                  "library": "feather",
-                                  "fill": "$Primary"
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "lQa7P",
-                      "name": "Row 2",
-                      "width": "fill_container",
-                      "height": 52,
-                      "fill": "$White",
-                      "stroke": "$Gray Light",
-                      "strokeWidth": {
-                        "bottom": 1
-                      },
-                      "strokeAlignment": "inner",
-                      "gap": 150,
-                      "padding": [
-                        0,
-                        16
-                      ],
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "dYwxU",
-                          "name": "C",
-                          "width": 250,
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "sVLdk",
-                              "name": "V",
-                              "fill": "$Dark Text",
-                              "content": "Insurgentes",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "LU3Um",
-                          "name": "C",
-                          "width": 250,
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "VD19c",
-                              "name": "V",
-                              "fill": "$Dark Text",
-                              "content": "••••••••",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "icon",
-                              "id": "LY1RW",
-                              "name": "Eye",
-                              "width": 14,
-                              "height": 14,
-                              "icon": "eye",
-                              "library": "lucide",
-                              "fill": "$Accent"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "t2muB7",
-                          "name": "C",
-                          "width": 170,
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "hfpg9",
-                              "name": "Btn Edit",
-                              "fill": "#E8F4FD",
-                              "cornerRadius": 4,
-                              "gap": 4,
-                              "padding": [
-                                7,
-                                10
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "Z70sM",
-                                  "name": "Edit Icon",
-                                  "width": 14,
-                                  "height": 14,
-                                  "icon": "edit-2",
-                                  "library": "feather",
-                                  "fill": "$Primary"
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "VUlJz",
-                      "name": "Row 3",
-                      "width": "fill_container",
-                      "height": 52,
-                      "fill": "$White",
-                      "stroke": "$Gray Light",
-                      "strokeWidth": {
-                        "bottom": 1
-                      },
-                      "strokeAlignment": "inner",
-                      "gap": 150,
-                      "padding": [
-                        0,
-                        16
-                      ],
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "ufcHF",
-                          "name": "C",
-                          "width": 250,
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "GRojG",
-                              "name": "V",
-                              "fill": "$Dark Text",
-                              "content": "Trébol",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "mv2hV",
-                          "name": "C",
-                          "width": 250,
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "y2vkTN",
-                              "name": "V",
-                              "fill": "$Dark Text",
-                              "content": "••••••••",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "icon",
-                              "id": "LCIj8",
-                              "name": "Eye",
-                              "width": 14,
-                              "height": 14,
-                              "icon": "eye",
-                              "library": "lucide",
-                              "fill": "$Accent"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "EHrcu",
-                          "name": "C",
-                          "width": 170,
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "BU89U",
-                              "name": "Btn Edit",
-                              "fill": "#E8F4FD",
-                              "cornerRadius": 4,
-                              "gap": 4,
-                              "padding": [
-                                7,
-                                10
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "G3kH8G",
-                                  "name": "Edit Icon",
-                                  "width": 14,
-                                  "height": 14,
-                                  "icon": "edit-2",
-                                  "library": "feather",
-                                  "fill": "$Primary"
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "n9hx4K",
-                      "name": "Row 4",
-                      "width": "fill_container",
-                      "height": 52,
-                      "fill": "$White",
-                      "stroke": "$Gray Light",
-                      "strokeWidth": {
-                        "bottom": 1
-                      },
-                      "strokeAlignment": "inner",
-                      "gap": 150,
-                      "padding": [
-                        0,
-                        16
-                      ],
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "RrDbz",
-                          "name": "C",
-                          "width": 250,
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "YlhA5",
-                              "name": "V",
-                              "fill": "$Dark Text",
-                              "content": "Madero",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "r2Lbf",
-                          "name": "C",
-                          "width": 250,
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "iSyq6",
-                              "name": "V",
-                              "fill": "$Dark Text",
-                              "content": "••••••••",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "icon",
-                              "id": "V3slYM",
-                              "name": "Eye",
-                              "width": 14,
-                              "height": 14,
-                              "icon": "eye",
-                              "library": "lucide",
-                              "fill": "$Accent"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "LIUnT",
-                          "name": "C",
-                          "width": 170,
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "eaEMO",
-                              "name": "Btn Edit",
-                              "fill": "#E8F4FD",
-                              "cornerRadius": 4,
-                              "gap": 4,
-                              "padding": [
-                                7,
-                                10
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "zOniW",
-                                  "name": "Edit Icon",
-                                  "width": 14,
-                                  "height": 14,
-                                  "icon": "edit-2",
-                                  "library": "feather",
-                                  "fill": "$Primary"
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "Zcbc7",
-      "x": 1746,
-      "y": 16527,
-      "name": "Modal Editar Contraseña",
-      "width": 440,
-      "fill": "#ffffff",
-      "cornerRadius": 10,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "frame",
-          "id": "NTZZA",
-          "name": "Header",
-          "width": "fill_container",
-          "stroke": "$Gray Light",
-          "strokeWidth": {
-            "bottom": 1
-          },
-          "strokeAlignment": "inner",
-          "padding": [
-            16,
-            20
-          ],
-          "justifyContent": "space_between",
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "frame",
-              "id": "W8eGcC",
-              "name": "HdrLeft",
-              "gap": 10,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon",
-                  "id": "nAs1C",
-                  "name": "KeyIcon",
-                  "width": 18,
-                  "height": 18,
-                  "icon": "key",
-                  "library": "lucide",
-                  "fill": "$Primary"
-                },
-                {
-                  "type": "text",
-                  "id": "I2WzC",
-                  "name": "Title",
-                  "fill": "$Primary",
-                  "content": "Editar contraseña",
-                  "fontFamily": "Inter",
-                  "fontSize": 16,
-                  "fontWeight": "700"
-                }
-              ]
-            },
-            {
-              "type": "icon",
-              "id": "BEzF9",
-              "name": "Close",
-              "width": 20,
-              "height": 20,
-              "icon": "x",
-              "library": "lucide",
-              "fill": "$Gray Dark"
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "ixGcl",
-          "name": "Body",
-          "width": "fill_container",
-          "layout": "vertical",
-          "gap": 16,
-          "padding": 24,
-          "children": [
-            {
-              "type": "frame",
-              "id": "kzklv",
-              "name": "sucursal Info",
-              "width": "fill_container",
-              "fill": "#f0f4f8",
-              "cornerRadius": 8,
-              "gap": 8,
-              "padding": 12,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon",
-                  "id": "zztyb",
-                  "name": "UserIcon",
-                  "width": 16,
-                  "height": 16,
-                  "icon": "warehouse",
-                  "library": "lucide",
-                  "fill": "$Primary"
-                },
-                {
-                  "type": "text",
-                  "id": "S0Emav",
-                  "name": "SucursalLbl",
-                  "fill": "$Gray Dark",
-                  "content": "Sucursal:",
-                  "fontFamily": "Inter",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "KUrSs",
-                  "name": "SucursalVal",
-                  "fill": "$Primary",
-                  "content": "Venadillo",
-                  "fontFamily": "Inter",
-                  "fontSize": 13,
-                  "fontWeight": "700"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "B5uIdP",
-              "name": "F Contraseña actual *",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 6,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "N9hD7",
-                  "name": "Lbl",
-                  "fill": "$Primary",
-                  "content": "Contraseña actual *",
-                  "fontFamily": "Inter",
-                  "fontSize": 13,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "frame",
-                  "id": "MXoqo",
-                  "name": "Inp",
-                  "width": "fill_container",
-                  "height": 42,
-                  "fill": "$White",
-                  "cornerRadius": 6,
-                  "stroke": "$Gray Light",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "NZmRj",
-                      "name": "V",
-                      "fill": "$Dark Text",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "••••••••",
-                      "fontFamily": "Inter",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "yHtvE",
-                      "name": "Eye",
-                      "width": 16,
-                      "height": 16,
-                      "icon": "eye-off",
-                      "library": "lucide",
-                      "fill": "$Gray Medium"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "q6F7RF",
-              "name": "Div",
-              "width": "fill_container",
-              "height": 1,
-              "fill": "$Gray Light"
-            },
-            {
-              "type": "text",
-              "id": "a4vUj3",
-              "name": "NewPassLbl",
-              "fill": "$Secondary",
-              "content": "NUEVA CONTRASEÑA",
-              "fontFamily": "Inter",
-              "fontSize": 11,
-              "fontWeight": "600",
-              "letterSpacing": 0.4
-            },
-            {
-              "type": "frame",
-              "id": "NryyW",
-              "name": "F Nueva contraseña *",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 6,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "x7XHfv",
-                  "name": "Lbl",
-                  "fill": "$Primary",
-                  "content": "Nueva contraseña *",
-                  "fontFamily": "Inter",
-                  "fontSize": 13,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "frame",
-                  "id": "BjTX7",
-                  "name": "Inp",
-                  "width": "fill_container",
-                  "height": 42,
-                  "fill": "$White",
-                  "cornerRadius": 6,
-                  "stroke": "$Gray Light",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "O31kr",
-                      "name": "V",
-                      "fill": "$Dark Text",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "••••••••",
-                      "fontFamily": "Inter",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "hwijr",
-                      "name": "Eye",
-                      "width": 16,
-                      "height": 16,
-                      "icon": "eye-off",
-                      "library": "lucide",
-                      "fill": "$Gray Medium"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "y4gDn",
-              "name": "F Confirmar nueva contraseña *",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 6,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "MEQ0I",
-                  "name": "Lbl",
-                  "fill": "$Primary",
-                  "content": "Confirmar nueva contraseña *",
-                  "fontFamily": "Inter",
-                  "fontSize": 13,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "frame",
-                  "id": "oMUx3",
-                  "name": "Inp",
-                  "width": "fill_container",
-                  "height": 42,
-                  "fill": "$White",
-                  "cornerRadius": 6,
-                  "stroke": "$Gray Light",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "WNYAg",
-                      "name": "V",
-                      "fill": "$Dark Text",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "••••••••",
-                      "fontFamily": "Inter",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "p0o0bO",
-                      "name": "Eye",
-                      "width": 16,
-                      "height": 16,
-                      "icon": "eye-off",
-                      "library": "lucide",
-                      "fill": "$Gray Medium"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "fPJA1",
-          "name": "Footer",
-          "width": "fill_container",
-          "stroke": "$Gray Light",
-          "strokeWidth": {
-            "top": 1
-          },
-          "strokeAlignment": "inner",
-          "gap": 12,
-          "padding": [
-            16,
-            20
-          ],
-          "justifyContent": "space_between",
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "frame",
-              "id": "GQ7eE",
-              "name": "Cancelar",
-              "width": 130,
-              "height": 44,
-              "cornerRadius": 6,
-              "stroke": "$Gray Light",
-              "strokeWidth": 1,
-              "strokeAlignment": "inner",
-              "layout": "vertical",
-              "justifyContent": "center",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "J6Drz",
-                  "name": "L",
-                  "fill": "$Dark Text",
-                  "content": "Cancelar",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "600"
-                }
-              ]
-            },
-            {
-              "id": "AnvPX",
-              "type": "ref",
-              "ref": "RZBv6",
-              "name": "Guardar Btn",
-              "width": "fill_container",
-              "height": 44,
-              "descendants": {
-                "bH4sG": {
-                  "content": "Guardar cambios"
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "HCqga",
-      "x": 2303,
-      "y": 16527,
-      "name": "Success Card",
-      "width": 400,
-      "fill": "$White",
-      "cornerRadius": 12,
-      "layout": "vertical",
-      "gap": 20,
-      "padding": 40,
-      "alignItems": "center",
-      "children": [
-        {
-          "type": "frame",
-          "id": "Xm15b",
-          "name": "Check Circle",
-          "width": 56,
-          "height": 56,
-          "fill": "#128e04ff",
-          "cornerRadius": 28,
-          "layout": "vertical",
-          "justifyContent": "center",
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "icon",
-              "id": "xr383",
-              "name": "Check Ico",
-              "width": 28,
-              "height": 28,
-              "icon": "check",
-              "library": "feather",
-              "fill": "$White"
-            }
-          ]
-        },
-        {
-          "type": "text",
-          "id": "jxT6j",
-          "name": "Success Title",
-          "fill": "$Primary",
-          "content": "Contraseña actualizada",
-          "textAlign": "center",
-          "fontFamily": "Inter",
-          "fontSize": 20,
-          "fontWeight": "700"
-        },
-        {
-          "type": "text",
-          "id": "kp6tb",
-          "name": "Success Body",
-          "fill": "$Gray Dark",
-          "textGrowth": "fixed-width",
-          "width": 320,
-          "content": "La contraseña ha sido actualizada correctamente.",
-          "lineHeight": 1.5,
-          "textAlign": "center",
-          "fontFamily": "Inter",
-          "fontSize": 14,
-          "fontWeight": "normal"
-        },
-        {
-          "type": "frame",
-          "id": "K04kgt",
-          "name": "Btn Entendido",
-          "width": "fill_container",
-          "height": 44,
-          "fill": "$Primary",
-          "cornerRadius": 6,
-          "justifyContent": "center",
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "text",
-              "id": "THTRv",
-              "name": "Btn Txt",
-              "fill": "#FFFFFF",
-              "content": "Entendido",
-              "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "700"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "frame",
       "id": "f0tqkQ",
       "x": 6436,
       "y": 22526,
@@ -66516,19 +63341,6 @@
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "rectangle",
-                          "id": "OWnMS",
-                          "name": "image-removebg-preview (1) 1",
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "Logistica%20Adaptable%20logo.png",
-                            "mode": "stretch"
-                          },
-                          "width": 165,
-                          "height": 60
-                        },
-                        {
                           "type": "frame",
                           "id": "Z1XW3l",
                           "name": "Frame 2048",
@@ -66559,7 +63371,7 @@
                               "fill": "$Dark Text",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "DIRECCIÓN: CIUDAD, ESTADO C.P. 00000",
+                              "content": "DIRECCIÓN: {CIUDAD, ESTADO C.P. 00000}",
                               "lineHeight": 1.4166666666666667,
                               "textAlign": "center",
                               "fontFamily": "Inter",
@@ -66574,7 +63386,7 @@
                               "fill": "$Dark Text",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "FECHA: 00 DE MES DE AAAA 00:00",
+                              "content": "FECHA: {00 DE MES DE AAAA 00:00}",
                               "lineHeight": 1.4166666666666667,
                               "textAlign": "center",
                               "fontFamily": "Inter",
@@ -66604,7 +63416,7 @@
                               "fill": "$Dark Text",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "SUCURSAL: NOMBRE DE SUCURSAL",
+                              "content": "SUCURSAL: {NOMBRE DE SUCURSAL}",
                               "lineHeight": 1.4166666666666667,
                               "textAlign": "center",
                               "fontFamily": "Inter",
@@ -66951,7 +63763,7 @@
                               "fill": "$Dark Text",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Condiciones: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie tristique quam. Pellentesque laoreet laoreet.",
+                              "content": "Condiciones: {Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie tristique quam. Pellentesque laoreet laoreet.}",
                               "lineHeight": 1.5,
                               "textAlign": "center",
                               "fontFamily": "Inter",
