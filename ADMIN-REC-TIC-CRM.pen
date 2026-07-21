@@ -3769,10 +3769,34 @@
                           "id": "u1ATpY",
                           "name": "L",
                           "fill": "$White",
-                          "content": "Recolecciones (10)",
+                          "content": "Recolecciones",
                           "fontFamily": "Inter",
                           "fontSize": 14,
                           "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "F8Y7s",
+                          "name": "Notif Recolecciones",
+                          "width": 22,
+                          "height": 18,
+                          "fill": "$Secondary",
+                          "cornerRadius": 28,
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "VWESz",
+                              "name": "L",
+                              "fill": "$White",
+                              "content": "10",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -4029,10 +4053,34 @@
                       "id": "TyO1q",
                       "name": "L",
                       "fill": "$Primary",
-                      "content": "Solicitudes (10)",
+                      "content": "Solicitudes",
                       "fontFamily": "Inter",
                       "fontSize": 13,
                       "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "a6KQ5",
+                      "name": "Notif Recolecciones",
+                      "width": 22,
+                      "height": 18,
+                      "fill": "$Secondary",
+                      "cornerRadius": 28,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WlSqz",
+                          "name": "L",
+                          "fill": "$White",
+                          "content": "10",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "600"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -12507,6 +12555,30 @@
                           "fontFamily": "Inter",
                           "fontSize": 14,
                           "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "I8mkqa",
+                          "name": "Notif Recolecciones",
+                          "width": 22,
+                          "height": 18,
+                          "fill": "$Secondary",
+                          "cornerRadius": 28,
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lbAoM",
+                              "name": "L",
+                              "fill": "$White",
+                              "content": "01",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -12807,12 +12879,27 @@
                     },
                     {
                       "type": "frame",
-                      "id": "u5A7F",
-                      "name": "Badge",
-                      "width": 8,
-                      "height": 8,
-                      "fill": "$Accent",
-                      "cornerRadius": 4
+                      "id": "F64QHe",
+                      "name": "Notif Recolecciones",
+                      "width": 22,
+                      "height": 18,
+                      "fill": "$Secondary",
+                      "cornerRadius": 28,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "y50gW",
+                          "name": "L",
+                          "fill": "$White",
+                          "content": "01",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "600"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -33050,6 +33137,15 @@
           ]
         }
       ]
+    },
+    {
+      "type": "note",
+      "id": "DhJNx",
+      "x": 2811,
+      "y": 3721,
+      "width": 250,
+      "height": 219,
+      "content": "Actualización 21/Jul"
     }
   ],
   "variables": {

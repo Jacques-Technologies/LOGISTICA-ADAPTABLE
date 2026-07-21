@@ -92350,7 +92350,7 @@
       "id": "VwdEC",
       "x": 705,
       "y": 20086,
-      "name": "Cuentas por Vencer / Vencidas",
+      "name": "Cobranza - Cuentas por Vencer / Vencidas",
       "clip": true,
       "width": 1440,
       "height": 900,
@@ -95127,7 +95127,7 @@
     {
       "type": "note",
       "id": "rdSH5",
-      "x": 2062,
+      "x": 2096,
       "y": 19976,
       "width": 250,
       "height": 219,
