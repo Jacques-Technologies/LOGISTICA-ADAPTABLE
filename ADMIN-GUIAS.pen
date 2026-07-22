@@ -10376,7 +10376,7 @@
                           "type": "text",
                           "id": "w0pZo",
                           "fill": "$Accent",
-                          "content": "Ver más detalles",
+                          "content": "¿Cómo elegir tipo de envío?",
                           "fontFamily": "Inter",
                           "fontSize": 12,
                           "fontWeight": "600"
@@ -52647,7 +52647,6 @@
               "id": "oUJnx",
               "name": "Right Column",
               "width": "fill_container",
-              "height": 619,
               "layout": "vertical",
               "gap": 20,
               "children": [
@@ -53021,7 +53020,6 @@
                   "id": "TL7g7",
                   "name": "Card Guía",
                   "width": "fill_container",
-                  "height": 275,
                   "fill": "$White",
                   "cornerRadius": 8,
                   "layout": "vertical",
@@ -53275,34 +53273,93 @@
                     },
                     {
                       "type": "frame",
-                      "id": "YKPPV",
-                      "name": "F Nº Guía",
+                      "id": "KmcX6",
+                      "name": "F Etiqueta",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YHTMK",
+                          "name": "Etiqueta Label",
+                          "fill": "$Dark Text",
+                          "content": "Modo de generación de folio",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "t9E39S",
+                          "name": "Etiqueta Options",
+                          "width": "fill_container",
+                          "gap": 24,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "k3B7S1",
+                              "type": "ref",
+                              "ref": "yXWAO",
+                              "name": "Opt Generar",
+                              "descendants": {
+                                "CMwUS": {
+                                  "content": "Generar folio consecutivo"
+                                }
+                              }
+                            },
+                            {
+                              "id": "pdkeq",
+                              "type": "ref",
+                              "ref": "SOaSw",
+                              "name": "Opt Subir",
+                              "descendants": {
+                                "x2UD3S": {
+                                  "content": "Generar folio manual"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HWPjm",
+                      "name": "F No.Guía",
                       "width": "fill_container",
                       "layout": "vertical",
                       "gap": 4,
                       "children": [
                         {
                           "type": "text",
-                          "id": "bzYOl",
+                          "id": "dciYl",
                           "name": "Guía L",
                           "fill": "$Dark Text",
-                          "content": "Nº de guía",
+                          "content": "No. Guía",
                           "fontFamily": "Inter",
                           "fontSize": 13,
                           "fontWeight": "500"
                         },
                         {
-                          "id": "cVpSU",
+                          "id": "tf400",
                           "type": "ref",
                           "ref": "Y2hOsP",
                           "name": "Guía Input",
                           "width": "fill_container",
+                          "fill": [],
                           "descendants": {
                             "F4bdp5": {
                               "enabled": false
                             },
+                            "YnkLb": {
+                              "fill": "#f5f5f5"
+                            },
                             "d8aTe": {
-                              "content": "Ingresar número manualmente"
+                              "content": "LA-1001",
+                              "fill": "$Dark Text",
+                              "fontStyle": "normal",
+                              "fontWeight": "500"
                             }
                           }
                         }
@@ -77155,685 +77212,10 @@
       ]
     },
     {
-      "type": "frame",
-      "id": "E92XK",
-      "x": 2785,
-      "y": 1242,
-      "name": "Ver más detalles > Guía de Clasificación de Envío - Referencia",
-      "width": 1000,
-      "fill": "$White",
-      "cornerRadius": 12,
-      "layout": "vertical",
-      "gap": 20,
-      "padding": 32,
-      "children": [
-        {
-          "type": "frame",
-          "id": "n3s3jV",
-          "name": "Header",
-          "gap": 12,
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "icon",
-              "id": "ratlW",
-              "width": 28,
-              "height": 28,
-              "icon": "package",
-              "library": "lucide",
-              "fill": "$Primary"
-            },
-            {
-              "type": "frame",
-              "id": "IVq1v",
-              "name": "HeaderText",
-              "layout": "vertical",
-              "gap": 2,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "VJHXq",
-                  "fill": "$Primary",
-                  "content": "Guía de clasificación de envío",
-                  "fontFamily": "Inter",
-                  "fontSize": 20,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "text",
-                  "id": "FhGRO",
-                  "fill": "$Gray Dark",
-                  "content": "Referencia visual — Logística Adaptable",
-                  "fontFamily": "Inter",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "Bc3lQ",
-          "name": "ReglaBanner",
-          "width": "fill_container",
-          "fill": "#FFF7E0",
-          "cornerRadius": 8,
-          "stroke": "#F8B70A",
-          "strokeWidth": 1,
-          "strokeAlignment": "inner",
-          "gap": 10,
-          "padding": 14,
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "icon",
-              "id": "a6yKtF",
-              "width": 20,
-              "height": 20,
-              "icon": "alert-triangle",
-              "library": "feather",
-              "fill": "#B45309"
-            },
-            {
-              "type": "text",
-              "id": "QI0AO",
-              "name": "reglaText",
-              "fill": "#7a4a04",
-              "textGrowth": "fixed-width",
-              "width": "fill_container",
-              "content": "Regla acordada: si el paquete cabe en una caja de cartón, se declara como Caja. Si no cabe, se declara como Otro objeto y activa el cargo por irregularidad automáticamente.",
-              "fontFamily": "Inter",
-              "fontSize": 13,
-              "fontWeight": "600"
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "dNx7u",
-          "name": "CategoryRow",
-          "width": "fill_container",
-          "gap": 16,
-          "children": [
-            {
-              "type": "frame",
-              "id": "i6fFO",
-              "name": "CardCaja",
-              "width": "fill_container",
-              "height": "fill_container",
-              "cornerRadius": 10,
-              "stroke": "$Gray Light",
-              "strokeWidth": 1,
-              "strokeAlignment": "inner",
-              "layout": "vertical",
-              "gap": 12,
-              "padding": 16,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "c8RTX",
-                  "name": "CardTitle",
-                  "gap": 8,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "GJDVn",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "package",
-                      "library": "lucide",
-                      "fill": "$Primary"
-                    },
-                    {
-                      "type": "text",
-                      "id": "d66MLV",
-                      "fill": "$Primary",
-                      "content": "Caja",
-                      "fontFamily": "Inter",
-                      "fontSize": 14,
-                      "fontWeight": "700"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "gGRfY",
-                  "name": "Items",
-                  "width": "fill_container",
-                  "gap": 12,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "viz3L",
-                      "name": "Item",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 6,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": 3,
-                          "id": "zTi7t",
-                          "name": "imgCaja",
-                          "metadata": {
-                            "type": "unsplash",
-                            "username": "giorgiotrovato",
-                            "link": "https://unsplash.com/@giorgiotrovato",
-                            "author": "Giorgio Trovato"
-                          },
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1782405183299-f177ddb3f437?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2NTc4OTR8&ixlib=rb-4.1.0&q=80&w=1080",
-                            "mode": "fill"
-                          },
-                          "width": 82,
-                          "height": 74
-                        },
-                        {
-                          "type": "text",
-                          "id": "Jw0Kk",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Caja chica",
-                          "textAlign": "center",
-                          "fontFamily": "Inter",
-                          "fontSize": 11,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Hzxlv",
-                      "name": "Item",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 6,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": 8,
-                          "id": "b5kUib",
-                          "name": "img_grande",
-                          "metadata": {
-                            "type": "unsplash",
-                            "username": "stickermule",
-                            "link": "https://unsplash.com/@stickermule",
-                            "author": "Sticker Mule"
-                          },
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1617909517054-64d4958be1c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2NTgzOTR8&ixlib=rb-4.1.0&q=80&w=1080",
-                            "mode": "fill"
-                          },
-                          "width": 74,
-                          "height": 74
-                        },
-                        {
-                          "type": "text",
-                          "id": "I4ZVS4",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Caja mediana",
-                          "textAlign": "center",
-                          "fontFamily": "Inter",
-                          "fontSize": 11,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Evi2i",
-                      "name": "Item",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 6,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": 8,
-                          "id": "b7idO",
-                          "name": "img_mediana",
-                          "metadata": {
-                            "type": "unsplash",
-                            "username": "egorkomarov",
-                            "link": "https://unsplash.com/@egorkomarov",
-                            "author": "Egor Komarov"
-                          },
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1771848194264-da1aa99b7d71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2NTc5Nzh8&ixlib=rb-4.1.0&q=80&w=1080",
-                            "mode": "fill"
-                          },
-                          "width": 74,
-                          "height": 74
-                        },
-                        {
-                          "type": "text",
-                          "id": "L3kYqO",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Caja grande",
-                          "textAlign": "center",
-                          "fontFamily": "Inter",
-                          "fontSize": 11,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "dMTpG",
-              "name": "CardSobre",
-              "width": "fill_container",
-              "cornerRadius": 10,
-              "stroke": "$Gray Light",
-              "strokeWidth": 1,
-              "strokeAlignment": "inner",
-              "layout": "vertical",
-              "gap": 12,
-              "padding": 16,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "t1ojY",
-                  "name": "CardTitle",
-                  "gap": 8,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "bbVHi",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "mail",
-                      "library": "lucide",
-                      "fill": "$Primary"
-                    },
-                    {
-                      "type": "text",
-                      "id": "l8YkY",
-                      "fill": "$Primary",
-                      "content": "Sobre",
-                      "fontFamily": "Inter",
-                      "fontSize": 14,
-                      "fontWeight": "700"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "KoWaH",
-                  "name": "Items",
-                  "width": "fill_container",
-                  "gap": 12,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "x040D",
-                      "name": "Item",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 6,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": 8,
-                          "id": "m9X8It",
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "image-52.png",
-                            "mode": "fill"
-                          },
-                          "width": 74,
-                          "height": 74
-                        },
-                        {
-                          "type": "text",
-                          "id": "Slw2F",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Sobre de cartón",
-                          "textAlign": "center",
-                          "fontFamily": "Inter",
-                          "fontSize": 11,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Hrg80",
-                      "name": "Item",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 6,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": 8,
-                          "id": "B47Ixh",
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "image-49.png",
-                            "mode": "fill"
-                          },
-                          "width": 74,
-                          "height": 74
-                        },
-                        {
-                          "type": "text",
-                          "id": "o8Tadt",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Sobre plástico",
-                          "textAlign": "center",
-                          "fontFamily": "Inter",
-                          "fontSize": 11,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
-                          "id": "t9tImk",
-                          "name": "note",
-                          "fill": "$Gray Dark",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "restringido/irregular en la mayoría de paqueterías",
-                          "textAlign": "center",
-                          "fontFamily": "Inter",
-                          "fontSize": 9,
-                          "fontWeight": "normal",
-                          "fontStyle": "italic"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "qEkvT",
-              "name": "CardOtro",
-              "width": "fill_container",
-              "height": "fill_container",
-              "cornerRadius": 10,
-              "stroke": "$Gray Light",
-              "strokeWidth": 1,
-              "strokeAlignment": "inner",
-              "layout": "vertical",
-              "gap": 12,
-              "padding": 16,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "XYmPk",
-                  "name": "CardTitle",
-                  "gap": 8,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "FK97F",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "cylinder",
-                      "library": "lucide",
-                      "fill": "$Primary"
-                    },
-                    {
-                      "type": "text",
-                      "id": "h5mfHz",
-                      "fill": "$Primary",
-                      "content": "Otro objeto / Casos ambiguos",
-                      "fontFamily": "Inter",
-                      "fontSize": 14,
-                      "fontWeight": "700"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "iQEuB",
-                  "name": "Items",
-                  "width": "fill_container",
-                  "gap": 12,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "JUPH9",
-                      "name": "Item",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 6,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": 8,
-                          "id": "I8pnA",
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "image-50.png",
-                            "mode": "fill"
-                          },
-                          "width": 74,
-                          "height": 74
-                        },
-                        {
-                          "type": "text",
-                          "id": "fFk44",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Hielera",
-                          "textAlign": "center",
-                          "fontFamily": "Inter",
-                          "fontSize": 11,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
-                          "id": "qfQ1x",
-                          "name": "tag",
-                          "fill": "$Secondary",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "→ Otro objeto",
-                          "textAlign": "center",
-                          "fontFamily": "Inter",
-                          "fontSize": 10,
-                          "fontWeight": "700",
-                          "fontStyle": "italic"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "CXrg7",
-                      "name": "Item",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 6,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": 8,
-                          "id": "w4Wg5",
-                          "name": "img_lata",
-                          "metadata": {
-                            "type": "unsplash",
-                            "username": "olenkasergienko",
-                            "link": "https://unsplash.com/@olenkasergienko",
-                            "author": "Olena Bohovyk"
-                          },
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1582829541979-ab1e21203086?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2NTgyNDR8&ixlib=rb-4.1.0&q=80&w=1080",
-                            "mode": "fill"
-                          },
-                          "width": 74,
-                          "height": 74
-                        },
-                        {
-                          "type": "text",
-                          "id": "DXYiQ",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Lata",
-                          "textAlign": "center",
-                          "fontFamily": "Inter",
-                          "fontSize": 11,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
-                          "id": "hjR1c",
-                          "name": "tag",
-                          "fill": "$Secondary",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "→ Otro objeto",
-                          "textAlign": "center",
-                          "fontFamily": "Inter",
-                          "fontSize": 10,
-                          "fontWeight": "700",
-                          "fontStyle": "italic"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "p0iD2z",
-                      "name": "Item",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 6,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": 8,
-                          "id": "J4IPR2",
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "image-51.png",
-                            "mode": "fill"
-                          },
-                          "width": 74,
-                          "height": 74
-                        },
-                        {
-                          "type": "text",
-                          "id": "aM8CP",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Cubeta",
-                          "textAlign": "center",
-                          "fontFamily": "Inter",
-                          "fontSize": 11,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
-                          "id": "mANhb",
-                          "name": "tag",
-                          "fill": "$Secondary",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "→ Otro objeto",
-                          "textAlign": "center",
-                          "fontFamily": "Inter",
-                          "fontSize": 10,
-                          "fontWeight": "700",
-                          "fontStyle": "italic"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "IOgQY",
-          "name": "FooterNote",
-          "width": "fill_container",
-          "stroke": "$Gray Light",
-          "strokeWidth": {
-            "top": 1
-          },
-          "strokeAlignment": "inner",
-          "gap": 8,
-          "padding": [
-            14,
-            0,
-            0,
-            0
-          ],
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "icon",
-              "id": "i1V6yC",
-              "width": 16,
-              "height": 16,
-              "icon": "info",
-              "library": "feather",
-              "fill": "$Gray Dark"
-            },
-            {
-              "type": "text",
-              "id": "o2T2x6",
-              "fill": "$Gray Dark",
-              "textGrowth": "fixed-width",
-              "width": "fill_container",
-              "content": "Leyenda indicativa si es necesaria.",
-              "fontFamily": "Inter",
-              "fontSize": 12,
-              "fontWeight": "normal",
-              "fontStyle": "italic"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "type": "note",
       "id": "thXTF",
-      "x": 3694.0397597009437,
-      "y": 1177.1748333483938,
+      "x": 7604,
+      "y": 224,
       "width": 250,
       "height": 219,
       "content": "Actualización 21/Jul"
@@ -77897,22 +77279,23 @@
           "children": [
             {
               "type": "rectangle",
-              "id": "wOdDZ",
-              "name": "SlideImage",
+              "cornerRadius": 3,
+              "id": "ZOnhb",
+              "name": "imgCaja",
               "metadata": {
                 "type": "unsplash",
-                "username": "gift_habeshaw",
-                "link": "https://unsplash.com/@gift_habeshaw",
-                "author": "Gift Habeshaw"
+                "username": "giorgiotrovato",
+                "link": "https://unsplash.com/@giorgiotrovato",
+                "author": "Giorgio Trovato"
               },
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "https://images.unsplash.com/photo-1566807150119-39c4a82d00d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2Njg4OTJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                "url": "https://images.unsplash.com/photo-1782405183299-f177ddb3f437?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2NTc4OTR8&ixlib=rb-4.1.0&q=80&w=1080",
                 "mode": "fill"
               },
               "width": "fill_container",
-              "height": 150
+              "height": "fill_container"
             },
             {
               "type": "frame",
@@ -79056,8 +78439,8 @@
     {
       "type": "frame",
       "id": "IHKBx",
-      "x": 5281,
-      "y": 17900,
+      "x": 5304,
+      "y": 17894,
       "name": "Loading Card",
       "width": 400,
       "fill": "$White",
@@ -79208,6 +78591,15 @@
       "type": "note",
       "id": "fxiBU",
       "x": 5616,
+      "y": 17736,
+      "width": 250,
+      "height": 219,
+      "content": "Actualización 21/Jul"
+    },
+    {
+      "type": "note",
+      "id": "NLZ4k",
+      "x": 5031,
       "y": 17736,
       "width": 250,
       "height": 219,
@@ -79826,7 +79218,7 @@
                 {
                   "type": "text",
                   "id": "e7IkT",
-                  "fill": "$Gray Dark",
+                  "fill": "$Dark Text",
                   "content": "NO. DE GUÍA",
                   "fontFamily": "Inter",
                   "fontSize": 12,
@@ -79870,7 +79262,7 @@
                 {
                   "type": "text",
                   "id": "edqCb",
-                  "fill": "$Gray Dark",
+                  "fill": "$Dark Text",
                   "content": "FECHA DE EMISIÓN",
                   "fontFamily": "Inter",
                   "fontSize": 12,
@@ -79951,7 +79343,7 @@
             {
               "type": "text",
               "id": "H6m2Vo",
-              "fill": "$Gray Dark",
+              "fill": "$Dark Text",
               "content": "Tel. 667 714 14 88 · envios@logisticaadaptable.com",
               "fontFamily": "Inter",
               "fontSize": 12,
@@ -80029,7 +79421,7 @@
             {
               "type": "text",
               "id": "yDeY3",
-              "fill": "$Gray Dark",
+              "fill": "$Dark Text",
               "content": "Tel. 81 81 26 93 30 · f.benavides@benavides.com",
               "fontFamily": "Inter",
               "fontSize": 12,
@@ -80074,12 +79466,12 @@
                       "height": 12,
                       "icon": "truck",
                       "library": "feather",
-                      "fill": "$Gray Dark"
+                      "fill": "$Dark Text"
                     },
                     {
                       "type": "text",
                       "id": "GikfU",
-                      "fill": "$Gray Dark",
+                      "fill": "$Dark Text",
                       "content": "PROVEEDOR",
                       "fontFamily": "Inter",
                       "fontSize": 10,
@@ -80123,12 +79515,12 @@
                       "height": 12,
                       "icon": "package",
                       "library": "feather",
-                      "fill": "$Gray Dark"
+                      "fill": "$Dark Text"
                     },
                     {
                       "type": "text",
                       "id": "tSHV7",
-                      "fill": "$Gray Dark",
+                      "fill": "$Dark Text",
                       "content": "SERVICIO",
                       "fontFamily": "Inter",
                       "fontSize": 10,
@@ -80172,12 +79564,12 @@
                       "height": 12,
                       "icon": "calendar",
                       "library": "feather",
-                      "fill": "$Gray Dark"
+                      "fill": "$Dark Text"
                     },
                     {
                       "type": "text",
                       "id": "g4ioc",
-                      "fill": "$Gray Dark",
+                      "fill": "$Dark Text",
                       "content": "ENTREGA EST.",
                       "fontFamily": "Inter",
                       "fontSize": 10,
@@ -80239,7 +79631,7 @@
                 {
                   "type": "text",
                   "id": "k0ZyNO",
-                  "fill": "$Gray Dark",
+                  "fill": "$Dark Text",
                   "content": "C.P. DESTINO",
                   "fontFamily": "Inter",
                   "fontSize": 12,
@@ -80252,7 +79644,7 @@
                   "fill": "$Dark Text",
                   "content": "23477",
                   "fontFamily": "Inter",
-                  "fontSize": 52,
+                  "fontSize": 60,
                   "fontWeight": "900",
                   "letterSpacing": 4
                 }
@@ -80286,10 +79678,24 @@
           "type": "text",
           "id": "AMZCg",
           "name": "FooterNote",
-          "fill": "$Gray Dark",
+          "fill": "$Dark Text",
           "textGrowth": "fixed-width",
           "width": "fill_container",
           "content": "Guía interna generada por Logística Adaptable",
+          "textAlign": "center",
+          "fontFamily": "Inter",
+          "fontSize": 11,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "H3ifL",
+          "name": "FooterNote",
+          "fill": "$Dark Text",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"\n",
           "textAlign": "center",
           "fontFamily": "Inter",
           "fontSize": 11,
@@ -80301,8 +79707,8 @@
     {
       "type": "note",
       "id": "D3WG3G",
-      "x": 8618,
-      "y": 17802,
+      "x": 8582,
+      "y": 17762,
       "width": 250,
       "height": 219,
       "content": "Actualización 21/Jul"

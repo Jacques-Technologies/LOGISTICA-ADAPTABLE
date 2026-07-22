@@ -34598,11 +34598,158 @@
             },
             {
               "type": "frame",
+              "id": "SOKG8",
+              "name": "Concepto",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "g20ev",
+                  "name": "Label",
+                  "fill": "$Primary",
+                  "content": "Concepto *",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "Iyr9U",
+                  "name": "Input",
+                  "width": "fill_container",
+                  "height": 42,
+                  "fill": "$White",
+                  "cornerRadius": 6,
+                  "stroke": "$Gray Light",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WwhR2",
+                      "name": "Value",
+                      "fill": "$Gray Medium",
+                      "content": "Ej. Envíos junio 2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "vyvrX",
               "name": "Row2",
               "width": "fill_container",
               "gap": 16,
               "children": [
+                {
+                  "type": "frame",
+                  "id": "e5A9SB",
+                  "name": "No Factura",
+                  "width": 140,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dVYT9",
+                      "name": "Label",
+                      "fill": "$Primary",
+                      "content": "No. de factura *",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "A9H0j",
+                      "name": "Input",
+                      "width": "fill_container",
+                      "height": 42,
+                      "fill": "$White",
+                      "cornerRadius": 6,
+                      "stroke": "$Gray Light",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "d7wXtT",
+                          "name": "Value",
+                          "fill": "$Gray Medium",
+                          "content": "FA-2026-0413",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "H5XOE",
+                  "name": "No Serie",
+                  "width": 140,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Qr1Tb",
+                      "name": "Label",
+                      "fill": "$Primary",
+                      "content": "No. de serie ",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "v6OVI",
+                      "name": "Input",
+                      "width": "fill_container",
+                      "height": 42,
+                      "fill": "$White",
+                      "cornerRadius": 6,
+                      "stroke": "$Gray Light",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YwnQe",
+                          "name": "Value",
+                          "fill": "$Gray Medium",
+                          "content": "A",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "frame",
                   "id": "pHjRp",
@@ -34660,162 +34807,6 @@
                           "icon": "calendar",
                           "library": "lucide",
                           "fill": "$Gray Medium"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "SOKG8",
-                  "name": "Concepto",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 8,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "g20ev",
-                      "name": "Label",
-                      "fill": "$Primary",
-                      "content": "Concepto *",
-                      "fontFamily": "Inter",
-                      "fontSize": 13,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Iyr9U",
-                      "name": "Input",
-                      "width": "fill_container",
-                      "height": 42,
-                      "fill": "$White",
-                      "cornerRadius": 6,
-                      "stroke": "$Gray Light",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "padding": [
-                        0,
-                        12
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "WwhR2",
-                          "name": "Value",
-                          "fill": "$Gray Medium",
-                          "content": "Ej. Envíos junio 2026",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "DgrmF",
-              "name": "Row3",
-              "width": "fill_container",
-              "gap": 16,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "ABqS7",
-                  "name": "No Factura",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 8,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "RASc0",
-                      "name": "Label",
-                      "fill": "$Primary",
-                      "content": "No. de factura *",
-                      "fontFamily": "Inter",
-                      "fontSize": 13,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "UA5BD",
-                      "name": "Input",
-                      "width": "fill_container",
-                      "height": 42,
-                      "fill": "$White",
-                      "cornerRadius": 6,
-                      "stroke": "$Gray Light",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "padding": [
-                        0,
-                        12
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "DL4nv",
-                          "name": "Value",
-                          "fill": "$Gray Medium",
-                          "content": "FA-2026-0413",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "EcGq8",
-                  "name": "No Serie",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 8,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "uRjor",
-                      "name": "Label",
-                      "fill": "$Primary",
-                      "content": "No. de serie *",
-                      "fontFamily": "Inter",
-                      "fontSize": 13,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "rqVb3",
-                      "name": "Input",
-                      "width": "fill_container",
-                      "height": 42,
-                      "fill": "$White",
-                      "cornerRadius": 6,
-                      "stroke": "$Gray Light",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "padding": [
-                        0,
-                        12
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "FeClC",
-                          "name": "Value",
-                          "fill": "$Gray Medium",
-                          "content": "A",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -35063,6 +35054,19 @@
               ]
             },
             {
+              "type": "text",
+              "id": "P0yumk",
+              "name": "Success Body",
+              "fill": "$Gray Dark",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "El IVA se sugiere al 16% al cambiar el subtotal (editable).",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
               "type": "rectangle",
               "id": "FnZjc",
               "name": "Div2",
@@ -35226,8 +35230,8 @@
     {
       "type": "frame",
       "id": "HLvO5",
-      "x": 4112,
-      "y": 11051,
+      "x": 4305,
+      "y": 11058,
       "name": "Success Card",
       "width": 400,
       "fill": "$White",
@@ -35324,8 +35328,8 @@
     {
       "type": "frame",
       "id": "a5QvVK",
-      "x": 4657,
-      "y": 11053,
+      "x": 4850,
+      "y": 11060,
       "name": "Panel - Detalle de factura",
       "width": "fill_container(900)",
       "fill": "$White",
@@ -68534,6 +68538,7 @@
                             0,
                             4
                           ],
+                          "justifyContent": "center",
                           "alignItems": "center",
                           "children": [
                             {
@@ -68558,6 +68563,7 @@
                             0,
                             4
                           ],
+                          "justifyContent": "center",
                           "alignItems": "center",
                           "children": [
                             {
@@ -68582,6 +68588,7 @@
                             0,
                             4
                           ],
+                          "justifyContent": "center",
                           "alignItems": "center",
                           "children": [
                             {
@@ -69517,7 +69524,7 @@
                               "id": "eRiPn",
                               "name": "V",
                               "fill": "$Dark Text",
-                              "content": "$6,032.00",
+                              "content": "$0.00",
                               "fontFamily": "Inter",
                               "fontSize": 12,
                               "fontWeight": "600"
@@ -69541,7 +69548,7 @@
                               "id": "fte0N",
                               "name": "V",
                               "fill": "$Dark Text",
-                              "content": "$0.00",
+                              "content": "$6,032.00",
                               "fontFamily": "Inter",
                               "fontSize": 12,
                               "fontWeight": "normal"
@@ -69561,9 +69568,9 @@
                           "children": [
                             {
                               "type": "frame",
-                              "id": "lopLE",
+                              "id": "lJYiD",
                               "name": "Badge",
-                              "fill": "#128e0415",
+                              "fill": "#eb404015",
                               "cornerRadius": 10,
                               "padding": [
                                 3,
@@ -69572,10 +69579,10 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "D2vJlW",
+                                  "id": "P9KYNB",
                                   "name": "V",
-                                  "fill": "#128e04",
-                                  "content": "Pagada",
+                                  "fill": "#c61818",
+                                  "content": "Atrasada",
                                   "fontFamily": "Inter",
                                   "fontSize": 11,
                                   "fontWeight": "500"
@@ -70620,6 +70627,24 @@
           ]
         }
       ]
+    },
+    {
+      "type": "note",
+      "id": "cCPRv",
+      "x": 3909,
+      "y": 10943,
+      "width": 250,
+      "height": 219,
+      "content": "Actualización 21/Jul"
+    },
+    {
+      "type": "note",
+      "id": "aEROz",
+      "x": 3186,
+      "y": 10906,
+      "width": 250,
+      "height": 219,
+      "content": "Actualización 21/Jul"
     }
   ],
   "variables": {
