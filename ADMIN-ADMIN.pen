@@ -67254,6 +67254,15 @@
           ]
         }
       ]
+    },
+    {
+      "type": "note",
+      "id": "bePT0",
+      "x": 3272,
+      "y": 7000,
+      "width": 250,
+      "height": 219,
+      "content": "Actualización 21/jul"
     }
   ],
   "variables": {

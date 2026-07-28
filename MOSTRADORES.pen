@@ -17772,7 +17772,7 @@
                   "name": "Frame 2060",
                   "width": 300,
                   "layout": "vertical",
-                  "gap": 20,
+                  "gap": 30,
                   "children": [
                     {
                       "type": "frame",
@@ -17827,7 +17827,7 @@
                               "fill": "$Dark Text",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "DIRECCIÓN: CIUDAD, ESTADO C.P. 00000",
+                              "content": "[DIRECCION DINAMICA]",
                               "lineHeight": 1.4166666666666667,
                               "textAlign": "center",
                               "fontFamily": "Inter",
@@ -17842,7 +17842,7 @@
                               "fill": "$Dark Text",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "FECHA: 00 DE MES DE AAAA 00:00",
+                              "content": "FECHA: 00 DE MES DE AAAA 00:00 H",
                               "lineHeight": 1.4166666666666667,
                               "textAlign": "center",
                               "fontFamily": "Inter",
@@ -17872,7 +17872,7 @@
                               "fill": "$Dark Text",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "SUCURSAL: NOMBRE DE SUCURSAL",
+                              "content": "SUCURSAL: [NOMBRE USUARIO]",
                               "lineHeight": 1.4166666666666667,
                               "textAlign": "center",
                               "fontFamily": "Inter",
@@ -17976,7 +17976,7 @@
                                   "fill": "$Dark Text",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
-                                  "content": "GUIA DHL EXPRESS",
+                                  "content": "GUIA - PAQUETERÍA",
                                   "lineHeight": 1.4166666666666667,
                                   "fontFamily": "Inter",
                                   "fontSize": 12,
@@ -18145,6 +18145,142 @@
                         },
                         {
                           "type": "frame",
+                          "id": "v9GfL",
+                          "name": "Frame 2053",
+                          "width": "fill_container",
+                          "stroke": "#040c21ff",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "strokeAlignment": "inner",
+                          "layout": "vertical",
+                          "gap": 5,
+                          "padding": [
+                            5,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "v6XrO",
+                              "name": "Frame 2049",
+                              "width": "fill_container",
+                              "gap": 20,
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "iee6p",
+                                  "name": "CONCEPTO",
+                                  "fill": "$Dark Text",
+                                  "textGrowth": "fixed-width",
+                                  "width": 150,
+                                  "content": "PAQUETERÍA",
+                                  "lineHeight": 1.4166666666666667,
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 0.19200000286102298
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "SHGOz",
+                                  "name": "SUBTOTAL",
+                                  "fill": "$Dark Text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "NÚMERO DE GUÍA",
+                                  "lineHeight": 1.4166666666666667,
+                                  "textAlign": "right",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 0.19200000286102298
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "RKeJp",
+                              "name": "Frame 2051",
+                              "width": "fill_container",
+                              "gap": 20,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "cR8hO",
+                                  "name": "GUIAS CONSUMIDAS",
+                                  "fill": "$Dark Text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "[NOMBRE PAQUETERÍA]",
+                                  "lineHeight": 1.4166666666666667,
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 0.19200000286102298
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "kwHmt",
+                                  "name": "$000,000.00",
+                                  "fill": "$Dark Text",
+                                  "textGrowth": "fixed-width",
+                                  "width": 140,
+                                  "content": "00000000000000000",
+                                  "lineHeight": 1.4166666666666667,
+                                  "textAlign": "right",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 0.19200000286102298
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "q64vM4",
+                              "name": "Frame 2051",
+                              "width": "fill_container",
+                              "gap": 20,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Mbabn",
+                                  "name": "GUIAS CONSUMIDAS",
+                                  "fill": "$Dark Text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "[NOMBRE PAQUETERÍA]",
+                                  "lineHeight": 1.4166666666666667,
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 0.19200000286102298
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "AprCe",
+                                  "name": "$000,000.00",
+                                  "fill": "$Dark Text",
+                                  "textGrowth": "fixed-width",
+                                  "width": 140,
+                                  "content": "00000000000000000",
+                                  "lineHeight": 1.4166666666666667,
+                                  "textAlign": "right",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 0.19200000286102298
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
                           "id": "gMU2g",
                           "name": "Frame 2055",
                           "width": "fill_container",
@@ -18219,7 +18355,7 @@
                               "fill": "$Dark Text",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Condiciones: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie tristique quam. Pellentesque laoreet laoreet.",
+                              "content": "\n[CONDICIONES DINÁMICAS]\n",
                               "lineHeight": 1.5,
                               "textAlign": "center",
                               "fontFamily": "Inter",
@@ -19436,494 +19572,6 @@
                   "fontFamily": "Inter",
                   "fontSize": 10,
                   "fontWeight": "normal"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "hX2nz",
-      "x": 3154,
-      "y": 8283,
-      "name": "Etiqueta de Ticket",
-      "clip": true,
-      "fill": "$White",
-      "cornerRadius": 10,
-      "stroke": "$Dark Text",
-      "strokeWidth": 1,
-      "strokeAlignment": "inner",
-      "gap": 10,
-      "padding": [
-        40,
-        15
-      ],
-      "alignItems": "center",
-      "children": [
-        {
-          "type": "frame",
-          "id": "XWw0E",
-          "name": "Frame 2060",
-          "width": 300,
-          "layout": "vertical",
-          "gap": 20,
-          "children": [
-            {
-              "type": "frame",
-              "id": "DuclV",
-              "name": "Frame 2059",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 9,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "rectangle",
-                  "id": "ycjny",
-                  "name": "image-removebg-preview (1) 1",
-                  "fill": {
-                    "type": "image",
-                    "enabled": true,
-                    "url": "Logistica%20Adaptable%20logo.png",
-                    "mode": "stretch"
-                  },
-                  "width": 165,
-                  "height": 60
-                },
-                {
-                  "type": "frame",
-                  "id": "tEepI",
-                  "name": "Frame 2048",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "SCZEh",
-                      "name": "LOGÍSTICA ADAPTABLE",
-                      "fill": "$Dark Text",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "LOGÍSTICA ADAPTABLE",
-                      "lineHeight": 1.4166666666666667,
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "normal",
-                      "letterSpacing": 0.19200000286102298
-                    },
-                    {
-                      "type": "text",
-                      "id": "jvcNj",
-                      "name": "DIRECCIÓN: CIUDAD, ESTADO C.P. 00000",
-                      "fill": "$Dark Text",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "DIRECCIÓN: CIUDAD, ESTADO C.P. 00000",
-                      "lineHeight": 1.4166666666666667,
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "normal",
-                      "letterSpacing": 0.19200000286102298
-                    },
-                    {
-                      "type": "text",
-                      "id": "figSq",
-                      "name": "FECHA: 00 DE MES DE AAAA 00:00",
-                      "fill": "$Dark Text",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "FECHA: 00 DE MES DE AAAA 00:00",
-                      "lineHeight": 1.4166666666666667,
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "normal",
-                      "letterSpacing": 0.19200000286102298
-                    },
-                    {
-                      "type": "text",
-                      "id": "VcyXV",
-                      "name": "FECHA: 00 DE MES DE AAAA 00:00",
-                      "fill": "$Dark Text",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "FOLIO: 000001",
-                      "lineHeight": 1.4166666666666667,
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "normal",
-                      "letterSpacing": 0.19200000286102298
-                    },
-                    {
-                      "type": "text",
-                      "id": "zmOlH",
-                      "name": "SUCURSAL: NOMBRE DE SUCURSAL",
-                      "fill": "$Dark Text",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "SUCURSAL: NOMBRE DE SUCURSAL",
-                      "lineHeight": 1.4166666666666667,
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "normal",
-                      "letterSpacing": 0.19200000286102298
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "L3xjf",
-              "name": "Frame 2058",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 50,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "XEVKU",
-                  "name": "Frame 2053",
-                  "width": "fill_container",
-                  "stroke": "#040c21ff",
-                  "strokeWidth": {
-                    "top": 1
-                  },
-                  "strokeAlignment": "inner",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "padding": [
-                    5,
-                    0
-                  ],
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "wDt1M",
-                      "name": "Frame 2049",
-                      "width": "fill_container",
-                      "gap": 20,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "ZdhRq",
-                          "name": "CONCEPTO",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": 135,
-                          "content": "CONCEPTO",
-                          "lineHeight": 1.4166666666666667,
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "600",
-                          "letterSpacing": 0.19200000286102298
-                        },
-                        {
-                          "type": "text",
-                          "id": "Lpgcj",
-                          "name": "CTD.",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": 30,
-                          "content": "CTD.",
-                          "lineHeight": 1.4166666666666667,
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "600",
-                          "letterSpacing": 0.19200000286102298
-                        },
-                        {
-                          "type": "text",
-                          "id": "m9kG1",
-                          "name": "SUBTOTAL",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "SUBTOTAL",
-                          "lineHeight": 1.4166666666666667,
-                          "textAlign": "right",
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "600",
-                          "letterSpacing": 0.19200000286102298
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "vvrO2",
-                      "name": "Frame 2051",
-                      "width": "fill_container",
-                      "gap": 20,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "W19uA1",
-                          "name": "GUIAS CONSUMIDAS",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "GUIA DHL EXPRESS",
-                          "lineHeight": 1.4166666666666667,
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "normal",
-                          "letterSpacing": 0.19200000286102298
-                        },
-                        {
-                          "type": "text",
-                          "id": "D3BeFi",
-                          "name": "100",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": 30,
-                          "content": "1",
-                          "lineHeight": 1.4166666666666667,
-                          "textAlign": "center",
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "normal",
-                          "letterSpacing": 0.19200000286102298
-                        },
-                        {
-                          "type": "text",
-                          "id": "K5Znb",
-                          "name": "$000,000.00",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": 95,
-                          "content": "$250.00",
-                          "lineHeight": 1.4166666666666667,
-                          "textAlign": "right",
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "normal",
-                          "letterSpacing": 0.19200000286102298
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Wxola",
-                      "name": "Frame 2052",
-                      "width": "fill_container",
-                      "gap": 20,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "nFgOg",
-                          "name": "VENTAS MANUALES",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "EMPAQUE SOBRE ACOLCHADO",
-                          "lineHeight": 1.4166666666666667,
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "normal",
-                          "letterSpacing": 0.19200000286102298
-                        },
-                        {
-                          "type": "text",
-                          "id": "HNfna",
-                          "name": "100",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": 30,
-                          "content": "1",
-                          "lineHeight": 1.4166666666666667,
-                          "textAlign": "center",
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "normal",
-                          "letterSpacing": 0.19200000286102298
-                        },
-                        {
-                          "type": "text",
-                          "id": "sN1o0",
-                          "name": "$000,000.00",
-                          "fill": "$Dark Text",
-                          "textGrowth": "fixed-width",
-                          "width": 95,
-                          "content": "$100.00",
-                          "lineHeight": 1.4166666666666667,
-                          "textAlign": "right",
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "normal",
-                          "letterSpacing": 0.19200000286102298
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "cjkHy",
-                  "name": "Frame 2050",
-                  "width": "fill_container",
-                  "stroke": "#040c21ff",
-                  "strokeWidth": {
-                    "top": 1,
-                    "bottom": 1
-                  },
-                  "strokeAlignment": "inner",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "padding": [
-                    5,
-                    0
-                  ],
-                  "alignItems": "end",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "NdyU4",
-                      "name": "Subtotal: $000,000.00",
-                      "fill": "$Dark Text",
-                      "content": "Subtotal: $350.00",
-                      "lineHeight": 1.4166666666666667,
-                      "textAlign": "right",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "600",
-                      "letterSpacing": 0.19200000286102298
-                    },
-                    {
-                      "type": "text",
-                      "id": "kU0y4",
-                      "name": "Descuento: $000.00",
-                      "fill": "$Dark Text",
-                      "content": "Descuento: $0.00",
-                      "lineHeight": 1.4166666666666667,
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "600",
-                      "letterSpacing": 0.19200000286102298
-                    },
-                    {
-                      "type": "text",
-                      "id": "YTGmb",
-                      "name": "IVA: $000,000.00",
-                      "fill": "$Dark Text",
-                      "content": "IVA: $56.00",
-                      "lineHeight": 1.4166666666666667,
-                      "textAlign": "right",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "600",
-                      "letterSpacing": 0.19200000286102298
-                    },
-                    {
-                      "type": "text",
-                      "id": "fE6bM",
-                      "name": "Total: $000,000.00",
-                      "fill": "$Dark Text",
-                      "content": "Total: $406.00",
-                      "lineHeight": 1.4166666666666667,
-                      "textAlign": "right",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "600",
-                      "letterSpacing": 0.19200000286102298
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "LUKkX",
-                  "name": "Frame 2055",
-                  "width": "fill_container",
-                  "stroke": "#040c21ff",
-                  "strokeWidth": {
-                    "top": 1,
-                    "bottom": 1
-                  },
-                  "strokeAlignment": "inner",
-                  "gap": 5,
-                  "padding": [
-                    5,
-                    0
-                  ],
-                  "alignItems": "end",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "KUemA",
-                      "name": "Historial de pagos",
-                      "fill": "$Dark Text",
-                      "textGrowth": "fixed-width",
-                      "width": 50,
-                      "content": "Estado:",
-                      "lineHeight": 1.4166666666666667,
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "600",
-                      "letterSpacing": 0.19200000286102298
-                    },
-                    {
-                      "type": "text",
-                      "id": "btAPx",
-                      "name": "Historial de pagos",
-                      "fill": "$Dark Text",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Pagado",
-                      "lineHeight": 1.4166666666666667,
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "600",
-                      "letterSpacing": 0.19200000286102298
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "Z5nAQ",
-                  "name": "Frame 2054",
-                  "width": 300,
-                  "stroke": "#040c21ff",
-                  "strokeWidth": {
-                    "top": 1,
-                    "bottom": 1
-                  },
-                  "strokeAlignment": "inner",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "padding": [
-                    5,
-                    0,
-                    0,
-                    0
-                  ],
-                  "alignItems": "end",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "DDBP5",
-                      "name": "Condiciones: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie tristique quam. Pellentesque laoreet laoreet.",
-                      "fill": "$Dark Text",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Condiciones: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie tristique quam. Pellentesque laoreet laoreet.",
-                      "lineHeight": 1.5,
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 10,
-                      "fontWeight": "normal",
-                      "letterSpacing": 0.3
-                    }
-                  ]
                 }
               ]
             }
@@ -61099,7 +60747,8 @@
                   "fill": "$Gray Dark",
                   "content": "Artículos en venta",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -65023,6 +64672,630 @@
                   "fontFamily": "Inter",
                   "fontSize": 10,
                   "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ix0uJ",
+      "x": 3145,
+      "y": 8283,
+      "name": "Ticket",
+      "clip": true,
+      "fill": "#ffffff",
+      "cornerRadius": 10,
+      "stroke": "$Dark Text",
+      "strokeWidth": 1,
+      "strokeAlignment": "inner",
+      "gap": 10,
+      "padding": [
+        40,
+        15
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "qhfjQ",
+          "name": "Frame 2060",
+          "width": 300,
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "Y7r9P7",
+              "name": "Frame 2059",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 9,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "GTErF",
+                  "name": "image-removebg-preview (1) 1",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "Logistica%20Adaptable%20logo.png",
+                    "mode": "stretch"
+                  },
+                  "width": 192,
+                  "height": 60
+                },
+                {
+                  "type": "frame",
+                  "id": "W6mvRy",
+                  "name": "Frame 2048",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "R5kIEs",
+                      "name": "LOGÍSTICA ADAPTABLE",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "LOGÍSTICA ADAPTABLE",
+                      "lineHeight": 1.4166666666666667,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.19200000286102298
+                    },
+                    {
+                      "type": "text",
+                      "id": "IflkS",
+                      "name": "DIRECCIÓN: CIUDAD, ESTADO C.P. 00000",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "[DIRECCION DINAMICA]",
+                      "lineHeight": 1.4166666666666667,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.19200000286102298
+                    },
+                    {
+                      "type": "text",
+                      "id": "yfOTt",
+                      "name": "FECHA: 00 DE MES DE AAAA 00:00",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "FECHA: 00 DE MES DE AAAA 00:00 H",
+                      "lineHeight": 1.4166666666666667,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.19200000286102298
+                    },
+                    {
+                      "type": "text",
+                      "id": "s4VBu2",
+                      "name": "FECHA: 00 DE MES DE AAAA 00:00",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "FOLIO: 000001",
+                      "lineHeight": 1.4166666666666667,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.19200000286102298
+                    },
+                    {
+                      "type": "text",
+                      "id": "IKbVq",
+                      "name": "SUCURSAL: NOMBRE DE SUCURSAL",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "SUCURSAL: [NOMBRE USUARIO]",
+                      "lineHeight": 1.4166666666666667,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.19200000286102298
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "r2fQjh",
+              "name": "Frame 2058",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 35,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cXPfu",
+                  "name": "Frame 2053",
+                  "width": "fill_container",
+                  "stroke": "#040c21ff",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "padding": [
+                    5,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "K8o1o",
+                      "name": "Frame 2049",
+                      "width": "fill_container",
+                      "gap": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "i2ZG8z",
+                          "name": "CONCEPTO",
+                          "fill": "$Dark Text",
+                          "textGrowth": "fixed-width",
+                          "width": 135,
+                          "content": "CONCEPTO",
+                          "lineHeight": 1.4166666666666667,
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 0.19200000286102298
+                        },
+                        {
+                          "type": "text",
+                          "id": "M3E2TD",
+                          "name": "CTD.",
+                          "fill": "$Dark Text",
+                          "textGrowth": "fixed-width",
+                          "width": 30,
+                          "content": "CTD.",
+                          "lineHeight": 1.4166666666666667,
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 0.19200000286102298
+                        },
+                        {
+                          "type": "text",
+                          "id": "i5ruaj",
+                          "name": "SUBTOTAL",
+                          "fill": "$Dark Text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "SUBTOTAL",
+                          "lineHeight": 1.4166666666666667,
+                          "textAlign": "right",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 0.19200000286102298
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "P4cNW",
+                      "name": "Frame 2051",
+                      "width": "fill_container",
+                      "gap": 20,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LVOII",
+                          "name": "GUIAS CONSUMIDAS",
+                          "fill": "$Dark Text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "GUIA - PAQUETERÍA",
+                          "lineHeight": 1.4166666666666667,
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.19200000286102298
+                        },
+                        {
+                          "type": "text",
+                          "id": "D0yen",
+                          "name": "100",
+                          "fill": "$Dark Text",
+                          "textGrowth": "fixed-width",
+                          "width": 30,
+                          "content": "1",
+                          "lineHeight": 1.4166666666666667,
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.19200000286102298
+                        },
+                        {
+                          "type": "text",
+                          "id": "vcKWb",
+                          "name": "$000,000.00",
+                          "fill": "$Dark Text",
+                          "textGrowth": "fixed-width",
+                          "width": 95,
+                          "content": "$250.00",
+                          "lineHeight": 1.4166666666666667,
+                          "textAlign": "right",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.19200000286102298
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DkAW4",
+                      "name": "Frame 2052",
+                      "width": "fill_container",
+                      "gap": 20,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "m5zPnL",
+                          "name": "VENTAS MANUALES",
+                          "fill": "$Dark Text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "EMPAQUE SOBRE ACOLCHADO",
+                          "lineHeight": 1.4166666666666667,
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.19200000286102298
+                        },
+                        {
+                          "type": "text",
+                          "id": "O0C5gr",
+                          "name": "100",
+                          "fill": "$Dark Text",
+                          "textGrowth": "fixed-width",
+                          "width": 30,
+                          "content": "1",
+                          "lineHeight": 1.4166666666666667,
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.19200000286102298
+                        },
+                        {
+                          "type": "text",
+                          "id": "SviEA",
+                          "name": "$000,000.00",
+                          "fill": "$Dark Text",
+                          "textGrowth": "fixed-width",
+                          "width": 95,
+                          "content": "$100.00",
+                          "lineHeight": 1.4166666666666667,
+                          "textAlign": "right",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.19200000286102298
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VGYsz",
+                  "name": "Frame 2050",
+                  "width": "fill_container",
+                  "stroke": "#040c21ff",
+                  "strokeWidth": {
+                    "top": 1,
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "padding": [
+                    5,
+                    0
+                  ],
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "W5Tmv",
+                      "name": "Subtotal: $000,000.00",
+                      "fill": "$Dark Text",
+                      "content": "Subtotal: $350.00",
+                      "lineHeight": 1.4166666666666667,
+                      "textAlign": "right",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.19200000286102298
+                    },
+                    {
+                      "type": "text",
+                      "id": "dlBCX",
+                      "name": "Descuento: $000.00",
+                      "fill": "$Dark Text",
+                      "content": "Descuento: $0.00",
+                      "lineHeight": 1.4166666666666667,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.19200000286102298
+                    },
+                    {
+                      "type": "text",
+                      "id": "uBJQu",
+                      "name": "IVA: $000,000.00",
+                      "fill": "$Dark Text",
+                      "content": "IVA: $56.00",
+                      "lineHeight": 1.4166666666666667,
+                      "textAlign": "right",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.19200000286102298
+                    },
+                    {
+                      "type": "text",
+                      "id": "UxHpQ",
+                      "name": "Total: $000,000.00",
+                      "fill": "$Dark Text",
+                      "content": "Total: $406.00",
+                      "lineHeight": 1.4166666666666667,
+                      "textAlign": "right",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.19200000286102298
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LZqYq",
+                  "name": "Frame 2053",
+                  "width": "fill_container",
+                  "stroke": "#040c21ff",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "padding": [
+                    5,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jVBop",
+                      "name": "Frame 2049",
+                      "width": "fill_container",
+                      "gap": 20,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KUVQf",
+                          "name": "CONCEPTO",
+                          "fill": "$Dark Text",
+                          "textGrowth": "fixed-width",
+                          "width": 150,
+                          "content": "PAQUETERÍA",
+                          "lineHeight": 1.4166666666666667,
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 0.19200000286102298
+                        },
+                        {
+                          "type": "text",
+                          "id": "TKVnH",
+                          "name": "SUBTOTAL",
+                          "fill": "$Dark Text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "NÚMERO DE GUÍA",
+                          "lineHeight": 1.4166666666666667,
+                          "textAlign": "right",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 0.19200000286102298
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "e7Bwu",
+                      "name": "Frame 2051",
+                      "width": "fill_container",
+                      "gap": 20,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "m8pJS",
+                          "name": "GUIAS CONSUMIDAS",
+                          "fill": "$Dark Text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "[NOMBRE PAQUETERÍA]",
+                          "lineHeight": 1.4166666666666667,
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.19200000286102298
+                        },
+                        {
+                          "type": "text",
+                          "id": "AeXb9",
+                          "name": "$000,000.00",
+                          "fill": "$Dark Text",
+                          "textGrowth": "fixed-width",
+                          "width": 140,
+                          "content": "00000000000000000",
+                          "lineHeight": 1.4166666666666667,
+                          "textAlign": "right",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.19200000286102298
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Sxdqn",
+                      "name": "Frame 2051",
+                      "width": "fill_container",
+                      "gap": 20,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WM2FE",
+                          "name": "GUIAS CONSUMIDAS",
+                          "fill": "$Dark Text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "[NOMBRE PAQUETERÍA]",
+                          "lineHeight": 1.4166666666666667,
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.19200000286102298
+                        },
+                        {
+                          "type": "text",
+                          "id": "BOpEZ",
+                          "name": "$000,000.00",
+                          "fill": "$Dark Text",
+                          "textGrowth": "fixed-width",
+                          "width": 140,
+                          "content": "00000000000000000",
+                          "lineHeight": 1.4166666666666667,
+                          "textAlign": "right",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.19200000286102298
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FiGRi",
+                  "name": "Frame 2055",
+                  "width": "fill_container",
+                  "stroke": "#040c21ff",
+                  "strokeWidth": {
+                    "top": 1,
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 5,
+                  "padding": [
+                    5,
+                    0
+                  ],
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cfW30",
+                      "name": "Historial de pagos",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": 50,
+                      "content": "Estado:",
+                      "lineHeight": 1.4166666666666667,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.19200000286102298
+                    },
+                    {
+                      "type": "text",
+                      "id": "h7Nwy",
+                      "name": "Historial de pagos",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Pagado",
+                      "lineHeight": 1.4166666666666667,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.19200000286102298
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NZVeg",
+                  "name": "Frame 2054",
+                  "width": 300,
+                  "stroke": "#040c21ff",
+                  "strokeWidth": {
+                    "top": 1,
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "padding": [
+                    5,
+                    0,
+                    0,
+                    0
+                  ],
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rPqWx",
+                      "name": "Condiciones: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie tristique quam. Pellentesque laoreet laoreet.",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "\n[CONDICIONES DINÁMICAS]\n",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.3
+                    }
+                  ]
                 }
               ]
             }
