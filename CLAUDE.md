@@ -7,9 +7,13 @@ de los `.pen`. El plan de construcción (hoja de ruta + componentes) vive en
 
 ## Cómo leer los `.pen`
 
-- **Solo vía MCP de Pencil** (nunca Read/Grep — están encriptados).
-- `get_editor_state` devuelve **solo el pencil ACTIVO** (uno a la vez). Para mapear otro, pídele al usuario que cambie de pestaña en Pencil.
-- Inventario completo de un pencil: `batch_get(filePath, readDepth:1)` y parsear con `jq` (suele exceder el límite de tokens → se guarda a archivo).
+- **Nunca `Read`/`Grep` directo** — los `.pen` están encriptados; leerlos como texto no sirve.
+- **Dos rutas para consultarlos**:
+  - **Local con la app de Pencil abierta** — vía **MCP de Pencil**. Requiere OAuth interactivo, así que **no funciona en Claude Code Web** (cloud env sin callback).
+  - **Cualquier sitio, sin app** — vía `pen-cli` headless con `PENCIL_API_TOKEN`. Es la ruta que usa el cloud env compartido y la que consume el skill [`/replicar-diseno`](../.claude/skills/replicar-diseno/SKILL.md).
+- **Bug conocido del `pen-cli` headless**: `Error: Base URI must be absolute!` al cargar los `.pen` con imágenes/scripts en rutas relativas (los 12 del team). **Workaround**: sanitizar el `.pen` a `/tmp/` vaciando `url` de nodos `type: "image"` y `scriptUri` de nodos `type: "script"` antes de invocar `pen-cli`. Layout, textos y componentes cargan intactos; solo se pierden logos/imágenes (se ven como cuadriculado gris). Script exacto: paso 2 del skill `/replicar-diseno`.
+- `get_editor_state` (MCP) devuelve **solo el pencil ACTIVO** (uno a la vez). Para mapear otro, pídele al usuario que cambie de pestaña en Pencil.
+- Inventario completo de un pencil vía MCP: `batch_get(filePath, readDepth:1)` y parsear con `jq` (suele exceder el límite de tokens → se guarda a archivo).
 - Cada pencil trae los frames **"Design System"** y **"Additional Components"** (style guide + átomos) y los mismos ~21 componentes reusables (Cell, BTN*, Input*, Dropdown, Checkbox).
 - Canvas organizado por **rótulos de texto gigantes** (fontSize 200 en admin / 24 en cliente) con el código de flujo (C03, G06, P01…). Las pantallas cuelgan en bandas bajo cada rótulo.
 - Admin: cada pantalla = frame `Sidebar` (w220, `$Primary`) + `Content`. Cliente: nav superior.
@@ -21,15 +25,15 @@ de los `.pen`. El plan de construcción (hoja de ruta + componentes) vive en
 
 ## Archivos
 
-| Pencil                        | Cubre                                       | Nodos |
-| ----------------------------- | ------------------------------------------- | :---: |
-| `CLIENTES-PORTAL.pen`         | Portal Cliente completo                     |  107  |
-| `ADMIN-CLIENTES.pen`          | Admin › Clientes (C01–C14)                  |  67   |
-| `ADMIN-GUIAS.pen`             | Admin › Guías (G01–G14)                     |  77   |
-| `ADMIN-REC-TIC-CRM.pen`       | Admin › Recolecciones + Tickets + CRM       |  26   |
-| `ADMIN-USER-COMISIONES.pen`   | Admin › Usuarios + Comisiones               |  14   |
-| `ADMIN-ADMIN.pen`             | Admin › Administración (Precios/Facturas/Auditoría) | 60 |
-| `BACKUP-LOGISTICA ADAPTABLE.pen` | Respaldo — **ignorar**                   |   —   |
+| Pencil                           | Cubre                                               | Nodos |
+| -------------------------------- | --------------------------------------------------- | :---: |
+| `CLIENTES-PORTAL.pen`            | Portal Cliente completo                             |  107  |
+| `ADMIN-CLIENTES.pen`             | Admin › Clientes (C01–C14)                          |  67   |
+| `ADMIN-GUIAS.pen`                | Admin › Guías (G01–G14)                             |  77   |
+| `ADMIN-REC-TIC-CRM.pen`          | Admin › Recolecciones + Tickets + CRM               |  26   |
+| `ADMIN-USER-COMISIONES.pen`      | Admin › Usuarios + Comisiones                       |  14   |
+| `ADMIN-ADMIN.pen`                | Admin › Administración (Precios/Facturas/Auditoría) |  60   |
+| `BACKUP-LOGISTICA ADAPTABLE.pen` | Respaldo — **ignorar**                              |   —   |
 
 Logos de aliados (ampm, bajapack, dhl, estafeta, fedex, ptx, sendex, sukarne, ups, paquetexpress) y assets varios también viven aquí.
 
