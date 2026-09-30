@@ -89012,7 +89012,7 @@
       "id": "VKLQ0",
       "x": 9974,
       "y": 45144,
-      "name": "Guías - Nueva guía (bloqueado)",
+      "name": "Guías - Nueva guía (modal bloqueado)",
       "width": 420,
       "fill": "$White",
       "cornerRadius": 12,
@@ -89070,7 +89070,8 @@
           "fill": "$Gray Dark",
           "textGrowth": "fixed-width",
           "width": "fill_container",
-          "content": "Tienes $12,400.00 de saldo total, pero $12,400.00 están retenidos. Se liberarán el 01/Jul/2026.",
+          "content": "Esta guía cuesta $250.00 y tu saldo disponible es $200.00. Tienes $800.00 retenidos que se liberarán el 01/Jul/2026.",
+          "textAlign": "center",
           "fontFamily": "Inter",
           "fontSize": 14,
           "fontWeight": "normal"
@@ -90514,7 +90515,7 @@
                                       "id": "Opo36",
                                       "name": "V",
                                       "fill": "$Dark Text",
-                                      "content": "Cargo posterior ligado a guía 8072634519283746",
+                                      "content": "Cargo posterior por edición de desglose",
                                       "fontFamily": "Inter",
                                       "fontSize": 13,
                                       "fontWeight": "normal"
@@ -93392,7 +93393,7 @@
                                   "fill": "$Primary",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
-                                  "content": "De tu saldo total, $800.00 (6.5%) están retenidos para cargos posteriores y no están disponibles para emitir guías. Próxima liberación: 01/Jul/2026 ($500.00).",
+                                  "content": "De tu saldo total, $800.00 (6.5%) están retenidos para cargos posteriores y no están disponibles para emitir guías. Próxima liberación: 19/Jun/2026 ($300.00).",
                                   "fontFamily": "Inter",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -94190,7 +94191,7 @@
                                       "id": "OKG7D",
                                       "name": "V",
                                       "fill": "$Dark Text",
-                                      "content": "Cargo posterior ligado a guía 8072634519283746",
+                                      "content": "Cargo posterior por edición de desglose",
                                       "fontFamily": "Inter",
                                       "fontSize": 13,
                                       "fontWeight": "normal"
@@ -95301,7 +95302,7 @@
                                       "id": "NRQu5",
                                       "name": "V",
                                       "fill": "#128e04",
-                                      "content": "+$8,000.00",
+                                      "content": "+$3,000.00",
                                       "fontFamily": "Inter",
                                       "fontSize": 13,
                                       "fontWeight": "600"
