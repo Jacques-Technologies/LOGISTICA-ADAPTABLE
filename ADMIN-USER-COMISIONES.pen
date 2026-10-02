@@ -9478,7 +9478,7 @@
     {
       "type": "frame",
       "id": "BdUMJ",
-      "x": 3588,
+      "x": 3983,
       "y": -206,
       "name": "Detalle Abono",
       "clip": true,
@@ -26536,6 +26536,15 @@
       "width": 250,
       "height": 219,
       "content": "Act. 2/Oct/26\nMantener como predeterminado el filtro de periodo del mes de pago actual.\n\nSolo el permiso SUPERADMIN puede filtrar a todos los colaboradores\nEl resto de los permisos solo pueden ver a su propio usuario \n\nNuevo botón “Ver pendientes por revisar” > abre su respectivo popup"
+    },
+    {
+      "type": "note",
+      "id": "vhu9i",
+      "x": 3503,
+      "y": -206,
+      "width": 250,
+      "height": 219,
+      "content": "Act. 2/Oct/26\nMantener como predeterminado el filtro de Fecha de abono que sea un mes antes al mes actual. (Ej. 01/sep/2026 - 30/sep/2026)"
     },
     {
       "type": "note",
