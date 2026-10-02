@@ -1,5 +1,5 @@
 {
-  "version": "2.14",
+  "version": "2.20",
   "children": [
     {
       "type": "frame",
@@ -638,6 +638,7 @@
             "bottom": 1
           },
           "strokeAlignment": "inner",
+          "strokeLinejoin": "round",
           "gap": 20,
           "padding": [
             10,
@@ -1815,7 +1816,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 250,
               "height": 90
@@ -3607,7 +3608,7 @@
                             "type": "image",
                             "enabled": true,
                             "url": "logo%20LA_blanco.png",
-                            "mode": "fit"
+                            "mode": "contain"
                           },
                           "width": 140,
                           "height": 39
@@ -3839,6 +3840,7 @@
                         "left": 3
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "gap": 10,
                       "padding": [
                         10,
@@ -3882,6 +3884,7 @@
                 "top": 1
               },
               "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
               "gap": 10,
               "padding": 16,
               "alignItems": "center",
@@ -3974,6 +3977,7 @@
                 "bottom": 1
               },
               "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
               "padding": [
                 0,
                 24
@@ -4004,6 +4008,7 @@
                 "bottom": 1
               },
               "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
               "padding": [
                 0,
                 24
@@ -4022,6 +4027,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -4064,6 +4070,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -4106,6 +4113,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -4144,6 +4152,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -4182,6 +4191,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -4240,6 +4250,7 @@
                         "bottom": 2
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         10,
                         20
@@ -4266,6 +4277,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         10,
                         20
@@ -4295,6 +4307,7 @@
                     "bottom": 1
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "layout": "vertical",
                   "gap": 12,
                   "padding": [
@@ -4622,8 +4635,7 @@
                       "x": 0,
                       "y": 2
                     },
-                    "blur": 8,
-                    "spread": -2
+                    "blur": 8
                   },
                   "layout": "vertical",
                   "children": [
@@ -4796,6 +4808,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -4973,6 +4986,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -5150,6 +5164,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -5320,6 +5335,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -5490,6 +5506,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -5660,6 +5677,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -5830,6 +5848,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -6000,6 +6019,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -6170,6 +6190,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -6554,7 +6575,7 @@
                             "type": "image",
                             "enabled": true,
                             "url": "logo%20LA_blanco.png",
-                            "mode": "fit"
+                            "mode": "contain"
                           },
                           "width": 140,
                           "height": 39
@@ -6786,6 +6807,7 @@
                         "left": 3
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "gap": 10,
                       "padding": [
                         10,
@@ -6829,6 +6851,7 @@
                 "top": 1
               },
               "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
               "gap": 10,
               "padding": 16,
               "alignItems": "center",
@@ -6921,6 +6944,7 @@
                 "bottom": 1
               },
               "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
               "padding": [
                 0,
                 24
@@ -6951,6 +6975,7 @@
                 "bottom": 1
               },
               "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
               "padding": [
                 0,
                 24
@@ -6969,6 +6994,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -7011,6 +7037,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -7053,6 +7080,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -7091,6 +7119,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -7129,6 +7158,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -7187,6 +7217,7 @@
                         "bottom": 2
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         10,
                         20
@@ -7213,6 +7244,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         10,
                         20
@@ -7242,6 +7274,7 @@
                     "bottom": 1
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "layout": "vertical",
                   "gap": 12,
                   "padding": [
@@ -7569,8 +7602,7 @@
                       "x": 0,
                       "y": 2
                     },
-                    "blur": 8,
-                    "spread": -2
+                    "blur": 8
                   },
                   "layout": "vertical",
                   "children": [
@@ -7743,6 +7775,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -7920,6 +7953,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -8097,6 +8131,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -8267,6 +8302,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -8437,6 +8473,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -8607,6 +8644,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -8777,6 +8815,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -8947,6 +8986,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -9117,6 +9157,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -9465,6 +9506,7 @@
                 "bottom": 1
               },
               "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
               "gap": 8,
               "padding": [
                 0,
@@ -9508,8 +9550,7 @@
                       "x": 0,
                       "y": 2
                     },
-                    "blur": 8,
-                    "spread": -2
+                    "blur": 8
                   },
                   "layout": "vertical",
                   "gap": 16,
@@ -9771,8 +9812,7 @@
                       "x": 0,
                       "y": 2
                     },
-                    "blur": 8,
-                    "spread": -2
+                    "blur": 8
                   },
                   "layout": "vertical",
                   "gap": 16,
@@ -10106,6 +10146,7 @@
                             "bottom": 1
                           },
                           "strokeAlignment": "inner",
+                          "strokeLinejoin": "round",
                           "padding": [
                             0,
                             10
@@ -10287,6 +10328,7 @@
                             "bottom": 1
                           },
                           "strokeAlignment": "inner",
+                          "strokeLinejoin": "round",
                           "padding": [
                             0,
                             10
@@ -10612,6 +10654,7 @@
                             "bottom": 1
                           },
                           "strokeAlignment": "inner",
+                          "strokeLinejoin": "round",
                           "padding": [
                             0,
                             10
@@ -10937,6 +10980,7 @@
                             "bottom": 1
                           },
                           "strokeAlignment": "inner",
+                          "strokeLinejoin": "round",
                           "padding": [
                             0,
                             10
@@ -11270,6 +11314,7 @@
                 "top": 1
               },
               "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
               "gap": 12,
               "padding": [
                 12,
@@ -11316,7 +11361,7 @@
       "name": "Admin Comisiones - Aprobadas",
       "clip": true,
       "width": 1440,
-      "height": 940,
+      "height": 995,
       "children": [
         {
           "type": "frame",
@@ -11375,7 +11420,7 @@
                             "type": "image",
                             "enabled": true,
                             "url": "logo%20LA_blanco.png",
-                            "mode": "fit"
+                            "mode": "contain"
                           },
                           "width": 140,
                           "height": 39
@@ -11607,6 +11652,7 @@
                         "left": 3
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "gap": 10,
                       "padding": [
                         10,
@@ -11650,6 +11696,7 @@
                 "top": 1
               },
               "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
               "gap": 10,
               "padding": 16,
               "alignItems": "center",
@@ -11742,6 +11789,7 @@
                 "bottom": 1
               },
               "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
               "padding": [
                 0,
                 24
@@ -11856,6 +11904,7 @@
                 "bottom": 1
               },
               "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
               "padding": [
                 0,
                 24
@@ -11874,6 +11923,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -11916,6 +11966,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -11958,6 +12009,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -11996,6 +12048,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -12034,6 +12087,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -12092,6 +12146,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         10,
                         20
@@ -12118,6 +12173,7 @@
                         "bottom": 2
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         10,
                         20
@@ -12147,6 +12203,7 @@
                     "bottom": 1
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "layout": "vertical",
                   "gap": 12,
                   "padding": [
@@ -12404,6 +12461,43 @@
                               "fontWeight": "600"
                             }
                           ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cCeoz",
+                          "name": "Btn Nueva Factura",
+                          "width": "fill_container",
+                          "fill": "$Secondary",
+                          "cornerRadius": 6,
+                          "gap": 8,
+                          "padding": [
+                            10,
+                            20
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "I14j7n",
+                              "name": "I",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "eye",
+                              "library": "lucide",
+                              "fill": "$White"
+                            },
+                            {
+                              "type": "text",
+                              "id": "d6dsRm",
+                              "name": "L",
+                              "fill": "$White",
+                              "content": "Ver pendientes por revisar",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -12462,8 +12556,7 @@
                       "x": 0,
                       "y": 2
                     },
-                    "blur": 8,
-                    "spread": -2
+                    "blur": 8
                   },
                   "layout": "vertical",
                   "children": [
@@ -12773,6 +12866,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -13023,6 +13117,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -13273,6 +13368,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -13523,6 +13619,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -13774,6 +13871,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -14037,6 +14135,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -14300,6 +14399,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -14550,6 +14650,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -14800,6 +14901,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -15050,6 +15152,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -15300,6 +15403,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -15550,6 +15654,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -15800,6 +15905,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -16264,7 +16370,7 @@
                             "type": "image",
                             "enabled": true,
                             "url": "logo%20LA_blanco.png",
-                            "mode": "fit"
+                            "mode": "contain"
                           },
                           "width": 140,
                           "height": 39
@@ -16496,6 +16602,7 @@
                         "left": 3
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "gap": 10,
                       "padding": [
                         10,
@@ -16539,6 +16646,7 @@
                 "top": 1
               },
               "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
               "gap": 10,
               "padding": 16,
               "alignItems": "center",
@@ -16631,6 +16739,7 @@
                 "bottom": 1
               },
               "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
               "padding": [
                 0,
                 24
@@ -16745,6 +16854,7 @@
                 "bottom": 1
               },
               "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
               "padding": [
                 0,
                 24
@@ -16763,6 +16873,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -16805,6 +16916,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -16847,6 +16959,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -16885,6 +16998,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -16923,6 +17037,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -16981,6 +17096,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         10,
                         20
@@ -17007,6 +17123,7 @@
                         "bottom": 2
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         10,
                         20
@@ -17036,6 +17153,7 @@
                     "bottom": 1
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "layout": "vertical",
                   "gap": 12,
                   "padding": [
@@ -17351,8 +17469,7 @@
                       "x": 0,
                       "y": 2
                     },
-                    "blur": 8,
-                    "spread": -2
+                    "blur": 8
                   },
                   "layout": "vertical",
                   "children": [
@@ -17662,6 +17779,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -17912,6 +18030,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -18162,6 +18281,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -18412,6 +18532,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -18663,6 +18784,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -18926,6 +19048,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -19189,6 +19312,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -19439,6 +19563,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -19689,6 +19814,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -19939,6 +20065,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -20189,6 +20316,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -20439,6 +20567,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -20689,6 +20818,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -21153,7 +21283,7 @@
                             "type": "image",
                             "enabled": true,
                             "url": "logo%20LA_blanco.png",
-                            "mode": "fit"
+                            "mode": "contain"
                           },
                           "width": 140,
                           "height": 39
@@ -21385,6 +21515,7 @@
                         "left": 3
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "gap": 10,
                       "padding": [
                         10,
@@ -21428,6 +21559,7 @@
                 "top": 1
               },
               "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
               "gap": 10,
               "padding": 16,
               "alignItems": "center",
@@ -21520,6 +21652,7 @@
                 "bottom": 1
               },
               "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
               "padding": [
                 0,
                 24
@@ -21619,6 +21752,7 @@
                 "bottom": 1
               },
               "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
               "padding": [
                 0,
                 24
@@ -21637,6 +21771,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -21679,6 +21814,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -21717,6 +21853,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -21755,6 +21892,7 @@
                     "bottom": 2
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "gap": 6,
                   "padding": [
                     14,
@@ -21841,6 +21979,7 @@
                     "bottom": 1
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "layout": "vertical",
                   "gap": 12,
                   "padding": [
@@ -22001,8 +22140,7 @@
                       "x": 0,
                       "y": 2
                     },
-                    "blur": 8,
-                    "spread": -2
+                    "blur": 8
                   },
                   "layout": "vertical",
                   "children": [
@@ -22079,6 +22217,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -22143,6 +22282,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -22207,6 +22347,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -22271,6 +22412,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -22335,6 +22477,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -22400,6 +22543,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -22438,6 +22582,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -22476,6 +22621,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -22514,6 +22660,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -22552,6 +22699,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -22590,6 +22738,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -22628,6 +22777,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -22666,6 +22816,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -22704,6 +22855,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -22742,6 +22894,7 @@
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
+                      "strokeLinejoin": "round",
                       "padding": [
                         0,
                         16
@@ -22958,6 +23111,7 @@
             "bottom": 1
           },
           "strokeAlignment": "inner",
+          "strokeLinejoin": "round",
           "padding": [
             20,
             24
@@ -23090,6 +23244,7 @@
                     "bottom": 1
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "padding": [
                     0,
                     14
@@ -23161,6 +23316,7 @@
                     "bottom": 1
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "padding": [
                     0,
                     14
@@ -23232,6 +23388,7 @@
                     "bottom": 1
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "padding": [
                     0,
                     14
@@ -23303,6 +23460,7 @@
                     "bottom": 1
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "padding": [
                     0,
                     14
@@ -23374,6 +23532,7 @@
                     "bottom": 1
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "padding": [
                     0,
                     14
@@ -23445,6 +23604,7 @@
                     "bottom": 1
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "padding": [
                     0,
                     14
@@ -23644,6 +23804,7 @@
             "top": 1
           },
           "strokeAlignment": "inner",
+          "strokeLinejoin": "round",
           "gap": 12,
           "padding": [
             16,
@@ -23842,6 +24003,7 @@
             "bottom": 1
           },
           "strokeAlignment": "inner",
+          "strokeLinejoin": "round",
           "padding": [
             20,
             24
@@ -24120,6 +24282,7 @@
                     "bottom": 1
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "padding": [
                     0,
                     14
@@ -24191,6 +24354,7 @@
                     "bottom": 1
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "padding": [
                     0,
                     14
@@ -24262,6 +24426,7 @@
                     "bottom": 1
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "padding": [
                     0,
                     14
@@ -24333,6 +24498,7 @@
                     "bottom": 1
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "padding": [
                     0,
                     14
@@ -24404,6 +24570,7 @@
                     "bottom": 1
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "padding": [
                     0,
                     14
@@ -24475,6 +24642,7 @@
                     "bottom": 1
                   },
                   "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
                   "padding": [
                     0,
                     14
@@ -24674,6 +24842,7 @@
             "top": 1
           },
           "strokeAlignment": "inner",
+          "strokeLinejoin": "round",
           "padding": [
             16,
             24
@@ -25097,6 +25266,1285 @@
           "fontWeight": "700"
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "MNBUu",
+      "x": 4025,
+      "y": 1584,
+      "name": "Pendientes por revisar",
+      "width": 1320,
+      "fill": "$White",
+      "cornerRadius": 12,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#00000025",
+        "offset": {
+          "x": 0,
+          "y": 8
+        },
+        "blur": 32
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "yA8uW",
+          "name": "Header",
+          "width": "fill_container",
+          "stroke": "$Gray Light",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "strokeAlignment": "inner",
+          "strokeLinejoin": "round",
+          "padding": [
+            20,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "A8p9RQ",
+              "name": "Title",
+              "fill": "$Dark Text",
+              "content": "Pendientes por revisar",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "kHxru",
+              "name": "Btn Close",
+              "width": 32,
+              "height": 32,
+              "cornerRadius": 6,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "C5AOXg",
+                  "name": "I",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "x",
+                  "library": "lucide",
+                  "fill": "$Gray Dark"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zyMmc",
+          "name": "Search Area",
+          "width": "fill_container",
+          "fill": "#f8f9fa",
+          "stroke": "$Gray Light",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "strokeAlignment": "inner",
+          "strokeLinejoin": "round",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            16,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "B1a71w",
+              "name": "Search Title",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "uGY1C",
+                  "name": "I",
+                  "width": 15,
+                  "height": 15,
+                  "icon": "search",
+                  "library": "lucide",
+                  "fill": "$Primary"
+                },
+                {
+                  "type": "text",
+                  "id": "qs3tW",
+                  "name": "L",
+                  "fill": "$Primary",
+                  "content": "Buscar ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fI3pV",
+              "name": "Search Row",
+              "width": "fill_container",
+              "gap": 12,
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TOSfW",
+                  "name": "Cliente",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MO2Eu",
+                      "name": "textareaLabel",
+                      "fill": "$Primary",
+                      "content": "Filtrar por colaborador",
+                      "fontFamily": "$Font Family",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eADfc",
+                      "name": "textareaFrame",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$White",
+                      "cornerRadius": 6,
+                      "stroke": "$Gray Light",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 10,
+                      "padding": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UBiys",
+                          "name": "textareaText",
+                          "fill": "$Gray Medium",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Buscar...",
+                          "fontFamily": "$Font Family",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yVJPA",
+                  "name": "No Factura",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zmZiw",
+                      "name": "textareaLabel",
+                      "fill": "$Primary",
+                      "content": "Período",
+                      "fontFamily": "$Font Family",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xkFsg",
+                      "name": "textareaFrame",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$White",
+                      "cornerRadius": 6,
+                      "stroke": "$Gray Light",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 10,
+                      "padding": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CWo9t",
+                          "name": "textareaText",
+                          "fill": "$Gray Medium",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "DD/MMM/AAAA - DD/MMM/AAAA",
+                          "fontFamily": "$Font Family",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "i3PyrE",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "chevron-down",
+                          "library": "feather",
+                          "fill": "$Gray Medium"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xm3LN",
+                  "name": "Btn Search",
+                  "height": 40,
+                  "fill": "$Primary",
+                  "cornerRadius": 6,
+                  "gap": 6,
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "tEMtm",
+                      "name": "I",
+                      "width": 14,
+                      "height": 14,
+                      "icon": "search",
+                      "library": "lucide",
+                      "fill": "$White"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ieSuT",
+                      "name": "L",
+                      "fill": "$White",
+                      "content": "Buscar",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "B0AQZ",
+          "name": "Results Area",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            16,
+            24
+          ],
+          "alignItems": "end",
+          "children": [
+            {
+              "type": "frame",
+              "id": "rIOhC",
+              "name": "Results Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "f9iZOy",
+                  "name": "Title",
+                  "fill": "$Dark Text",
+                  "content": "Resultados (4)",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oDFyh",
+              "name": "Permisos Table",
+              "width": "fill_container",
+              "cornerRadius": 6,
+              "stroke": "$Gray Light",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sb1sG",
+                  "name": "TH Row",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "#f0f4f8",
+                  "stroke": "$Gray Light",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
+                  "gap": 5,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cKFu9",
+                      "name": "TH fecha",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": 105,
+                      "content": "Fecha registro de factura",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LcKSW",
+                      "name": "TH cliente",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cliente",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZNbrG",
+                      "name": "TH factura",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": 100,
+                      "content": "No. factura",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pbacV",
+                      "name": "TH serie",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": 70,
+                      "content": "No. serie",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UPgUL",
+                      "name": "TH fechaAbono",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": 95,
+                      "content": "Fecha abono",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "g2HNiz",
+                      "name": "TH monto",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": 100,
+                      "content": "Monto de abono",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "P4xtrk",
+                      "name": "TH responsable",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Responsable",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kM7f1",
+                      "name": "TH tipo",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "Tipo de comisión",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eZKcT",
+                      "name": "TH pct",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": 70,
+                      "content": "Comisión %",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NGGV4",
+                      "name": "TH cantidad",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": 75,
+                      "content": "Cantidad",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AVLy1",
+                      "name": "TH estado",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": 100,
+                      "content": "Estado",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iucFs",
+                  "name": "Row 1",
+                  "width": "fill_container",
+                  "height": 44,
+                  "stroke": "$Gray Light",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
+                  "gap": 5,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bwK1s",
+                      "name": "fecha",
+                      "fill": "$Primary",
+                      "textGrowth": "fixed-width",
+                      "width": 105,
+                      "content": "08/Jun/2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Nvp6L",
+                      "name": "cliente",
+                      "fill": "$Primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Grupo Industrial MX",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "M50QDx",
+                      "name": "factura",
+                      "fill": "$Primary",
+                      "textGrowth": "fixed-width",
+                      "width": 100,
+                      "content": "FA-2026-0411",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YhPDI",
+                      "name": "serie",
+                      "fill": "$Primary",
+                      "textGrowth": "fixed-width",
+                      "width": 70,
+                      "content": "A",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "SeJDv",
+                      "name": "fechaAbono",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": 95,
+                      "content": "05/Ene/2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "sY7s1",
+                      "name": "monto",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": 100,
+                      "content": "$20,000.00",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "v8ShX",
+                      "name": "responsable",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Citlali Ruiz",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XtNRM",
+                      "name": "tipo",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "Asesor logístico",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vXqM4",
+                      "name": "pct",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": 70,
+                      "content": "2.0%",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rP3Ov",
+                      "name": "cantidad",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": 75,
+                      "content": "$400.00",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rqO3P",
+                      "name": "estado wrap",
+                      "width": 100,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "y0p9R",
+                          "name": "Badge",
+                          "fill": "#f58a0015",
+                          "cornerRadius": 10,
+                          "padding": [
+                            3,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "soDF3",
+                              "name": "V",
+                              "fill": "#f58a00",
+                              "content": "Por revisar",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "g9VZel",
+                  "name": "Row 2",
+                  "width": "fill_container",
+                  "height": 44,
+                  "stroke": "$Gray Light",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
+                  "gap": 5,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rd1GG",
+                      "name": "fecha",
+                      "fill": "$Primary",
+                      "textGrowth": "fixed-width",
+                      "width": 105,
+                      "content": "10/Jun/2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jNkoV",
+                      "name": "cliente",
+                      "fill": "$Primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Distribuidora Norte SA",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "X4eFi",
+                      "name": "factura",
+                      "fill": "$Primary",
+                      "textGrowth": "fixed-width",
+                      "width": 100,
+                      "content": "FA-2026-0412",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TLUMx",
+                      "name": "serie",
+                      "fill": "$Primary",
+                      "textGrowth": "fixed-width",
+                      "width": 70,
+                      "content": "A",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Jt5Ex",
+                      "name": "fechaAbono",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": 95,
+                      "content": "12/Ene/2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QM7TB",
+                      "name": "monto",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": 100,
+                      "content": "$21,402.00",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oZtPb",
+                      "name": "responsable",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Tomás Osuna",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "J0Uje",
+                      "name": "tipo",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "Vendedor",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YnfOT",
+                      "name": "pct",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": 70,
+                      "content": "1.5%",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QN6cQ",
+                      "name": "cantidad",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": 75,
+                      "content": "$300.00",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TbQ5W",
+                      "name": "estado wrap",
+                      "width": 100,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "DHvSB",
+                          "name": "Badge",
+                          "fill": "#f58a0015",
+                          "cornerRadius": 10,
+                          "padding": [
+                            3,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "eRHv8",
+                              "name": "V",
+                              "fill": "#f58a00",
+                              "content": "Por revisar",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nM9ab",
+                  "name": "Row 3",
+                  "width": "fill_container",
+                  "height": 44,
+                  "stroke": "$Gray Light",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
+                  "gap": 5,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qkkVx",
+                      "name": "fecha",
+                      "fill": "$Primary",
+                      "textGrowth": "fixed-width",
+                      "width": 105,
+                      "content": "15/Jun/2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GSu0k",
+                      "name": "cliente",
+                      "fill": "$Primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Comercial Bajío",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wAZHs",
+                      "name": "factura",
+                      "fill": "$Primary",
+                      "textGrowth": "fixed-width",
+                      "width": 100,
+                      "content": "FA-2026-0410",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Wo34C",
+                      "name": "serie",
+                      "fill": "$Primary",
+                      "textGrowth": "fixed-width",
+                      "width": 70,
+                      "content": "A",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YG6rr",
+                      "name": "fechaAbono",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": 95,
+                      "content": "28/Dic/2025",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "faLpc",
+                      "name": "monto",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": 100,
+                      "content": "$9,800.00",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y4pXR",
+                      "name": "responsable",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Diana López",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xXUPf",
+                      "name": "tipo",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "Jefa de atención a cliente",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k72Uho",
+                      "name": "pct",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": 70,
+                      "content": "1.0%",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "h6UmD",
+                      "name": "cantidad",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": 75,
+                      "content": "$200.00",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uXsWc",
+                      "name": "estado wrap",
+                      "width": 100,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "O30Mj",
+                          "name": "Badge",
+                          "fill": "#f58a0015",
+                          "cornerRadius": 10,
+                          "padding": [
+                            3,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "JdRKA",
+                              "name": "V",
+                              "fill": "#f58a00",
+                              "content": "Por revisar",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kkXlw",
+                  "name": "Row 4",
+                  "width": "fill_container",
+                  "height": 44,
+                  "stroke": "$Gray Light",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "strokeLinejoin": "round",
+                  "gap": 5,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "puHuO",
+                      "name": "fecha",
+                      "fill": "$Primary",
+                      "textGrowth": "fixed-width",
+                      "width": 105,
+                      "content": "20/Jun/2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QoHee",
+                      "name": "cliente",
+                      "fill": "$Primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Logística Rápida",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lWP1l",
+                      "name": "factura",
+                      "fill": "$Primary",
+                      "textGrowth": "fixed-width",
+                      "width": 100,
+                      "content": "FA-2026-0409",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LfWmM",
+                      "name": "serie",
+                      "fill": "$Primary",
+                      "textGrowth": "fixed-width",
+                      "width": 70,
+                      "content": "B",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "J23wt",
+                      "name": "fechaAbono",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": 95,
+                      "content": "15/Dic/2025",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "U5txUp",
+                      "name": "monto",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": 100,
+                      "content": "$6,032.00",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j1z54U",
+                      "name": "responsable",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Alma Vega",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GnRQd",
+                      "name": "tipo",
+                      "fill": "$Gray Dark",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "Cobranza",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NS16i",
+                      "name": "pct",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": 70,
+                      "content": "0.5%",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NNaAT",
+                      "name": "cantidad",
+                      "fill": "$Dark Text",
+                      "textGrowth": "fixed-width",
+                      "width": 75,
+                      "content": "$100.00",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "z94gm",
+                      "name": "estado wrap",
+                      "width": 100,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "N5WdI",
+                          "name": "Badge",
+                          "fill": "#f58a0015",
+                          "cornerRadius": 10,
+                          "padding": [
+                            3,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "uRI18",
+                              "name": "V",
+                              "fill": "#f58a00",
+                              "content": "Por revisar",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MIpIg",
+              "name": "Note",
+              "width": "fill_container",
+              "fill": "#1B496508",
+              "cornerRadius": 6,
+              "gap": 8,
+              "padding": [
+                10,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "U7TLXI",
+                  "name": "I",
+                  "width": 14,
+                  "height": 14,
+                  "icon": "info",
+                  "library": "lucide",
+                  "fill": "$Primary"
+                },
+                {
+                  "type": "text",
+                  "id": "CDxEU",
+                  "name": "Note Text",
+                  "fill": "$Gray Dark",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Este listado es informativo.",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZK9ar",
+          "name": "Footer",
+          "width": "fill_container",
+          "stroke": "$Gray Light",
+          "strokeWidth": {
+            "top": 1
+          },
+          "strokeAlignment": "inner",
+          "strokeLinejoin": "round",
+          "gap": 12,
+          "padding": [
+            16,
+            24
+          ],
+          "justifyContent": "end",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "eJqrt",
+              "name": "Btn Cancelar",
+              "height": 44,
+              "cornerRadius": 6,
+              "stroke": "$Gray Light",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "layout": "vertical",
+              "padding": [
+                0,
+                20
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PqJpo",
+                  "name": "L",
+                  "fill": "$Gray Dark",
+                  "content": "Cerrar",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "id": "FZ0wI",
+      "x": 3444,
+      "y": 1584,
+      "width": 250,
+      "height": 219,
+      "content": "Act. 2/Oct/26\nMantener como predeterminado el filtro de periodo del mes de pago actual.\n\nSolo el permiso SUPERADMIN puede filtrar a todos los colaboradores\nEl resto de los permisos solo pueden ver a su propio usuario \n\nNuevo botón “Ver pendientes por revisar” > abre su respectivo popup"
+    },
+    {
+      "type": "note",
+      "id": "oGtit",
+      "x": 5400,
+      "y": 1584,
+      "width": 250,
+      "height": 219,
+      "content": "Act. 2/Oct/26"
     }
   ],
   "variables": {
