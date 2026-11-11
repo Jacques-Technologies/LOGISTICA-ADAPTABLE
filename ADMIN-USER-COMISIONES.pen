@@ -1,5 +1,5 @@
 {
-  "version": "2.20",
+  "version": "2.21",
   "children": [
     {
       "type": "frame",
@@ -9478,7 +9478,7 @@
     {
       "type": "frame",
       "id": "BdUMJ",
-      "x": 3983,
+      "x": 3588,
       "y": -206,
       "name": "Detalle Abono",
       "clip": true,
@@ -26540,7 +26540,7 @@
     {
       "type": "note",
       "id": "vhu9i",
-      "x": 3503,
+      "x": 1720,
       "y": -206,
       "width": 250,
       "height": 219,

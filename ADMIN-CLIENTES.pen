@@ -1,5 +1,5 @@
 {
-  "version": "2.21",
+  "version": "2.22",
   "children": [
     {
       "type": "frame",
@@ -125030,6 +125030,15 @@
     },
     {
       "type": "note",
+      "id": "V6DUE",
+      "x": 93,
+      "y": 29569,
+      "width": 250,
+      "height": 219,
+      "content": "Actualización 11/Nov/26"
+    },
+    {
+      "type": "note",
       "id": "daM5N",
       "x": 2045,
       "y": 21781,
@@ -138323,1220 +138332,18 @@
       "id": "M26pf6",
       "x": 317,
       "y": 28345,
-      "fill": "$Dark Text",
-      "content": "C18 - Flujo para Integración API",
+      "fill": "$White",
+      "content": "Flujo para Integración API",
       "fontFamily": "Inter",
       "fontSize": 200,
-      "fontWeight": "normal"
-    },
-    {
-      "type": "text",
-      "id": "mow8B",
-      "x": -4612,
-      "y": 40587,
-      "fill": "$Dark Text",
-      "content": "M13 Estados: de Llaves y Actividad reciente",
-      "fontFamily": "Inter",
-      "fontSize": 100,
-      "fontWeight": "normal"
-    },
-    {
-      "type": "frame",
-      "id": "alB5n",
-      "x": -4612,
-      "y": 40802,
-      "name": "Estados vacíos y error de bloque",
-      "width": 900,
-      "fill": "#f4f4f4",
-      "layout": "vertical",
-      "gap": 28,
-      "padding": 32,
-      "children": [
-        {
-          "type": "frame",
-          "id": "C52AqV",
-          "name": "Fragmento Llaves",
-          "width": "fill_container",
-          "layout": "vertical",
-          "gap": 8,
-          "children": [
-            {
-              "type": "text",
-              "id": "VggpR",
-              "name": "Fragment Label",
-              "fill": "$Gray Dark",
-              "content": "BLOQUE LLAVES — VACÍO",
-              "fontFamily": "Inter",
-              "fontSize": 11,
-              "fontWeight": "600",
-              "letterSpacing": 0.5
-            },
-            {
-              "type": "frame",
-              "id": "stjpr",
-              "name": "Llaves Card",
-              "width": "fill_container",
-              "fill": "$White",
-              "cornerRadius": 8,
-              "effect": {
-                "type": "shadow",
-                "shadowType": "outer",
-                "color": "#0000000A",
-                "offset": {
-                  "x": 0,
-                  "y": 1
-                },
-                "blur": 4
-              },
-              "layout": "vertical",
-              "gap": 16,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "SJXug",
-                  "name": "T",
-                  "fill": "$Secondary",
-                  "content": "Llaves",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "frame",
-                  "id": "eKTJb",
-                  "name": "Empty State",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 12,
-                  "padding": [
-                    24,
-                    0
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "jieZN",
-                      "name": "Icon Wrap",
-                      "width": 40,
-                      "height": 40,
-                      "fill": "#E4EDF5",
-                      "cornerRadius": 20,
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "LzR1c",
-                          "name": "I",
-                          "width": 20,
-                          "height": 20,
-                          "icon": "key",
-                          "library": "lucide",
-                          "fill": "$Primary"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "I99UTp",
-                      "name": "Msg",
-                      "fill": "$Gray Dark",
-                      "textGrowth": "fixed-width",
-                      "width": 360,
-                      "content": "Todavía no hay llaves. Crea una de sandbox para empezar.",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "id": "SWMUJ",
-                      "type": "ref",
-                      "ref": "PnAxC",
-                      "name": "Nueva Llave Btn",
-                      "width": "fit_content",
-                      "height": 44,
-                      "descendants": {
-                        "GnOdy": {
-                          "content": "+ Nueva llave"
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "xxRnF",
-          "name": "Fragmento Actividad",
-          "width": "fill_container",
-          "layout": "vertical",
-          "gap": 8,
-          "children": [
-            {
-              "type": "text",
-              "id": "INAUM",
-              "name": "Fragment Label",
-              "fill": "$Gray Dark",
-              "content": "BLOQUE ACTIVIDAD RECIENTE — VACÍO",
-              "fontFamily": "Inter",
-              "fontSize": 11,
-              "fontWeight": "600",
-              "letterSpacing": 0.5
-            },
-            {
-              "type": "frame",
-              "id": "o6nJCj",
-              "name": "Actividad Reciente Card",
-              "width": "fill_container",
-              "fill": "$White",
-              "cornerRadius": 8,
-              "effect": {
-                "type": "shadow",
-                "shadowType": "outer",
-                "color": "#0000000A",
-                "offset": {
-                  "x": 0,
-                  "y": 1
-                },
-                "blur": 4
-              },
-              "layout": "vertical",
-              "gap": 16,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "lkFI0",
-                  "name": "T",
-                  "fill": "$Secondary",
-                  "content": "Actividad reciente",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "frame",
-                  "id": "k2ZlF",
-                  "name": "Empty State",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 8,
-                  "padding": [
-                    24,
-                    0
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "B8hG86",
-                      "name": "Icon Wrap",
-                      "width": 40,
-                      "height": 40,
-                      "fill": "#E4EDF5",
-                      "cornerRadius": 20,
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "coKwL",
-                          "name": "I",
-                          "width": 20,
-                          "height": 20,
-                          "icon": "activity",
-                          "library": "lucide",
-                          "fill": "$Primary"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "HzaVr",
-                      "name": "Msg",
-                      "fill": "$Gray Dark",
-                      "content": "Todavía no hay llamadas de este cliente.",
-                      "fontFamily": "Inter",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "b5MSB2",
-          "name": "Fragmento Error",
-          "width": "fill_container",
-          "layout": "vertical",
-          "gap": 8,
-          "children": [
-            {
-              "type": "text",
-              "id": "B3b2L",
-              "name": "Fragment Label",
-              "fill": "$Gray Dark",
-              "content": "BLOQUE — FALLA DE CARGA",
-              "fontFamily": "Inter",
-              "fontSize": 11,
-              "fontWeight": "600",
-              "letterSpacing": 0.5
-            },
-            {
-              "type": "frame",
-              "id": "FqCWj",
-              "name": "Bloque Error Card",
-              "width": "fill_container",
-              "fill": "$White",
-              "cornerRadius": 8,
-              "effect": {
-                "type": "shadow",
-                "shadowType": "outer",
-                "color": "#0000000A",
-                "offset": {
-                  "x": 0,
-                  "y": 1
-                },
-                "blur": 4
-              },
-              "layout": "vertical",
-              "gap": 16,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "Ub3Dc",
-                  "name": "T",
-                  "fill": "$Secondary",
-                  "content": "Actividad reciente",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "frame",
-                  "id": "RaLU9",
-                  "name": "Error Banner",
-                  "width": "fill_container",
-                  "fill": "#eb404015",
-                  "cornerRadius": 6,
-                  "gap": 10,
-                  "padding": 14,
-                  "justifyContent": "space_between",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "W3yWCW",
-                      "name": "Left",
-                      "gap": 10,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "L3oYH0",
-                          "name": "I",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "triangle-alert",
-                          "library": "lucide",
-                          "fill": "#eb4040"
-                        },
-                        {
-                          "type": "text",
-                          "id": "aZTP5",
-                          "name": "L",
-                          "fill": "#eb4040",
-                          "content": "No se pudo cargar esta información.",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "r8gdK",
-                      "name": "Reintentar Btn",
-                      "height": 36,
-                      "fill": "$White",
-                      "cornerRadius": 6,
-                      "stroke": "$Gray Light",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 6,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "lhUIf",
-                          "name": "I",
-                          "width": 14,
-                          "height": 14,
-                          "icon": "rotate-cw",
-                          "library": "lucide",
-                          "fill": "$Gray Dark"
-                        },
-                        {
-                          "type": "text",
-                          "id": "d5wI26",
-                          "name": "L",
-                          "fill": "$Gray Dark",
-                          "content": "Reintentar",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "td1yL",
-      "x": -2363,
-      "y": 40901,
-      "name": "M0.6 Bloque Usuario con cambio pendiente",
-      "width": 900,
-      "fill": "#f4f4f4",
-      "layout": "vertical",
-      "gap": 28,
-      "padding": 32,
-      "children": [
-        {
-          "type": "frame",
-          "id": "hqdYr",
-          "name": "Fragmento A",
-          "width": "fill_container",
-          "layout": "vertical",
-          "gap": 8,
-          "children": [
-            {
-              "type": "text",
-              "id": "FNqPg",
-              "name": "Fragment Label",
-              "fill": "$Gray Dark",
-              "content": "A) SELECTOR CAMBIADO — PENDIENTE DE GUARDAR",
-              "fontFamily": "Inter",
-              "fontSize": 11,
-              "fontWeight": "600",
-              "letterSpacing": 0.5
-            },
-            {
-              "type": "frame",
-              "id": "yXmNZ",
-              "name": "Usuario Integración Card",
-              "width": "fill_container",
-              "fill": "$White",
-              "cornerRadius": 8,
-              "effect": {
-                "type": "shadow",
-                "shadowType": "outer",
-                "color": "#0000000A",
-                "offset": {
-                  "x": 0,
-                  "y": 1
-                },
-                "blur": 4
-              },
-              "layout": "vertical",
-              "gap": 16,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "v6omB",
-                  "name": "T",
-                  "fill": "$Secondary",
-                  "content": "Usuario de la integración",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "frame",
-                  "id": "Q5UjMI",
-                  "name": "Selector Wrap",
-                  "width": 400,
-                  "layout": "vertical",
-                  "gap": 6,
-                  "children": [
-                    {
-                      "id": "HdcFR",
-                      "type": "ref",
-                      "ref": "QiQRT",
-                      "name": "Usuario Selector",
-                      "width": "fill_container",
-                      "descendants": {
-                        "QFk64": {
-                          "content": "Usuario *"
-                        },
-                        "NWNSO": {
-                          "content": "Ana Gómez · ana@cliente.com",
-                          "fill": "$Dark Text"
-                        }
-                      }
-                    },
-                    {
-                      "type": "text",
-                      "id": "B0N26",
-                      "name": "Help",
-                      "fill": "$Gray Dark",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Se usará como usuario por defecto en las llaves nuevas.",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "htBXY",
-                  "name": "Footer",
-                  "width": "fill_container",
-                  "gap": 12,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "YrNER",
-                      "name": "Cancelar",
-                      "height": 40,
-                      "cornerRadius": 6,
-                      "stroke": "$Gray Light",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "padding": [
-                        0,
-                        18
-                      ],
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "SBddI",
-                          "name": "L",
-                          "fill": "$Gray Dark",
-                          "content": "Cancelar",
-                          "fontFamily": "Inter",
-                          "fontSize": 14,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "id": "BBXs4",
-                      "type": "ref",
-                      "ref": "PnAxC",
-                      "name": "Guardar Cambio Btn",
-                      "width": "fit_content",
-                      "height": 40,
-                      "descendants": {
-                        "GnOdy": {
-                          "content": "Guardar cambio"
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "s0CqK8",
-          "name": "Fragmento B",
-          "width": "fill_container",
-          "layout": "vertical",
-          "gap": 8,
-          "children": [
-            {
-              "type": "text",
-              "id": "F9ory",
-              "name": "Fragment Label",
-              "fill": "$Gray Dark",
-              "content": "B) USUARIO SIN SALDO",
-              "fontFamily": "Inter",
-              "fontSize": 11,
-              "fontWeight": "600",
-              "letterSpacing": 0.5
-            },
-            {
-              "type": "frame",
-              "id": "Hfpe6",
-              "name": "Usuario Integración Card",
-              "width": "fill_container",
-              "fill": "$White",
-              "cornerRadius": 8,
-              "effect": {
-                "type": "shadow",
-                "shadowType": "outer",
-                "color": "#0000000A",
-                "offset": {
-                  "x": 0,
-                  "y": 1
-                },
-                "blur": 4
-              },
-              "layout": "vertical",
-              "gap": 16,
-              "padding": 24,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "ARrbp",
-                  "name": "T",
-                  "fill": "$Secondary",
-                  "content": "Usuario de la integración",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "frame",
-                  "id": "DreP1",
-                  "name": "Selector Wrap",
-                  "width": 400,
-                  "layout": "vertical",
-                  "gap": 6,
-                  "children": [
-                    {
-                      "id": "cwDJi",
-                      "type": "ref",
-                      "ref": "QiQRT",
-                      "name": "Usuario Selector",
-                      "width": "fill_container",
-                      "descendants": {
-                        "QFk64": {
-                          "content": "Usuario *"
-                        },
-                        "NWNSO": {
-                          "content": "María López · maria@cliente.com",
-                          "fill": "$Dark Text"
-                        }
-                      }
-                    },
-                    {
-                      "type": "text",
-                      "id": "tfwK9",
-                      "name": "Help",
-                      "fill": "$Gray Dark",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Se usará como usuario por defecto en las llaves nuevas.",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "m2z01U",
-                  "name": "Pago Row",
-                  "width": "fill_container",
-                  "stroke": "$Gray Light",
-                  "strokeWidth": {
-                    "top": 1
-                  },
-                  "strokeAlignment": "inner",
-                  "strokeLinejoin": "round",
-                  "gap": 32,
-                  "padding": [
-                    16,
-                    0,
-                    0,
-                    0
-                  ],
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "q506t",
-                      "name": "Tipo Pago",
-                      "layout": "vertical",
-                      "gap": 2,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "vQBg6",
-                          "name": "K",
-                          "fill": "$Gray Dark",
-                          "content": "TIPO DE PAGO",
-                          "fontFamily": "Inter",
-                          "fontSize": 11,
-                          "fontWeight": "600",
-                          "letterSpacing": 0.5
-                        },
-                        {
-                          "type": "text",
-                          "id": "x9FdD",
-                          "name": "V",
-                          "fill": "$Dark Text",
-                          "content": "Prepago",
-                          "fontFamily": "Inter",
-                          "fontSize": 14,
-                          "fontWeight": "700"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "RRkO1",
-                      "name": "Disponible",
-                      "layout": "vertical",
-                      "gap": 2,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "V0wWl",
-                          "name": "K",
-                          "fill": "$Gray Dark",
-                          "content": "DISPONIBLE",
-                          "fontFamily": "Inter",
-                          "fontSize": 11,
-                          "fontWeight": "600",
-                          "letterSpacing": 0.5
-                        },
-                        {
-                          "type": "frame",
-                          "id": "RImvm",
-                          "name": "V Row",
-                          "gap": 8,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "Z9ea3l",
-                              "name": "V",
-                              "fill": "$Dark Text",
-                              "content": "$0.00 de saldo",
-                              "fontFamily": "Inter",
-                              "fontSize": 14,
-                              "fontWeight": "700"
-                            },
-                            {
-                              "type": "text",
-                              "id": "hCv4r",
-                              "name": "Link",
-                              "fill": "$Accent",
-                              "content": "Ver saldos",
-                              "fontFamily": "Inter",
-                              "fontSize": 12,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "geYaH",
-                  "name": "Warning Notice",
-                  "width": "fill_container",
-                  "fill": "#eb404015",
-                  "cornerRadius": 6,
-                  "gap": 10,
-                  "padding": [
-                    10,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "X0Pmm",
-                      "name": "I",
-                      "width": 16,
-                      "height": 16,
-                      "icon": "triangle-alert",
-                      "library": "lucide",
-                      "fill": "#eb4040"
-                    },
-                    {
-                      "type": "text",
-                      "id": "r8lWM",
-                      "name": "L",
-                      "fill": "#eb4040",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Este usuario no tiene saldo. Las cotizaciones saldrán como no seleccionables.",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "500"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "OI91G",
-      "x": -1391,
-      "y": 40901,
-      "name": "M0.7 Mensajes temporales",
-      "width": 600,
-      "fill": "#f4f4f4",
-      "layout": "vertical",
-      "gap": 24,
-      "padding": 32,
-      "children": [
-        {
-          "type": "frame",
-          "id": "l4c4CH",
-          "name": "Toast Wrap",
-          "width": "fill_container",
-          "layout": "vertical",
-          "gap": 8,
-          "children": [
-            {
-              "type": "text",
-              "id": "bm83h",
-              "name": "Fragment Label",
-              "fill": "$Gray Dark",
-              "content": "API ACTIVADA",
-              "fontFamily": "Inter",
-              "fontSize": 11,
-              "fontWeight": "600",
-              "letterSpacing": 0.5
-            },
-            {
-              "type": "frame",
-              "id": "fJW0A",
-              "name": "Toast",
-              "width": "fill_container",
-              "fill": "$White",
-              "cornerRadius": 8,
-              "stroke": "$Positivo",
-              "strokeWidth": {
-                "left": 3
-              },
-              "strokeAlignment": "inner",
-              "effect": {
-                "type": "shadow",
-                "shadowType": "outer",
-                "color": "#00000026",
-                "offset": {
-                  "x": 0,
-                  "y": 4
-                },
-                "blur": 16
-              },
-              "gap": 10,
-              "padding": [
-                14,
-                16
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon",
-                  "id": "Oz7yV",
-                  "name": "I",
-                  "width": 18,
-                  "height": 18,
-                  "icon": "circle-check",
-                  "library": "lucide",
-                  "fill": "#128e04"
-                },
-                {
-                  "type": "text",
-                  "id": "EjYQD",
-                  "name": "L",
-                  "fill": "$Dark Text",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "API activada.",
-                  "fontFamily": "Inter",
-                  "fontSize": 13,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "icon",
-                  "id": "QGg4c",
-                  "name": "Close",
-                  "width": 16,
-                  "height": 16,
-                  "icon": "x",
-                  "library": "lucide",
-                  "fill": "$Gray Medium"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "zje26",
-          "name": "Toast Wrap",
-          "width": "fill_container",
-          "layout": "vertical",
-          "gap": 8,
-          "children": [
-            {
-              "type": "text",
-              "id": "m4Ttw",
-              "name": "Fragment Label",
-              "fill": "$Gray Dark",
-              "content": "LLAVE REVOCADA",
-              "fontFamily": "Inter",
-              "fontSize": 11,
-              "fontWeight": "600",
-              "letterSpacing": 0.5
-            },
-            {
-              "type": "frame",
-              "id": "SgE6f",
-              "name": "Toast",
-              "width": "fill_container",
-              "fill": "$White",
-              "cornerRadius": 8,
-              "stroke": "$Positivo",
-              "strokeWidth": {
-                "left": 3
-              },
-              "strokeAlignment": "inner",
-              "effect": {
-                "type": "shadow",
-                "shadowType": "outer",
-                "color": "#00000026",
-                "offset": {
-                  "x": 0,
-                  "y": 4
-                },
-                "blur": 16
-              },
-              "gap": 10,
-              "padding": [
-                14,
-                16
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon",
-                  "id": "H9OFk",
-                  "name": "I",
-                  "width": 18,
-                  "height": 18,
-                  "icon": "circle-check",
-                  "library": "lucide",
-                  "fill": "#128e04"
-                },
-                {
-                  "type": "text",
-                  "id": "vmNtT",
-                  "name": "L",
-                  "fill": "$Dark Text",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Llave revocada.",
-                  "fontFamily": "Inter",
-                  "fontSize": 13,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "icon",
-                  "id": "RdddN",
-                  "name": "Close",
-                  "width": 16,
-                  "height": 16,
-                  "icon": "x",
-                  "library": "lucide",
-                  "fill": "$Gray Medium"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "lBg6v",
-          "name": "Toast Wrap",
-          "width": "fill_container",
-          "layout": "vertical",
-          "gap": 8,
-          "children": [
-            {
-              "type": "text",
-              "id": "SCi5y",
-              "name": "Fragment Label",
-              "fill": "$Gray Dark",
-              "content": "PASO A PRODUCCIÓN HECHO",
-              "fontFamily": "Inter",
-              "fontSize": 11,
-              "fontWeight": "600",
-              "letterSpacing": 0.5
-            },
-            {
-              "type": "frame",
-              "id": "y3AVE",
-              "name": "Toast",
-              "width": "fill_container",
-              "fill": "$White",
-              "cornerRadius": 8,
-              "stroke": "$Positivo",
-              "strokeWidth": {
-                "left": 3
-              },
-              "strokeAlignment": "inner",
-              "effect": {
-                "type": "shadow",
-                "shadowType": "outer",
-                "color": "#00000026",
-                "offset": {
-                  "x": 0,
-                  "y": 4
-                },
-                "blur": 16
-              },
-              "gap": 10,
-              "padding": [
-                14,
-                16
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon",
-                  "id": "wYLfX",
-                  "name": "I",
-                  "width": 18,
-                  "height": 18,
-                  "icon": "circle-check",
-                  "library": "lucide",
-                  "fill": "#128e04"
-                },
-                {
-                  "type": "text",
-                  "id": "z7Cyk",
-                  "name": "L",
-                  "fill": "$Dark Text",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Paso a producción hecho.",
-                  "fontFamily": "Inter",
-                  "fontSize": 13,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "icon",
-                  "id": "uvMUr",
-                  "name": "Close",
-                  "width": 16,
-                  "height": 16,
-                  "icon": "x",
-                  "library": "lucide",
-                  "fill": "$Gray Medium"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "WPv6U",
-          "name": "Toast Wrap",
-          "width": "fill_container",
-          "layout": "vertical",
-          "gap": 8,
-          "children": [
-            {
-              "type": "text",
-              "id": "O3dKI",
-              "name": "Fragment Label",
-              "fill": "$Gray Dark",
-              "content": "API DESACTIVADA",
-              "fontFamily": "Inter",
-              "fontSize": 11,
-              "fontWeight": "600",
-              "letterSpacing": 0.5
-            },
-            {
-              "type": "frame",
-              "id": "db6FV",
-              "name": "Toast",
-              "width": "fill_container",
-              "fill": "$White",
-              "cornerRadius": 8,
-              "stroke": "$Positivo",
-              "strokeWidth": {
-                "left": 3
-              },
-              "strokeAlignment": "inner",
-              "effect": {
-                "type": "shadow",
-                "shadowType": "outer",
-                "color": "#00000026",
-                "offset": {
-                  "x": 0,
-                  "y": 4
-                },
-                "blur": 16
-              },
-              "gap": 10,
-              "padding": [
-                14,
-                16
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon",
-                  "id": "wXvB9",
-                  "name": "I",
-                  "width": 18,
-                  "height": 18,
-                  "icon": "circle-check",
-                  "library": "lucide",
-                  "fill": "#128e04"
-                },
-                {
-                  "type": "text",
-                  "id": "UDOeZ",
-                  "name": "L",
-                  "fill": "$Dark Text",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "API desactivada.",
-                  "fontFamily": "Inter",
-                  "fontSize": 13,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "icon",
-                  "id": "hOdx7",
-                  "name": "Close",
-                  "width": 16,
-                  "height": 16,
-                  "icon": "x",
-                  "library": "lucide",
-                  "fill": "$Gray Medium"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "PpRSy",
-          "name": "Toast Wrap",
-          "width": "fill_container",
-          "layout": "vertical",
-          "gap": 8,
-          "children": [
-            {
-              "type": "text",
-              "id": "ZSSN1",
-              "name": "Fragment Label",
-              "fill": "$Gray Dark",
-              "content": "API REACTIVADA",
-              "fontFamily": "Inter",
-              "fontSize": 11,
-              "fontWeight": "600",
-              "letterSpacing": 0.5
-            },
-            {
-              "type": "frame",
-              "id": "FouvT",
-              "name": "Toast",
-              "width": "fill_container",
-              "fill": "$White",
-              "cornerRadius": 8,
-              "stroke": "$Positivo",
-              "strokeWidth": {
-                "left": 3
-              },
-              "strokeAlignment": "inner",
-              "effect": {
-                "type": "shadow",
-                "shadowType": "outer",
-                "color": "#00000026",
-                "offset": {
-                  "x": 0,
-                  "y": 4
-                },
-                "blur": 16
-              },
-              "gap": 10,
-              "padding": [
-                14,
-                16
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon",
-                  "id": "BUZIV",
-                  "name": "I",
-                  "width": 18,
-                  "height": 18,
-                  "icon": "circle-check",
-                  "library": "lucide",
-                  "fill": "#128e04"
-                },
-                {
-                  "type": "text",
-                  "id": "jgWWk",
-                  "name": "L",
-                  "fill": "$Dark Text",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "API reactivada.",
-                  "fontFamily": "Inter",
-                  "fontSize": 13,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "icon",
-                  "id": "FjHH4",
-                  "name": "Close",
-                  "width": 16,
-                  "height": 16,
-                  "icon": "x",
-                  "library": "lucide",
-                  "fill": "$Gray Medium"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "fontWeight": "700"
     },
     {
       "type": "text",
       "id": "g3tUt",
       "x": 317,
       "y": 29062,
-      "fill": "$Dark Text",
+      "fill": "$White",
       "content": "F1 · Activación de la API",
       "fontFamily": "Inter",
       "fontSize": 200,
@@ -139547,7 +138354,7 @@
       "id": "YWqjR",
       "x": 317,
       "y": 32809,
-      "fill": "$Dark Text",
+      "fill": "$White",
       "content": "F2 · Entregar datos al cliente",
       "fontFamily": "Inter",
       "fontSize": 200,
@@ -139558,7 +138365,7 @@
       "id": "Kj73s",
       "x": 317,
       "y": 35900,
-      "fill": "$Dark Text",
+      "fill": "$White",
       "content": "F3 · Crear una llave",
       "fontFamily": "Inter",
       "fontSize": 200,
@@ -139569,7 +138376,7 @@
       "id": "xHsv6",
       "x": 317,
       "y": 39526,
-      "fill": "$Dark Text",
+      "fill": "$White",
       "content": "F4 · Rotar una llave",
       "fontFamily": "Inter",
       "fontSize": 200,
@@ -139580,7 +138387,7 @@
       "id": "MzqYZ",
       "x": 317,
       "y": 42890,
-      "fill": "$Dark Text",
+      "fill": "$White",
       "content": "F5 · Revocar una llave",
       "fontFamily": "Inter",
       "fontSize": 200,
@@ -139591,7 +138398,7 @@
       "id": "U1VkV",
       "x": 317,
       "y": 46530,
-      "fill": "$Dark Text",
+      "fill": "$White",
       "content": "F6 · Cambiar el usuario de la integración",
       "fontFamily": "Inter",
       "fontSize": 200,
@@ -173769,7 +172576,7 @@
       "id": "tH3Fh",
       "x": 2724,
       "y": 47069,
-      "name": "M0.2 Integración API (sandbox) - Usuario sin saldo",
+      "name": "Integración API (sandbox) - Usuario sin saldo",
       "clip": true,
       "width": 1440,
       "height": 1791,
@@ -190524,7 +189331,8 @@
                       "content": "Motivo (opcional)"
                     },
                     "wKL85": {
-                      "content": ""
+                      "content": "Se detectó la llave expuesta en un repositorio de código público; el cliente solicitó revocarla de inmediato.",
+                      "fill": "$Dark Text"
                     }
                   }
                 },
@@ -190550,7 +189358,7 @@
                       "id": "la7WP",
                       "name": "Counter",
                       "fill": "$Gray Medium",
-                      "content": "0/200",
+                      "content": "109/200",
                       "fontFamily": "Inter",
                       "fontSize": 11,
                       "fontWeight": "normal"
@@ -194000,7 +192808,7 @@
                       "content": "Motivo (opcional)"
                     },
                     "wKL85": {
-                      "content": "Prueba de revocación",
+                      "content": "Se detectó la llave expuesta en un repositorio de código público; el cliente solicitó revocarla de inmediato.",
                       "fill": "$Dark Text"
                     }
                   }
@@ -194027,7 +192835,7 @@
                       "id": "tVGLB",
                       "name": "Counter",
                       "fill": "$Gray Medium",
-                      "content": "20/200",
+                      "content": "109/200",
                       "fontFamily": "Inter",
                       "fontSize": 11,
                       "fontWeight": "normal"
@@ -194338,7 +193146,7 @@
                       "content": "Motivo (opcional)"
                     },
                     "wKL85": {
-                      "content": "Prueba de revocación",
+                      "content": "Se detectó la llave expuesta en un repositorio de código público; el cliente solicitó revocarla de inmediato.",
                       "fill": "$Dark Text"
                     }
                   }
@@ -194365,7 +193173,7 @@
                       "id": "FF9Rz",
                       "name": "Counter",
                       "fill": "$Gray Medium",
-                      "content": "20/200",
+                      "content": "109/200",
                       "fontFamily": "Inter",
                       "fontSize": 11,
                       "fontWeight": "normal"
@@ -195386,7 +194194,7 @@
       "id": "mqATc",
       "x": 317,
       "y": 50015,
-      "fill": "$Dark Text",
+      "fill": "$White",
       "content": "F7 · Pasar a producción",
       "fontFamily": "Inter",
       "fontSize": 200,
@@ -195397,7 +194205,7 @@
       "id": "g9DpUv",
       "x": 317,
       "y": 53638,
-      "fill": "$Dark Text",
+      "fill": "$White",
       "content": "F8 · Revertir producción",
       "fontFamily": "Inter",
       "fontSize": 200,
@@ -195408,7 +194216,7 @@
       "id": "BFjoh",
       "x": 317,
       "y": 57916,
-      "fill": "$Dark Text",
+      "fill": "$White",
       "content": "F9 · Desactivar y reactivar la API",
       "fontFamily": "Inter",
       "fontSize": 200,
@@ -195419,7 +194227,7 @@
       "id": "F0EMK",
       "x": 317,
       "y": 62054,
-      "fill": "$Dark Text",
+      "fill": "$White",
       "content": "F10 · Investigar un error de un cliente",
       "fontFamily": "Inter",
       "fontSize": 200,
@@ -195430,7 +194238,7 @@
       "id": "Y2lcZJ",
       "x": 317,
       "y": 66977,
-      "fill": "$Dark Text",
+      "fill": "$White",
       "content": "F11 · Ver qué guías emitió un cliente por API",
       "fontFamily": "Inter",
       "fontSize": 200,
@@ -195441,7 +194249,7 @@
       "id": "nkIVw",
       "x": 317,
       "y": 50547,
-      "name": "M0.2 Integración API (sandbox)",
+      "name": "Integración API (sandbox)",
       "clip": true,
       "width": 1440,
       "height": 1791,
@@ -200507,7 +199315,7 @@
       "id": "VQ9ly",
       "x": 3925,
       "y": 62671,
-      "name": "M10 Llamadas · lista",
+      "name": "Integración API (Producción) > Ver todas las llamadas · lista",
       "clip": true,
       "width": 1440,
       "height": 1060,
@@ -201059,9 +199867,9 @@
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "brA39",
+                                  "id": "He69q",
                                   "name": "Tag",
-                                  "fill": "#E889B433",
+                                  "fill": "#3DB8E833",
                                   "cornerRadius": 10,
                                   "padding": [
                                     2,
@@ -201070,10 +199878,10 @@
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "Ccf9B",
+                                      "id": "Gt3Tf",
                                       "name": "V",
-                                      "fill": "#C05090",
-                                      "content": "Catálogo",
+                                      "fill": "$Accent",
+                                      "content": "Prepago",
                                       "fontFamily": "Inter",
                                       "fontSize": 11,
                                       "fontWeight": "500"
@@ -204848,7 +203656,7 @@
                   "fill": "$Dark Text",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Pide al cliente recargar saldo o revisa su crédito/folios antes de reintentar.",
+                  "content": "Pide al cliente recargar saldo antes de reintentar.",
                   "fontFamily": "Inter",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -205088,7 +203896,7 @@
       "id": "pZsel",
       "x": 2222,
       "y": 50515,
-      "name": "M6 Pasar a producción",
+      "name": "Pasar a producción",
       "clip": true,
       "width": 560,
       "fill": "$White",
@@ -205661,7 +204469,7 @@
       "id": "icnAa",
       "x": 2075,
       "y": 58505,
-      "name": "M7 Desactivar API",
+      "name": "Desactivar API",
       "clip": true,
       "width": 480,
       "fill": "$White",
@@ -206018,7 +204826,7 @@
       "id": "C3cCyy",
       "x": 4793,
       "y": 58505,
-      "name": "M8 Reactivar API",
+      "name": "Reactivar API",
       "clip": true,
       "width": 480,
       "fill": "$White",
@@ -206231,7 +205039,7 @@
       "id": "qC87j",
       "x": 2076,
       "y": 54101,
-      "name": "M9 Revertir producción",
+      "name": "Revertir producción",
       "clip": true,
       "width": 480,
       "fill": "$White",
@@ -206409,10 +205217,6 @@
                   "descendants": {
                     "idofl": {
                       "content": "Motivo (opcional)"
-                    },
-                    "wKL85": {
-                      "content": "Prueba JTech",
-                      "fill": "$Dark Text"
                     }
                   }
                 },
@@ -206428,7 +205232,7 @@
                       "id": "UPfL7",
                       "name": "Counter",
                       "fill": "$Gray Medium",
-                      "content": "12/200",
+                      "content": "0/200",
                       "fontFamily": "Inter",
                       "fontSize": 11,
                       "fontWeight": "normal"
@@ -221380,7 +220184,7 @@
       "id": "Gkzl3",
       "x": 3775,
       "y": 50515,
-      "name": "M0.3 Integración API (Producción)",
+      "name": "Integración API (Producción)",
       "clip": true,
       "width": 1440,
       "height": 2740,
@@ -226946,7 +225750,7 @@
       "id": "zKw1z",
       "x": 317,
       "y": 54101,
-      "name": "M0.3 Integración API (Producción)",
+      "name": "Integración API (Producción)",
       "clip": true,
       "width": 1440,
       "height": 2740,
@@ -232512,7 +231316,7 @@
       "id": "qGkNk",
       "x": 317,
       "y": 58505,
-      "name": "M0.3 Integración API (Producción)",
+      "name": "Integración API (Producción)",
       "clip": true,
       "width": 1440,
       "height": 2740,
@@ -238078,7 +236882,7 @@
       "id": "EXpDd",
       "x": 6318,
       "y": 58505,
-      "name": "M0.3 Integración API (Producción)",
+      "name": "Integración API (Producción)",
       "clip": true,
       "width": 1440,
       "height": 2740,
@@ -243644,7 +242448,7 @@
       "id": "gMDI5",
       "x": 317,
       "y": 62671,
-      "name": "M0.3 Integración API (Producción)",
+      "name": "Integración API (Producción) - Error en actividad reciente",
       "clip": true,
       "width": 1440,
       "height": 2740,
@@ -247910,7 +246714,7 @@
       "id": "HuTjq",
       "x": 2068,
       "y": 62671,
-      "name": "M0.3 Integración API (Producción)",
+      "name": "Integración API (Producción)",
       "clip": true,
       "width": 1440,
       "height": 2740,
@@ -253476,7 +252280,7 @@
       "id": "jy5F0",
       "x": 2919,
       "y": 54101,
-      "name": "M0.3 Integración API (Producción - Pausada)",
+      "name": "Integración API (Producción - Pausada)",
       "clip": true,
       "width": 1440,
       "height": 1848,
@@ -258959,7 +257763,7 @@
       "id": "C6cC08",
       "x": 3042,
       "y": 58505,
-      "name": "M0.4 Integración API (Desactivada)",
+      "name": "Integración API (Desactivada)",
       "clip": true,
       "width": 1440,
       "height": 2805,
@@ -260326,7 +259130,7 @@
                                   "type": "text",
                                   "id": "CvX95",
                                   "name": "Sub",
-                                  "fill": "$Gray Medium",
+                                  "fill": "$Gray Dark",
                                   "content": "4 pausadas",
                                   "fontFamily": "Inter",
                                   "fontSize": 11,
@@ -260345,7 +259149,7 @@
                   "id": "mKsDx",
                   "name": "Warning Banner",
                   "width": "fill_container",
-                  "fill": "#eb404015",
+                  "fill": "#F59E0B26",
                   "cornerRadius": 6,
                   "gap": 10,
                   "padding": 14,
@@ -260359,13 +259163,13 @@
                       "height": 18,
                       "icon": "triangle-alert",
                       "library": "lucide",
-                      "fill": "#eb4040"
+                      "fill": "#B45309"
                     },
                     {
                       "type": "text",
                       "id": "vAlxe",
                       "name": "L",
-                      "fill": "#eb4040",
+                      "fill": "#B45309",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "La API está desactivada. Las llaves no funcionan hasta que la reactives.",
@@ -264570,7 +263374,7 @@
       "id": "lM1Xn",
       "x": 2222,
       "y": 51327,
-      "name": "M6 Pasar a producción · bloqueado",
+      "name": "Pasar a producción · bloqueado",
       "clip": true,
       "width": 560,
       "fill": "$White",
@@ -265145,7 +263949,7 @@
       "id": "DtOlr",
       "x": 7487,
       "y": 62671,
-      "name": "M10 Llamadas filtrado · vacío",
+      "name": "Listado Llamadas filtrado · vacío",
       "clip": true,
       "width": 1440,
       "height": 900,
@@ -265697,9 +264501,9 @@
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "vpNpy",
+                                  "id": "G56bu",
                                   "name": "Tag",
-                                  "fill": "#E889B433",
+                                  "fill": "#3DB8E833",
                                   "cornerRadius": 10,
                                   "padding": [
                                     2,
@@ -265708,10 +264512,10 @@
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "vyWDb",
+                                      "id": "O8UVau",
                                       "name": "V",
-                                      "fill": "#C05090",
-                                      "content": "Catálogo",
+                                      "fill": "$Accent",
+                                      "content": "Prepago",
                                       "fontFamily": "Inter",
                                       "fontSize": 11,
                                       "fontWeight": "500"
@@ -266776,7 +265580,7 @@
       "id": "Q1W1V",
       "x": 2989,
       "y": 50515,
-      "name": "M0.7 Mensajes temporales",
+      "name": "Mensajes temporales - Paso a producción hecho",
       "width": 600,
       "fill": "#f4f4f4",
       "layout": "vertical",
@@ -266874,7 +265678,7 @@
       "id": "i0luO",
       "x": 5471,
       "y": 50515,
-      "name": "M2.2 Nueva llave · Producción",
+      "name": "Nueva llave · Producción",
       "clip": true,
       "width": 480,
       "fill": "$White",
@@ -267296,7 +266100,7 @@
       "id": "dFYpQ",
       "x": 6251,
       "y": 50515,
-      "name": "M3 Llave creada",
+      "name": "Llave creada",
       "clip": true,
       "width": 480,
       "fill": "$White",
@@ -267435,7 +266239,7 @@
                           "id": "Y65YJ",
                           "name": "Key",
                           "fill": "$Dark Text",
-                          "content": "la_test_8fK2mQ9xTz4RvB7nLc1WdYe3",
+                          "content": "la_live_8fK2mQ9xTz4RvB7nLc1WdYe3",
                           "fontFamily": "Roboto Mono",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -267717,7 +266521,7 @@
       "id": "q5yig",
       "x": 5480,
       "y": 58505,
-      "name": "M0.7 Mensajes temporales",
+      "name": "Mensajes temporales - API Desactivada y API Reactivada",
       "width": 600,
       "fill": "#f4f4f4",
       "layout": "vertical",
