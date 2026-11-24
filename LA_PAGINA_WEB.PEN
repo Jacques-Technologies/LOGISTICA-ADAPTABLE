@@ -1,5 +1,5 @@
 {
-  "version": "2.15",
+  "version": "2.25",
   "children": [
     {
       "type": "rectangle",
@@ -1825,7 +1825,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 250,
               "height": 90
@@ -3593,7 +3593,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -4574,7 +4574,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "image-22.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "width": 710,
               "height": 410
@@ -5170,7 +5170,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -5371,7 +5371,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -6380,7 +6380,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "image-24.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "width": 710,
               "height": 410
@@ -6976,7 +6976,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -7177,7 +7177,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -8193,7 +8193,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "image-25.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "width": 710,
               "height": 410
@@ -8789,7 +8789,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -8990,7 +8990,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -9946,7 +9946,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "image-25.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "width": 710,
               "height": 410
@@ -10542,7 +10542,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -10743,7 +10743,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -11800,7 +11800,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "image-23.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "width": 710,
               "height": 410
@@ -12332,7 +12332,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -12597,7 +12597,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -13414,7 +13414,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "image-21.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "width": 710,
               "height": 410
@@ -13946,7 +13946,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -14211,7 +14211,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -15268,7 +15268,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "image-21.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "width": 710,
               "height": 410
@@ -15864,7 +15864,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -16065,7 +16065,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -16883,7 +16883,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "image-26.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "width": 710,
               "height": 410
@@ -17415,7 +17415,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -17680,7 +17680,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -17823,7 +17823,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "portada.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "width": 1400,
               "height": 700.9999999999999
@@ -18331,7 +18331,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "images/generated-1785964538069.png",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "cornerRadius": 16,
                       "layout": "vertical",
@@ -18838,7 +18838,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "paquetexpress.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 150,
                   "height": 44
@@ -18853,7 +18853,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "ampm.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 150,
                   "height": 44
@@ -18868,7 +18868,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "bajapack.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 150,
                   "height": 44
@@ -18883,7 +18883,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "dhl.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 150,
                   "height": 44
@@ -18898,7 +18898,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "fedex.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 150,
                   "height": 44
@@ -18913,7 +18913,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "estafeta.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 150,
                   "height": 44
@@ -18928,9 +18928,24 @@
                     "type": "image",
                     "enabled": true,
                     "url": "ptx.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 150,
+                  "height": 44
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 4,
+                  "id": "H4w6El",
+                  "name": "DHL Logo",
+                  "rotation": -0.2683459895912484,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "LOGO-COORDI-MX-POSITIVO.png",
+                    "mode": "cover"
+                  },
+                  "width": 205,
                   "height": 44
                 }
               ]
@@ -19683,7 +19698,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "image-19.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "width": 710,
               "height": 410
@@ -20041,7 +20056,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "shopify.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "width": 570,
               "height": 410
@@ -20117,7 +20132,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "premier%20logo.png",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "width": 210,
                       "height": 60
@@ -20192,7 +20207,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "Alebrije%20logo.jpg",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "width": 210,
                       "height": 60
@@ -20420,7 +20435,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "image-17.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "width": 570,
               "height": 655
@@ -20952,7 +20967,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -21132,7 +21147,7 @@
             "type": "image",
             "enabled": true,
             "url": "image-20.png",
-            "mode": "fill"
+            "mode": "cover"
           },
           "width": 710,
           "height": 410
@@ -21364,7 +21379,7 @@
             "type": "image",
             "enabled": true,
             "url": "image-21.png",
-            "mode": "fill"
+            "mode": "cover"
           },
           "width": 710,
           "height": 410
@@ -21596,7 +21611,7 @@
             "type": "image",
             "enabled": true,
             "url": "image-22.png",
-            "mode": "fill"
+            "mode": "cover"
           },
           "width": 710,
           "height": 410
@@ -21828,7 +21843,7 @@
             "type": "image",
             "enabled": true,
             "url": "image-23.png",
-            "mode": "fill"
+            "mode": "cover"
           },
           "width": 710,
           "height": 410
@@ -22060,7 +22075,7 @@
             "type": "image",
             "enabled": true,
             "url": "image-24.png",
-            "mode": "fill"
+            "mode": "cover"
           },
           "width": 710,
           "height": 410
@@ -22262,7 +22277,7 @@
             "type": "image",
             "enabled": true,
             "url": "image-25.png",
-            "mode": "fill"
+            "mode": "cover"
           },
           "width": 710,
           "height": 410
@@ -22464,7 +22479,7 @@
             "type": "image",
             "enabled": true,
             "url": "image-26.png",
-            "mode": "fill"
+            "mode": "cover"
           },
           "width": 710,
           "height": 410
@@ -22993,7 +23008,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -24655,7 +24670,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -24856,7 +24871,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -25058,7 +25073,7 @@
             "type": "image",
             "enabled": true,
             "url": "Nosotros%20foto.jpg",
-            "mode": "fill"
+            "mode": "cover"
           },
           "layout": "vertical",
           "gap": 40,
@@ -25171,7 +25186,7 @@
             "type": "image",
             "enabled": true,
             "url": "Nosotros%20foto%202.jpg",
-            "mode": "fill"
+            "mode": "cover"
           },
           "layout": "vertical",
           "gap": 40,
@@ -26324,7 +26339,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -26788,7 +26803,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -27713,7 +27728,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "image-19.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "width": 710,
               "height": 410
@@ -28245,7 +28260,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -28510,7 +28525,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -29337,7 +29352,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "image-20.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "width": 710,
               "height": 410
@@ -29869,7 +29884,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -38655,7 +38670,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -40220,7 +40235,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -40587,7 +40602,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -41609,7 +41624,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -41821,7 +41836,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -43874,7 +43889,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -44075,7 +44090,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -45364,7 +45379,7 @@
                                         "type": "image",
                                         "enabled": true,
                                         "url": "ampm.png",
-                                        "mode": "fit"
+                                        "mode": "contain"
                                       },
                                       "width": 105,
                                       "height": 40
@@ -45860,7 +45875,7 @@
                                         "type": "image",
                                         "enabled": true,
                                         "url": "estafeta.png",
-                                        "mode": "fit"
+                                        "mode": "contain"
                                       },
                                       "width": 105,
                                       "height": 35
@@ -46193,7 +46208,7 @@
                                         "type": "image",
                                         "enabled": true,
                                         "url": "estafeta.png",
-                                        "mode": "fit"
+                                        "mode": "contain"
                                       },
                                       "width": 105,
                                       "height": 35
@@ -46526,7 +46541,7 @@
                                         "type": "image",
                                         "enabled": true,
                                         "url": "estafeta.png",
-                                        "mode": "fit"
+                                        "mode": "contain"
                                       },
                                       "width": 105,
                                       "height": 35
@@ -46859,7 +46874,7 @@
                                         "type": "image",
                                         "enabled": true,
                                         "url": "dhl.png",
-                                        "mode": "fit"
+                                        "mode": "contain"
                                       },
                                       "width": 105,
                                       "height": 35
@@ -47192,7 +47207,7 @@
                                         "type": "image",
                                         "enabled": true,
                                         "url": "dhl.png",
-                                        "mode": "fit"
+                                        "mode": "contain"
                                       },
                                       "width": 105,
                                       "height": 35
@@ -47524,7 +47539,7 @@
                                         "type": "image",
                                         "enabled": true,
                                         "url": "sendex.png",
-                                        "mode": "fit"
+                                        "mode": "contain"
                                       },
                                       "width": 105,
                                       "height": 35
@@ -47857,7 +47872,7 @@
                                         "type": "image",
                                         "enabled": true,
                                         "url": "fedex.png",
-                                        "mode": "fit"
+                                        "mode": "contain"
                                       },
                                       "width": 105,
                                       "height": 39
@@ -48190,7 +48205,7 @@
                                         "type": "image",
                                         "enabled": true,
                                         "url": "fedex.png",
-                                        "mode": "fit"
+                                        "mode": "contain"
                                       },
                                       "width": 105,
                                       "height": 39
@@ -48522,7 +48537,7 @@
                                         "type": "image",
                                         "enabled": true,
                                         "url": "bajapack.png",
-                                        "mode": "fit"
+                                        "mode": "contain"
                                       },
                                       "width": 105,
                                       "height": 35
@@ -48854,7 +48869,7 @@
                                         "type": "image",
                                         "enabled": true,
                                         "url": "ptx.png",
-                                        "mode": "fit"
+                                        "mode": "contain"
                                       },
                                       "width": 105,
                                       "height": 35
@@ -49186,7 +49201,7 @@
                                         "type": "image",
                                         "enabled": true,
                                         "url": "paquetexpress.png",
-                                        "mode": "fit"
+                                        "mode": "contain"
                                       },
                                       "width": 105,
                                       "height": 35
@@ -49518,7 +49533,7 @@
                                         "type": "image",
                                         "enabled": true,
                                         "url": "paquetexpress.png",
-                                        "mode": "fit"
+                                        "mode": "contain"
                                       },
                                       "width": 105,
                                       "height": 35
@@ -49850,7 +49865,7 @@
                                         "type": "image",
                                         "enabled": true,
                                         "url": "ups-1.png",
-                                        "mode": "fit"
+                                        "mode": "contain"
                                       },
                                       "width": 105,
                                       "height": 40
@@ -50182,7 +50197,7 @@
                                         "type": "image",
                                         "enabled": true,
                                         "url": "ups-1.png",
-                                        "mode": "fit"
+                                        "mode": "contain"
                                       },
                                       "width": 105,
                                       "height": 40
@@ -51062,7 +51077,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -51418,7 +51433,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -53079,7 +53094,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -53500,7 +53515,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "image-13.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "width": 560,
               "height": 150
@@ -54238,7 +54253,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -55673,7 +55688,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -55874,7 +55889,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -56891,7 +56906,7 @@
                                                 "type": "image",
                                                 "enabled": true,
                                                 "url": "ampm.png",
-                                                "mode": "fit"
+                                                "mode": "contain"
                                               },
                                               "width": 105,
                                               "height": 40
@@ -57420,7 +57435,7 @@
                                                 "type": "image",
                                                 "enabled": true,
                                                 "url": "estafeta.png",
-                                                "mode": "fit"
+                                                "mode": "contain"
                                               },
                                               "width": 105,
                                               "height": 35
@@ -57786,7 +57801,7 @@
                                                 "type": "image",
                                                 "enabled": true,
                                                 "url": "estafeta.png",
-                                                "mode": "fit"
+                                                "mode": "contain"
                                               },
                                               "width": 105,
                                               "height": 35
@@ -58152,7 +58167,7 @@
                                                 "type": "image",
                                                 "enabled": true,
                                                 "url": "estafeta.png",
-                                                "mode": "fit"
+                                                "mode": "contain"
                                               },
                                               "width": 105,
                                               "height": 35
@@ -58518,7 +58533,7 @@
                                                 "type": "image",
                                                 "enabled": true,
                                                 "url": "dhl.png",
-                                                "mode": "fit"
+                                                "mode": "contain"
                                               },
                                               "width": 105,
                                               "height": 35
@@ -58884,7 +58899,7 @@
                                                 "type": "image",
                                                 "enabled": true,
                                                 "url": "dhl.png",
-                                                "mode": "fit"
+                                                "mode": "contain"
                                               },
                                               "width": 105,
                                               "height": 35
@@ -59249,7 +59264,7 @@
                                                 "type": "image",
                                                 "enabled": true,
                                                 "url": "sendex.png",
-                                                "mode": "fit"
+                                                "mode": "contain"
                                               },
                                               "width": 105,
                                               "height": 35
@@ -59615,7 +59630,7 @@
                                                 "type": "image",
                                                 "enabled": true,
                                                 "url": "fedex.png",
-                                                "mode": "fit"
+                                                "mode": "contain"
                                               },
                                               "width": 105,
                                               "height": 39
@@ -59981,7 +59996,7 @@
                                                 "type": "image",
                                                 "enabled": true,
                                                 "url": "fedex.png",
-                                                "mode": "fit"
+                                                "mode": "contain"
                                               },
                                               "width": 105,
                                               "height": 39
@@ -60346,7 +60361,7 @@
                                                 "type": "image",
                                                 "enabled": true,
                                                 "url": "bajapack.png",
-                                                "mode": "fit"
+                                                "mode": "contain"
                                               },
                                               "width": 105,
                                               "height": 35
@@ -60711,7 +60726,7 @@
                                                 "type": "image",
                                                 "enabled": true,
                                                 "url": "ptx.png",
-                                                "mode": "fit"
+                                                "mode": "contain"
                                               },
                                               "width": 105,
                                               "height": 35
@@ -61076,7 +61091,7 @@
                                                 "type": "image",
                                                 "enabled": true,
                                                 "url": "paquetexpress.png",
-                                                "mode": "fit"
+                                                "mode": "contain"
                                               },
                                               "width": 105,
                                               "height": 35
@@ -61441,7 +61456,7 @@
                                                 "type": "image",
                                                 "enabled": true,
                                                 "url": "paquetexpress.png",
-                                                "mode": "fit"
+                                                "mode": "contain"
                                               },
                                               "width": 105,
                                               "height": 35
@@ -61806,7 +61821,7 @@
                                                 "type": "image",
                                                 "enabled": true,
                                                 "url": "ups-1.png",
-                                                "mode": "fit"
+                                                "mode": "contain"
                                               },
                                               "width": 105,
                                               "height": 40
@@ -62171,7 +62186,7 @@
                                                 "type": "image",
                                                 "enabled": true,
                                                 "url": "ups-1.png",
-                                                "mode": "fit"
+                                                "mode": "contain"
                                               },
                                               "width": 105,
                                               "height": 40
@@ -63617,7 +63632,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -63818,7 +63833,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -65908,7 +65923,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -66109,7 +66124,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -67989,7 +68004,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -68190,7 +68205,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -70283,7 +70298,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LA%20logo%20blanco%202.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 140,
                   "height": 50
@@ -70605,7 +70620,7 @@
         "type": "image",
         "enabled": true,
         "url": "image-40.png",
-        "mode": "fill"
+        "mode": "cover"
       },
       "width": 1628,
       "height": 780
@@ -73533,7 +73548,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -74053,7 +74068,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "shipping.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 350,
                   "height": 350
@@ -74351,7 +74366,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -74887,7 +74902,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "security-shield.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 350,
                   "height": 350
@@ -75321,7 +75336,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -75922,7 +75937,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "payment-processed.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 350,
                   "height": 350
@@ -76295,7 +76310,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -76824,7 +76839,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "profile.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 350,
                   "height": 350
@@ -77878,7 +77893,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -78403,7 +78418,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "designer-working%20(1).png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 350,
                   "height": 350
@@ -79026,7 +79041,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -79557,7 +79572,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "manager-desk.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 350,
                   "height": 350
@@ -80462,7 +80477,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -80998,7 +81013,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "security-shield.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 350,
                   "height": 350
@@ -81978,7 +81993,7 @@
         "type": "image",
         "enabled": true,
         "url": "image-7.png",
-        "mode": "fill"
+        "mode": "cover"
       },
       "width": 1007,
       "height": 706
@@ -82489,7 +82504,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -83030,7 +83045,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "strategy.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 350,
                   "height": 350
@@ -83475,7 +83490,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -83992,7 +84007,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "real-estate.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 350,
                   "height": 350
@@ -84830,7 +84845,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Logistica Adaptable logo.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 140,
               "height": 50
@@ -85366,7 +85381,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "security-shield.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 350,
                   "height": 350
@@ -85879,7 +85894,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "imagen_blanca.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 500,
                   "height": 420
@@ -85919,7 +85934,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "Logistica Adaptable logo.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 150,
                   "height": 40
@@ -86206,7 +86221,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Dashboard%20(con%20tickets)-2.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "layout": "none"
             },
@@ -86264,7 +86279,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "Dashboard%20(con%20tickets).jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "layout": "none"
             }
@@ -86550,7 +86565,7 @@
         "type": "image",
         "enabled": true,
         "url": "Tablet%20Mockup-1.png",
-        "mode": "fill"
+        "mode": "cover"
       },
       "width": 548,
       "height": 356

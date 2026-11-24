@@ -1,5 +1,5 @@
 {
-  "version": "2.22",
+  "version": "2.25",
   "children": [
     {
       "type": "frame",
@@ -122202,8 +122202,8 @@
     {
       "type": "frame",
       "id": "J7W9al",
-      "x": -3629,
-      "y": -11452,
+      "x": -3059,
+      "y": -820,
       "name": "Switch",
       "reusable": true,
       "width": 44,
